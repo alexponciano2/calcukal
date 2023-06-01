@@ -13,6 +13,7 @@ const monsters = [
   { name: 'Elder Doggebi', level: 150 },
 ];
 
+
 function App() {
   const [noobLevel, setNoobLevel] = useState(0);
   const [strongLevel, setStrongLevel] = useState(0);
@@ -20,6 +21,11 @@ function App() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
+
+    if (parseInt(noobLevel) > parseInt(strongLevel)) {
+      alert('O level do mais noob não pode ser maior que o do mais forte.');
+      return;
+    }
 
     let noobLevelWithBonus = parseInt(noobLevel) + 9;
     let strongLevelWithPenalty = parseInt(strongLevel) - 9;
@@ -30,12 +36,12 @@ function App() {
       strongLevelWithPenalty = temp;
 
       alert(
-        `Você pode matar monstros de level ${noobLevelWithBonus} a ${strongLevelWithPenalty}. Abaixo estão eles:`
+        `Você pode matar monstros de level ${noobLevelWithBonus} a ${strongLevelWithPenalty}.`
       );
     }
 
     if (Math.abs(strongLevel - noobLevel) > 18) {
-      alert('A diferença entre os níveis não pode ser maior que 18.');
+      alert('A diferença entre os níveis não pode ser maior que 19.');
       return;
     }
 
@@ -58,8 +64,9 @@ function App() {
         <label>
           Level do mais noob:
           <input
+            maxLength={3}
             className='levelnoob'
-            type="number"
+            type="text"
             value={noobLevel}
             onChange={(event) => setNoobLevel(event.target.value)}
           />
@@ -68,8 +75,9 @@ function App() {
         <label>
           Level do mais forte:
           <input
+            maxLength={3}
             className='levelforte'
-            type="number"
+            type="text"
             value={strongLevel}
             onChange={(event) => setStrongLevel(event.target.value)}
           />
@@ -80,7 +88,7 @@ function App() {
 
       {monstersInRange.length > 0 && (
         <div className="fontRes">
-          <h2>Monstros na range:</h2>
+          <h2 className="monstroNaRange">Monstros na range:</h2>
           <ul>
             {monstersInRange.map((monster) => (
               <li key={monster.name}>
