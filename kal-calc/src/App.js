@@ -1,7 +1,6 @@
 import Apps from "./App.css"
 import React, { useState } from 'react';
 import Header from './components/Header';
-import Footer from "./components/Footer";
 import Container from "./components/Container"
 
 const monsters = [
@@ -743,7 +742,7 @@ function App() {
     }
 
     if (Math.abs(strongLevel - noobLevel) > 18) {
-      alert('A diferença entre os níveis não pode ser maior que 19.');
+      alert('A diferença entre os níveis não pode ser maior que 18.');
       return;
     }
 
@@ -802,7 +801,6 @@ function App() {
       )}
     </div>
     </Container>
-    <Footer/>
     </>
   );
 }

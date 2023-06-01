@@ -2,7 +2,7 @@ import styles from "./Header.module.css"
 
 function Header() {
     return(
-        <h1 className={styles.header}>Kal party Calculator</h1>
+        <h1 className={styles.header}>Posso fazer party com ele?</h1>
     );
 }
 
