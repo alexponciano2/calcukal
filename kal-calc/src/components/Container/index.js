@@ -1,9 +1,10 @@
 import styles from "./Container.module.css"
-import { useState } from "react";
 
-function Container() {
+function Container({children}) {
     return(
-        <h1>teste</h1>
+        <section className={styles.container}>
+        { children }
+        </section>
     );
 }
 

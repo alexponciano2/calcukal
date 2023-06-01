@@ -1,33 +1,99 @@
-import './App.css';
-import Container from './components/Container';
-import Footer from './components/Footer';
-import Header from './components/Header';
+import Apps from "./App.css"
 import React, { useState } from 'react';
+import Header from './components/Header';
+import Footer from "./components/Footer";
+import Container from "./components/Container"
+
+const monsters = [
+  { name: 'Devil Shadow of Devah', level: 98 },
+  { name: 'Sealed Commanders', level: 100 },
+  { name: 'Sealed Commanders', level: 101 },
+  { name: 'Sealed Commanders', level: 102 },
+  { name: 'Wounded Conjurator Zombie', level: 115 },
+  { name: 'Elder Doggebi', level: 150 },
+];
 
 function App() {
-  const [input1Value, setInput1Value] = useState('');
-  const [input2Value, setInput2Value] = useState('');
+  const [noobLevel, setNoobLevel] = useState(0);
+  const [strongLevel, setStrongLevel] = useState(0);
+  const [monstersInRange, setMonstersInRange] = useState([]);
 
-  function handleInput1Change(event) {
-    setInput1Value(event.target.value);
-  }
+  const handleSubmit = (event) => {
+    event.preventDefault();
 
-  function handleInput2Change(event) {
-    setInput2Value(event.target.value);
-  }
+    let noobLevelWithBonus = parseInt(noobLevel) + 9;
+    let strongLevelWithPenalty = parseInt(strongLevel) - 9;
 
-  function handleButtonClick() {
-    const result = parseInt(input1Value) - 9 + parseInt(input2Value) + 9;
-    console.log(result);
-}
+    if (noobLevelWithBonus > strongLevelWithPenalty) {
+      const temp = noobLevelWithBonus;
+      noobLevelWithBonus = strongLevelWithPenalty;
+      strongLevelWithPenalty = temp;
 
+      alert(
+        `Você pode matar monstros de level ${noobLevelWithBonus} a ${strongLevelWithPenalty}. Abaixo estão eles:`
+      );
+    }
+
+    if (Math.abs(strongLevel - noobLevel) > 18) {
+      alert('A diferença entre os níveis não pode ser maior que 18.');
+      return;
+    }
+
+    const monstersInRange = monsters.filter((monster) => {
+      return (
+        monster.level >= noobLevelWithBonus &&
+        monster.level <= strongLevelWithPenalty
+      );
+    });
+
+    setMonstersInRange(monstersInRange);
+  };
 
   return (
+    <>
+    <Header/>
+    <Container>
     <div>
-      <input type="text" value={input1Value} onChange={handleInput1Change} />
-      <input type="text" value={input2Value} onChange={handleInput2Change} />
-      <button onClick={handleButtonClick}>Calcular</button>
+      <form onSubmit={handleSubmit}>
+        <label>
+          Level do mais noob:
+          <input
+            className='levelnoob'
+            type="number"
+            value={noobLevel}
+            onChange={(event) => setNoobLevel(event.target.value)}
+          />
+        </label>
+        <br />
+        <label>
+          Level do mais forte:
+          <input
+            className='levelforte'
+            type="number"
+            value={strongLevel}
+            onChange={(event) => setStrongLevel(event.target.value)}
+          />
+        </label>
+        <br />
+        <button className="buscarMonstros" type="submit">Buscar monstros</button>
+      </form>
+
+      {monstersInRange.length > 0 && (
+        <div className="fontRes">
+          <h2>Monstros na range:</h2>
+          <ul>
+            {monstersInRange.map((monster) => (
+              <li key={monster.name}>
+                {monster.name} - Level {monster.level}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
     </div>
+    </Container>
+    <Footer/>
+    </>
   );
 }
 

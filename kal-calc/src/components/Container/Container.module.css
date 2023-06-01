@@ -7,37 +7,18 @@
     padding: 10px;
     position: absolute;
     max-width: 400px;
-    max-height: 693px;
+    max-height: 500px;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     margin: auto;
+    font-size: 1.3rem;
 }
 
-.dados {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 10px;
-    margin-top: -450px;
-    font-size: 1.1rem;
-
-}
-
-.maisfraco {
+input {
     width: 60px;
-    font-size: 1.5rem;
-    margin-left: 1rem;
+    height: 30px;
 }
 
-.maisforte {
-    width: 60px;
-    font-size: 1.5rem;
-    margin-left: 1.3rem;
-}
 
-.calcular {
-    width: 100%;
-    font-size: 1.5rem;
-}
