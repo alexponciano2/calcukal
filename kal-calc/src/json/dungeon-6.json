@@ -1,0 +1,269 @@
+[
+ {
+  "ID": 643,
+  "Monster": "Dungeon Warrior",
+  "Área": "D6",
+  "Level": 117,
+  "HP": "440.000",
+  "EXP": "350.000.000"
+ },
+ {
+  "ID": 646,
+  "Monster": "Dungeon Scout Soldier",
+  "Área": "D6",
+  "Level": 119,
+  "HP": "490.000",
+  "EXP": "440.000.000"
+ },
+ {
+  "ID": 645,
+  "Monster": "Dungeon Shield Soldier",
+  "Área": "D6",
+  "Level": 118,
+  "HP": "460.000",
+  "EXP": "390.000.000"
+ },
+ {
+  "ID": 654,
+  "Monster": "Dungeon Warrior",
+  "Área": "D6",
+  "Floor": "2",
+  "Level": 120,
+  "HP": "520.000",
+  "EXP": "490.000.000"
+ },
+ {
+  "ID": 656,
+  "Monster": "Dungeon Scout Soldier",
+  "Área": "D6",
+  "Floor": "2",
+  "Level": 120,
+  "HP": "520.000",
+  "EXP": "490.000.000"
+ },
+ {
+  "ID": 664,
+  "Monster": "Elite Dungeon Warrior",
+  "Área": "D6",
+  "Floor": "2",
+  "Level": 122,
+  "HP": "580.000",
+  "EXP": "620.000.000"
+ },
+ {
+  "ID": 668,
+  "Monster": "Elite Dungeon Scout Soldier",
+  "Área": "D6",
+  "Floor": "2",
+  "Level": 122,
+  "HP": "580.000",
+  "EXP": "620.000.000"
+ },
+ {
+  "ID": 667,
+  "Monster": "Elite Dungeon Shield Soldier",
+  "Área": "D6",
+  "Floor": "2",
+  "Level": 122,
+  "HP": "580.000",
+  "EXP": "620.000.000"
+ },
+ {
+  "ID": 660,
+  "Monster": "Dungeon Guard",
+  "Área": "D6",
+  "Floor": "2",
+  "Level": 121,
+  "HP": "550.000",
+  "EXP": "550.000.000"
+ },
+ {
+  "ID": 669,
+  "Monster": "Elite Dungeon Guard",
+  "Área": "D6",
+  "Floor": "2",
+  "Level": 122,
+  "HP": "580.000",
+  "EXP": "620.000.000"
+ },
+ {
+  "ID": 661,
+  "Monster": "Dungeon Shock Trooper",
+  "Área": "D6",
+  "Floor": "2",
+  "Level": 121,
+  "HP": "550.000",
+  "EXP": "550.000.000"
+ },
+ {
+  "ID": 665,
+  "Monster": "Elite Dungeon Shock Trooper",
+  "Área": "D6",
+  "Floor": "2",
+  "Level": 122,
+  "HP": "580.000",
+  "EXP": "620.000.000"
+ },
+ {
+  "ID": 659,
+  "Monster": "Dungeon Ax Soldier",
+  "Área": "D6",
+  "Floor": "2",
+  "Level": 121,
+  "HP": "550.000",
+  "EXP": "550.000.000"
+ },
+ {
+  "ID": 666,
+  "Monster": "Elite Dungeon Ax Soldier",
+  "Área": "D6",
+  "Floor": "2",
+  "Level": 122,
+  "HP": "580.000",
+  "EXP": "620.000.000"
+ },
+ {
+  "ID": 671,
+  "Monster": "Ruins Destroyer (Water)",
+  "Área": "D6",
+  "Floor": "2.5",
+  "Level": 123,
+  "HP": "620.000",
+  "EXP": "690.000.000"
+ },
+ {
+  "ID": 678,
+  "Monster": "Dungeon Magician",
+  "Área": "D6",
+  "Floor": "2.5",
+  "Level": 124,
+  "HP": "650.000",
+  "EXP": "780.000.000"
+ },
+ {
+  "ID": 679,
+  "Monster": "Ohgeuma (Wind)",
+  "Área": "D6",
+  "Floor": "2.5",
+  "Level": 124,
+  "HP": "650.000",
+  "EXP": "780.000.000"
+ },
+ {
+  "ID": 685,
+  "Monster": "[Elite] Dungeon Knight",
+  "Área": "D6",
+  "Floor": "2.5",
+  "Level": 126,
+  "HP": "730.000",
+  "EXP": "970.000.000"
+ },
+ {
+  "ID": 677,
+  "Monster": "Lord Bisaim (Water)",
+  "Área": "D6",
+  "Floor": "2.5",
+  "Level": 124,
+  "HP": "650.000",
+  "EXP": "780.000.000"
+ },
+ {
+  "ID": 676,
+  "Monster": "Death Lich (Earth)",
+  "Área": "D6",
+  "Floor": "2.5",
+  "Level": 124,
+  "HP": "650.000",
+  "EXP": "780.000.000"
+ },
+ {
+  "ID": 680,
+  "Monster": "Death Knight (Earth)",
+  "Área": "D6",
+  "Floor": "2.5",
+  "Level": 125,
+  "HP": "690.000",
+  "EXP": "870.000.000"
+ },
+ {
+  "ID": 673,
+  "Monster": "Shadow Murder (Wind)",
+  "Área": "D6",
+  "Floor": "2.5",
+  "Level": 123,
+  "HP": "620.000",
+  "EXP": "690.000.000"
+ },
+ {
+  "ID": 693,
+  "Monster": "Elite Death Knight (Earth)",
+  "Área": "D6",
+  "Floor": "3",
+  "Level": 129,
+  "HP": "870.000",
+  "EXP": "1.400.000.000"
+ },
+ {
+  "ID": 692,
+  "Monster": "Elite Ohgeuma (Wind)",
+  "Área": "D6",
+  "Floor": "3",
+  "Level": 128,
+  "HP": "820.000",
+  "EXP": "1.200.000.000"
+ },
+ {
+  "ID": 690,
+  "Monster": "Elite Lord Bisaim (Water)",
+  "Área": "D6",
+  "Floor": "3",
+  "Level": 128,
+  "HP": "820.000",
+  "EXP": "1.200.000.000"
+ },
+ {
+  "ID": 691,
+  "Monster": "Elite Death Lich (Earth)",
+  "Área": "D6",
+  "Floor": "3",
+  "Level": 128,
+  "HP": "820.000",
+  "EXP": "1.200.000.000"
+ },
+ {
+  "ID": 688,
+  "Monster": "Elite Shadow Murder (Wind)",
+  "Área": "D6",
+  "Floor": "3",
+  "Level": 127,
+  "HP": "780.000",
+  "EXP": "1.100.000.000"
+ },
+ {
+  "ID": 687,
+  "Monster": "Elite Ruins Destroyer (Water)",
+  "Área": "D6",
+  "Floor": "3",
+  "Level": 127,
+  "HP": "780.000",
+  "EXP": "1.100.000.000"
+ },
+ {
+  "ID": 689,
+  "Monster": "Elite Death Harvester (Earth)",
+  "Área": "D6",
+  "Floor": "3",
+  "Level": 127,
+  "HP": "780.000",
+  "EXP": "1.100.000.000"
+ },
+ {
+  "ID": 694,
+  "Monster": "[Elite] Dungeon Knight",
+  "Área": "D6",
+  "Floor": "3",
+  "Level": 130,
+  "HP": "920.000",
+  "EXP": "1.500.000.000"
+ },
+]

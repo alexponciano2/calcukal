@@ -1,0 +1,479 @@
+[
+ {
+  "ID": 1,
+  "Monster": "Banshee",
+  "Área": "D5",
+  "Floor": "1",
+  "Level": 81,
+  "HP": "43.000",
+  "EXP": "1.100.000"
+ },
+ {
+  "ID": 2,
+  "Monster": "Skeleton",
+  "Área": "D5",
+  "Floor": "1",
+  "Level": 81,
+  "HP": "43.000",
+  "EXP": "1.100.000"
+ },
+ {
+  "ID": 3,
+  "Monster": "Skeleton Archer",
+  "Área": "D5",
+  "Floor": "1",
+  "Level": 81,
+  "HP": "43.000",
+  "EXP": "1.100.000"
+ },
+ {
+  "ID": 4,
+  "Monster": "Banshee",
+  "Área": "D5",
+  "Floor": "2",
+  "Level": 82,
+  "HP": "45.000",
+  "EXP": "1.300.000"
+ },
+ {
+  "ID": 5,
+  "Monster": "Skeleton",
+  "Área": "D5",
+  "Floor": "2",
+  "Level": 82,
+  "HP": "45.000",
+  "EXP": "1.300.000"
+ },
+ {
+  "ID": 6,
+  "Monster": "Skeleton Archer",
+  "Área": "D5",
+  "Floor": "2",
+  "Level": 82,
+  "HP": "45.000",
+  "EXP": "1.300.000"
+ },
+ {
+  "ID": 7,
+  "Monster": "Elite Skeleton",
+  "Área": "D5",
+  "Floor": "2",
+  "Level": 82,
+  "HP": "45.000",
+  "EXP": "1.300.000"
+ },
+ {
+  "ID": 8,
+  "Monster": "Banshee",
+  "Área": "D5",
+  "Floor": "3",
+  "Level": 83,
+  "HP": "48.000",
+  "EXP": "1.500.000"
+ },
+ {
+  "ID": 9,
+  "Monster": "Skeleton",
+  "Área": "D5",
+  "Floor": "3",
+  "Level": 83,
+  "HP": "48.000",
+  "EXP": "1.500.000"
+ },
+ {
+  "ID": 10,
+  "Monster": "Skeleton Archer",
+  "Área": "D5",
+  "Floor": "3",
+  "Level": 83,
+  "HP": "48.000",
+  "EXP": "1.500.000"
+ },
+ {
+  "ID": 11,
+  "Monster": "Elite Skeleton",
+  "Área": "D5",
+  "Floor": "3",
+  "Level": 83,
+  "HP": "48.000",
+  "EXP": "1.500.000"
+ },
+ {
+  "ID": 12,
+  "Monster": "Banshee",
+  "Área": "D5",
+  "Floor": "3",
+  "Level": 84,
+  "HP": "51.000",
+  "EXP": "1.700.000"
+ },
+ {
+  "ID": 13,
+  "Monster": "Skeleton Warrior",
+  "Área": "D5",
+  "Floor": "3",
+  "Level": 84,
+  "HP": "51.000",
+  "EXP": "1.700.000"
+ },
+ {
+  "ID": 14,
+  "Monster": "Skeleton Archer",
+  "Área": "D5",
+  "Floor": "3",
+  "Level": 84,
+  "HP": "51.000",
+  "EXP": "1.700.000"
+ },
+ {
+  "ID": 15,
+  "Monster": "Elite Skeleton",
+  "Área": "D5",
+  "Floor": "2",
+  "Level": 84,
+  "HP": "51.000",
+  "EXP": "1.700.000"
+ },
+ {
+  "ID": 16,
+  "Monster": "Elite Skeleton",
+  "Área": "D5",
+  "Floor": "4",
+  "Level": 84,
+  "HP": "51.000",
+  "EXP": "1.700.000"
+ },
+ {
+  "ID": 17,
+  "Monster": "Wraith",
+  "Área": "D5",
+  "Floor": "4",
+  "Level": 85,
+  "HP": "54.000",
+  "EXP": "1.900.000"
+ },
+ {
+  "ID": 18,
+  "Monster": "Skeleton Warrior",
+  "Área": "D5",
+  "Floor": "4",
+  "Level": 85,
+  "HP": "54.000",
+  "EXP": "1.900.000"
+ },
+ {
+  "ID": 19,
+  "Monster": "Skeleton Archer",
+  "Área": "D5",
+  "Floor": "4",
+  "Level": 83,
+  "HP": "48.000",
+  "EXP": "1.500.000"
+ },
+ {
+  "ID": 20,
+  "Monster": "Banshee",
+  "Área": "D5",
+  "Floor": "4",
+  "Level": 84,
+  "HP": "51.000",
+  "EXP": "1.700.000"
+ },
+ {
+  "ID": 21,
+  "Monster": "Banshee",
+  "Área": "D5",
+  "Floor": "4",
+  "Level": 85,
+  "HP": "54.000",
+  "EXP": "1.900.000"
+ },
+ {
+  "ID": 22,
+  "Monster": "Skeleton Warrior",
+  "Área": "D5",
+  "Floor": "5",
+  "Level": 86,
+  "HP": "57.000",
+  "EXP": "2.200.000"
+ },
+ {
+  "ID": 23,
+  "Monster": "Banshee",
+  "Área": "D5",
+  "Floor": "5",
+  "Level": 85,
+  "HP": "54.000",
+  "EXP": "1.900.000"
+ },
+ {
+  "ID": 24,
+  "Monster": "Skeleton Archer",
+  "Área": "D5",
+  "Floor": "5",
+  "Level": 85,
+  "HP": "54.000",
+  "EXP": "1.900.000"
+ },
+ {
+  "ID": 25,
+  "Monster": "Elite Skeleton",
+  "Área": "D5",
+  "Floor": "5",
+  "Level": 85,
+  "HP": "54.000",
+  "EXP": "1.900.000"
+ },
+ {
+  "ID": 26,
+  "Monster": "Wraith",
+  "Área": "D5",
+  "Floor": "5",
+  "Level": 85,
+  "HP": "54.000",
+  "EXP": "1.900.000"
+ },
+ {
+  "ID": 27,
+  "Monster": "Skeleton Warrior",
+  "Área": "D5",
+  "Floor": "6",
+  "Level": 86,
+  "HP": "57.000",
+  "EXP": "2.200.000"
+ },
+ {
+  "ID": 28,
+  "Monster": "Banshee",
+  "Área": "D5",
+  "Floor": "6",
+  "Level": 85,
+  "HP": "54.000",
+  "EXP": "1.900.000"
+ },
+ {
+  "ID": 29,
+  "Monster": "Skeleton Archer",
+  "Área": "D5",
+  "Floor": "6",
+  "Level": 85,
+  "HP": "54.000",
+  "EXP": "1.900.000"
+ },
+ {
+  "ID": 30,
+  "Monster": "Elite Skeleton",
+  "Área": "D5",
+  "Floor": "6",
+  "Level": 85,
+  "HP": "54.000",
+  "EXP": "1.900.000"
+ },
+ {
+  "ID": 31,
+  "Monster": "Wraith",
+  "Área": "D5",
+  "Floor": "6",
+  "Level": 85,
+  "HP": "54.000",
+  "EXP": "1.900.000"
+ },
+ {
+  "ID": 32,
+  "Monster": "High Class Fire element",
+  "Área": "D5",
+  "Floor": "7",
+  "Level": 92,
+  "HP": "82.000",
+  "EXP": "4.800.000"
+ },
+ {
+  "ID": 33,
+  "Monster": "High Class Water element",
+  "Área": "D5",
+  "Floor": "7",
+  "Level": 92,
+  "HP": "82.000",
+  "EXP": "4.800.000"
+ },
+ {
+  "ID": 34,
+  "Monster": "High Class Earth element",
+  "Área": "D5",
+  "Floor": "7",
+  "Level": 92,
+  "HP": "82.000",
+  "EXP": "4.800.000"
+ },
+ {
+  "ID": 35,
+  "Monster": "High Class Wood element",
+  "Área": "D5",
+  "Floor": "7",
+  "Level": 92,
+  "HP": "82.000",
+  "EXP": "4.800.000"
+ },
+ {
+  "ID": 36,
+  "Monster": "High Class Iron element",
+  "Área": "D5",
+  "Floor": "7",
+  "Level": 92,
+  "HP": "82.000",
+  "EXP": "4.800.000"
+ },
+ {
+  "ID": 37,
+  "Monster": "Wraith",
+  "Área": "D5",
+  "Floor": "7",
+  "Level": 86,
+  "HP": "57.000",
+  "EXP": "2.200.000"
+ },
+ {
+  "ID": 38,
+  "Monster": "High Class Security guard of the priest",
+  "Área": "D5",
+  "Floor": "7",
+  "Level": 94,
+  "HP": "92.000",
+  "EXP": "6.200.000"
+ },
+ {
+  "ID": 39,
+  "Monster": "High Class Wood element",
+  "Área": "D5",
+  "Floor": "8",
+  "Level": 93,
+  "HP": "87.000",
+  "EXP": "5.400.000"
+ },
+ {
+  "ID": 40,
+  "Monster": "High Class Iron element",
+  "Área": "D5",
+  "Floor": "8",
+  "Level": 93,
+  "HP": "87.000",
+  "EXP": "5.400.000"
+ },
+ {
+  "ID": 41,
+  "Monster": "Security guard of the priest",
+  "Área": "D5",
+  "Floor": "8",
+  "Level": 93,
+  "HP": "87.000",
+  "EXP": "5.400.000"
+ },
+ {
+  "ID": 42,
+  "Monster": "High Class Fire element",
+  "Área": "D5",
+  "Floor": "8",
+  "Level": 93,
+  "HP": "87.000",
+  "EXP": "5.400.000"
+ },
+ {
+  "ID": 43,
+  "Monster": "High Class Earth element",
+  "Área": "D5",
+  "Floor": "8",
+  "Level": 93,
+  "HP": "87.000",
+  "EXP": "5.400.000"
+ },
+ {
+  "ID": 44,
+  "Monster": "High Class Water element",
+  "Área": "D5",
+  "Floor": "8",
+  "Level": 93,
+  "HP": "87.000",
+  "EXP": "5.400.000"
+ },
+ {
+  "ID": 45,
+  "Monster": "High Class Security guard of the priest",
+  "Área": "D5",
+  "Floor": "8",
+  "Level": 94,
+  "HP": "92.000",
+  "EXP": "6.200.000"
+ },
+ {
+  "ID": 46,
+  "Monster": "Wraith",
+  "Área": "D5",
+  "Floor": "8",
+  "Level": 86,
+  "HP": "57.000",
+  "EXP": "2.200.000"
+ },
+ {
+  "ID": 47,
+  "Monster": "High Class Iron element",
+  "Área": "D5",
+  "Floor": "9",
+  "Level": 94,
+  "HP": "92.000",
+  "EXP": "6.200.000"
+ },
+ {
+  "ID": 48,
+  "Monster": "High Class Wood element",
+  "Área": "D5",
+  "Floor": "9",
+  "Level": 94,
+  "HP": "92.000",
+  "EXP": "6.200.000"
+ },
+ {
+  "ID": 49,
+  "Monster": "High Class Water element",
+  "Área": "D5",
+  "Floor": "9",
+  "Level": 94,
+  "HP": "92.000",
+  "EXP": "6.200.000"
+ },
+ {
+  "ID": 50,
+  "Monster": "High Class Earth element",
+  "Área": "D5",
+  "Floor": "9",
+  "Level": 94,
+  "HP": "92.000",
+  "EXP": "6.200.000"
+ },
+ {
+  "ID": 51,
+  "Monster": "High Class Fire element",
+  "Área": "D5",
+  "Floor": "9",
+  "Level": 94,
+  "HP": "92.000",
+  "EXP": "6.200.000"
+ },
+ {
+  "ID": 52,
+  "Monster": "High Class Security guard of the priest",
+  "Área": "D5",
+  "Floor": "9",
+  "Level": 95,
+  "HP": "98.000",
+  "EXP": "7.100.000"
+ },
+ {
+  "ID": 53,
+  "Monster": "Wraith",
+  "Área": "D5",
+  "Floor": "9",
+  "Level": 87,
+  "HP": "61.000",
+  "EXP": "2.500.000"
+ },
+]

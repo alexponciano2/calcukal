@@ -1,0 +1,173 @@
+[
+ {
+  "ID": 1,
+  "Monster": "Minister of the Royal Tomb",
+  "Área": "D2",
+  "Hall": "1",
+  "Room": "1",
+  "Área": "D2 HALL 1 ALL ROOMS",
+  "Level": 61,
+  "HP": "16.000",
+  "EXP": "34.000"
+ },
+ {
+  "ID": 2,
+  "Monster": "The Royal Tomb Keeper",
+  "Área": "D2",
+  "Hall": "1",
+  "Room": "1",
+  "Level": 62,
+  "HP": "17.000",
+  "EXP": "39.000"
+ },
+ {
+  "ID": 3,
+  "Monster": "The Royal Tomb Keeper",
+  "Área": "D2",
+  "Hall": "1",
+  "Room": "ALL",
+  "Level": 63,
+  "HP": "18.000",
+  "EXP": "46.000"
+ },
+ {
+  "ID": 4,
+  "Monster": "The Royal Tomb Keeper",
+  "Área": "D2",
+  "Hall": "1",
+  "Room": "ALL",
+  "Level": 64,
+  "HP": "18.000",
+  "EXP": "54.000"
+ },
+ {
+  "ID": 5,
+  "Monster": "The Royal Tomb Keeper,
+  "Área": "D2",
+  "Hall": "1",
+  "Room": "ALL",
+  "Level": 65,
+  "HP": "19.000",
+  "EXP": "64.000"
+ },
+ {
+  "ID": 6,
+  "Monster": "Warrior of Shadow Troop",
+  "Área": "D2",
+  "Hall": "2",
+  "Room": "9",
+  "Level": 66,
+  "HP": "20.000",
+  "EXP": "75.000"
+ },
+ {
+  "ID": 7,
+  "Monster": "Hook of Shadow Troop",
+  "Área": "D2",
+  "Hall": "2",
+  "Room": "4",
+  "Level": 67,
+  "HP": "21.000",
+  "EXP": "89.000"
+ },
+ {
+  "ID": 8,
+  "Monster": "Watcher of Shadow Troop",
+  "Área": "D2",
+  "Hall": "2",
+  "Room": "3",
+  "Level": 68,
+  "HP": "22.000",
+  "EXP": "110.000"
+ },
+ {
+  "ID": 9,
+  "Monster": "Chief Warrior of Shadow Troop",
+  "Área": "D2",
+  "Hall": "3",
+  "Room": "1",
+  "Level": 69,
+  "HP": "23.000",
+  "EXP": "130.000"
+ },
+ {
+  "ID": 10,
+  "Monster": "Spear Hand of Shadow Troop",
+  "Área": "D2",
+  "Hall": "3",
+  "Room": "2",
+  "Level": 70,
+  "HP": "24.000",
+  "EXP": "150.000"
+ },
+ {
+  "ID": 11,
+  "Monster": "1st Commander of The Royal Tomb",
+  "Área": "D2",
+  "Hall": "3",
+  "Room": "4",
+  "Level": 70,
+  "HP": "440.000",
+  "EXP": "150.000"
+ },
+ {
+  "ID": 12,
+  "Monster": "2nd Commander of The Royal Tomb",
+  "Área": "D2",
+  "Hall": "3",
+  "Room": "4",
+  "Level": 70,
+  "HP": "440.000",
+  "EXP": "150.000"
+ },
+ {
+  "ID": 13,
+  "Monster": "3rd Commander of The Royal Tomb",
+  "Área": "D2",
+  "Hall": "3",
+  "Room": "4",
+  "Level": 70,
+  "HP": "440.000",
+  "EXP": "150.000"
+ },
+ {
+  "ID": 14,
+  "Monster": "Chief Escort of The Royal Tomb",
+  "Área": "D2",
+  "Hall": "3",
+  "Room": "4",
+  "Level": 70,
+  "HP": "440.000",
+  "EXP": "150.000"
+ },
+ {
+  "ID": 15,
+  "Monster": "Chief Guard of The Royal Tomb",
+  "Área": "D2",
+  "Hall": "3",
+  "Room": "4",
+  "Level": 70,
+  "HP": "440.000",
+  "EXP": "150.000"
+ },
+ {
+  "ID": 16,
+  "Monster": "Imperial Commander of The Royal Tomb",
+  "Área": "D2",
+  "Hall": "3",
+  "Room": "4",
+  "Level": 70,
+  "HP": "440.000",
+  "EXP": "150.000"
+ },
+ {
+  "ID": 17,
+  "Monster": "Lord of Shadow Troop",
+  "Área": "D2",
+  "Hall": "3",
+  "Room": "4",
+  "Level": 70,
+  "HP": "440.000",
+  "EXP": "150.000"
+ },
+]

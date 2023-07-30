@@ -1,0 +1,74 @@
+[
+ {
+  "ID": 1,
+  "Monster": "Demon Worker",
+  "Área": "D4",
+  "Floor": "1",
+  "Level": 50,
+  "HP": "11.000",
+  "EXP": "6.300"
+ },
+ {
+  "ID": 2,
+  "Monster": "Demon Guard",
+  "Área": "D4",
+  "Floor": "2",
+  "Level": 65,
+  "HP": "19.000",
+  "EXP": "64.000"
+ },
+ {
+  "ID": 3,
+  "Monster": "Larva",
+  "Área": "D4",
+  "Floor": "4",
+  "Level": 70,
+  "HP": "24.000",
+  "EXP": "150.000"
+ },
+ {
+  "ID": 4,
+  "Monster": "Demon Patrol",
+  "Área": "D4",
+  "Floor": "3",
+  "Level": 70,
+  "HP": "24.000",
+  "EXP": "150.000"
+ },
+ {
+  "ID": 5,
+  "Monster": "Black Armored Insect",
+  "Área": "D4",
+  "Floor": "4",
+  "Level": 70,
+  "HP": "24.000",
+  "EXP": "150.000"
+ },
+ {
+  "ID": 6,
+  "Monster": "Demon Warrior",
+  "Área": "D4",
+  "Floor": "4",
+  "Level": 73,
+  "HP": "28.000",
+  "EXP": "250.000"
+ },
+ {
+  "ID": 7,
+  "Monster": "Demon Infantry",
+  "Área": "D4",
+  "Floor": "5",
+  "Level": 75,
+  "HP": "31.000",
+  "EXP": "360.000"
+ },
+ {
+  "ID": 8,
+  "Monster": "Crazy Demon Warrior",
+  "Área": "D4",
+  "Floor": "5",
+  "Level": 78,
+  "HP": "36.000",
+  "EXP": "610.000"
+ },
+]

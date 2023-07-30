@@ -1,0 +1,245 @@
+[
+ {
+  "ID": 1,
+  "Monster": "High Class Doggebi of Monster Face",
+  "Área": "D3",
+  "Floor": "1",
+  "Level": 51,
+  "HP": "11.000",
+  "EXP": "7.300"
+ },
+ {
+  "ID": 2,
+  "Monster": "High Class Doggebi with a Gong",
+  "Área": "D3",
+  "Floor": "1",
+  "Level": 51,
+  "HP": "11.000",
+  "EXP": "7.300"
+ },
+ {
+  "ID": 3,
+  "Monster": "High Class Drunken Doggebi",
+  "Área": "D3",
+  "Floor": "1",
+  "Level": 51,
+  "HP": "11.000",
+  "EXP": "7.300"
+ },
+ {
+  "ID": 4,
+  "Monster": "High Class Doggebi with a Mask of Black Crow",
+  "Área": "D3",
+  "Floor": "1",
+  "Level": 52,
+  "HP": "11.000",
+  "EXP": "8.400"
+ },
+ {
+  "ID": 5,
+  "Monster": "High Class Drunken Doggebi",
+  "Área": "D3",
+  "Floor": "1",
+  "Level": 53,
+  "HP": "12.000",
+  "EXP": "9.800"
+ },
+ {
+  "ID": 6,
+  "Monster": "Chief of Demon Crack Troop",
+  "Área": "D3",
+  "Floor": "2",
+  "Level": 54,
+  "HP": "12.000",
+  "EXP": "11.000"
+ },
+ {
+  "ID": 7,
+  "Monster": "Demon Crack Soldier",
+  "Área": "D3",
+  "Floor": "2",
+  "Level": 54,
+  "HP": "12.000",
+  "EXP": "11.000"
+ },
+ {
+  "ID": 8,
+  "Monster": "Monster of Demon Crack Troop",
+  "Área": "D3",
+  "Floor": "2",
+  "Level": 54,
+  "HP": "12.000",
+  "EXP": "11.000"
+ },
+ {
+  "ID": 9,
+  "Monster": "White Beast of Demon Crack Troop",
+  "Área": "D3",
+  "Floor": "3",
+  "Level": 57,
+  "HP": "14.000",
+  "EXP": "18.000"
+ },
+ {
+  "ID": 10,
+  "Monster": "Blue Beast of Demon Crack Troop",
+  "Área": "D3",
+  "Floor": "3",
+  "Level": 57,
+  "HP": "14.000",
+  "EXP": "18.000"
+ },
+ {
+  "ID": 11,
+  "Monster": "Punitive Force of Demon Crack Troop",
+  "Área": "D3",
+  "Floor": "3",
+  "Level": 58,
+  "HP": "14.000",
+  "EXP": "21.000"
+ },
+ {
+  "ID": 12,
+  "Monster": "Hermit of White Beard",
+  "Área": "D3",
+  "Floor": "4",
+  "Level": 71,
+  "HP": "26.000",
+  "EXP": "180.000"
+ },
+ {
+  "ID": 13,
+  "Monster": "Hermit of Long Beard",
+  "Área": "D3",
+  "Floor": "4",
+  "Level": 72,
+  "HP": "27.000",
+  "EXP": "210.000"
+ },
+ {
+  "ID": 14,
+  "Monster": "Hermit of Red Face",
+  "Área": "D3",
+  "Floor": "4",
+  "Level": 73,
+  "HP": "28.000",
+  "EXP": "250.000"
+ },
+ {
+  "ID": 15,
+  "Monster": "Hermit of White Beard",
+  "Área": "D3",
+  "Floor": "5",
+  "Level": 74,
+  "HP": "30.000",
+  "EXP": "300.000"
+ },
+ {
+  "ID": 16,
+  "Monster": "Hermit of Mask",
+  "Área": "D3",
+  "Floor": "5",
+  "Level": 75,
+  "HP": "31.000",
+  "EXP": "360.000"
+ },
+ {
+  "ID": 17,
+  "Monster": "Tough Hermit",
+  "Área": "D3",
+  "Floor": "5",
+  "Level": 76,
+  "HP": "33.000",
+  "EXP": "430.000"
+ },
+ {
+  "ID": 18,
+  "Monster": "Hermit of Mask",
+  "Área": "D3",
+  "Floor": "6",
+  "Level": 77,
+  "HP": "35.000",
+  "EXP": "510.000"
+ },
+ {
+  "ID": 19,
+  "Monster": "Hermit of Red Face",
+  "Área": "D3",
+  "Floor": "6",
+  "Level": 77,
+  "HP": "35.000",
+  "EXP": "510.000"
+ },
+ {
+  "ID": 20,
+  "Monster": "Hermit of Anger",
+  "Área": "D3",
+  "Floor": "6",
+  "Level": 78,
+  "HP": "36.000",
+  "EXP": "610.000"
+ },
+ {
+  "ID": 21,
+  "Monster": "Tough Hermit",
+  "Área": "D3",
+  "Floor": "6",
+  "Level": 78,
+  "HP": "36.000",
+  "EXP": "610.000"
+ },
+ {
+  "ID": 22,
+  "Monster": "Hermit of Anger",
+  "Área": "D3",
+  "Floor": "7",
+  "Level": 79,
+  "HP": "38.000",
+  "EXP": "730.000"
+ },
+ {
+  "ID": 23,
+  "Monster": "High Class Giant Doggebi",
+  "Área": "D3",
+  "Floor": "7",
+  "Level": 79,
+  "HP": "38.000",
+  "EXP": "730.000"
+ },
+ {
+  "ID": 24,
+  "Monster": "High Class Doggebi with a Mask of Black Panther",
+  "Área": "D3",
+  "Floor": "8",
+  "Level": 79,
+  "HP": "38.000",
+  "EXP": "730.000"
+ },
+ {
+  "ID": 25,
+  "Monster": "Tough Hermit",
+  "Área": "D3",
+  "Floor": "8",
+  "Level": 79,
+  "HP": "38.000",
+  "EXP": "730.000"
+ },
+ {
+  "ID": 26,
+  "Monster": "High Class Guardian of Doggebi",
+  "Área": "D3",
+  "Floor": "8",
+  "Level": 80,
+  "HP": "40.000",
+  "EXP": "880.000"
+ },
+ {
+  "ID": 27,
+  "Monster": "Hermit of Anger",
+  "Área": "D3",
+  "Floor": "9",
+  "Level": 76,
+  "HP": "33.000",
+  "EXP": "430.000"
+ },
+]
