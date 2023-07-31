@@ -1,7 +1,7 @@
 [
  {
   "ID": 1,
-  "Monster": "Devil Troop of Desire,
+  "Monster": "Devil Troop of Desire",
   "Place": "D1",
   "Room": "1",
   "Level": 46,
@@ -106,5 +106,5 @@
   "Level": 50,
   "HP": "11.000",
   "EXP": "6.300"
- },
+ }
 ]
