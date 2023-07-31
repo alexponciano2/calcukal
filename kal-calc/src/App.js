@@ -104,8 +104,8 @@ function App() {
                       <td>{JsonData.Monster}</td>
                       <td>{JsonData.Level}</td>
                       <td>{JsonData.Área}</td>
-                      <td>{"~" + JsonData.HP}</td>
-                      <td>{"~" + JsonData.EXP}</td>
+                      <td>{JsonData.HP}</td>
+                      <td>{JsonData.EXP}</td>
                     </tr>
                   ))}
                 </tbody>

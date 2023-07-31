@@ -27,6 +27,7 @@ th {
     right: 0;
     margin: auto;
     font-size: 1.3rem;
+    text-align: center;
     
 }
 
@@ -45,9 +46,9 @@ input {
 table, tr, th, td{
     padding: 10px;
     border: 1px solid #aaaaaa;
-    text-indent: initial;
     border-collapse: collapse;
     margin-right: 8px;
+    text-align: center;
 }
 
 /* Adicione este código ao seu arquivo CSS */
