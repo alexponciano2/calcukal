@@ -1,8 +1,21 @@
-.header {
+h1 {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: black;
     color: rgb(255, 92, 92);
     padding-block: 20px;
+}
+
+h2 {
+    font-size: 1rem;
+    color: white;
+    background-color: rgb(74, 74, 74);
+
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.h2 {
+    background-color: black;
 }

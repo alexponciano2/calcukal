@@ -1,11 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../Container/bg.jpg");
+}
+
+th {
+    background-color: #aaaaaa;
+}
+
 .container {
     display: flex;
     justify-content: center;
-    background-color: darkgray;
-    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #e5e5e5;
+    box-shadow: 1px 1px 1px;
+    border-radius: 10px;
     padding: 10px;
     position: relative;
-    max-width: 400px;
+    max-width: 500px;
     height: 100%;
     top: 0;
     bottom: 0;
@@ -13,11 +27,29 @@
     right: 0;
     margin: auto;
     font-size: 1.3rem;
+    
 }
 
 input {
     width: 60px;
     height: 30px;
+    border: 1px solid black
 }
 
+table, tr, th, td{
+    padding: 10px;
+    border: 1px solid #777;
+    text-indent: initial;
+    border-collapse: collapse;
+    margin-right: 8px;
+}
 
+/* Adicione este código ao seu arquivo CSS */
+tr:nth-child(odd) {
+    background-color: #e5e5e5;
+  }
+  
+  tr:nth-child(even) {
+    background-color: rgb(255, 255, 255);
+  }
+  

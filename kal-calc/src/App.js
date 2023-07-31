@@ -5,12 +5,15 @@ import Container from "./components/Container";
 import JsonData from '../src/json/data.json';
 
 function App() {
-  const [noobLevel, setNoobLevel] = useState(0);
-  const [strongLevel, setStrongLevel] = useState(0);
+  const [noobLevel, setNoobLevel] = useState("");
+  const [strongLevel, setStrongLevel] = useState("");
   const [monstersInRange, setMonstersInRange] = useState([]);
 
   const handleSubmit = (event) => {
     event.preventDefault();
+
+    // Limpa o estado monstersInRange
+    setMonstersInRange([""]);
 
     // CONFERE SE O LVL DO NOOB É MENOR QUE O LVL DO FORTE
     if (parseInt(noobLevel) > parseInt(strongLevel)) {
@@ -28,9 +31,9 @@ function App() {
       noobLevelWithBonus = strongLevelWithPenalty;
       strongLevelWithPenalty = temp;
 
-      alert(
-        `Você pode matar monstros de level ${noobLevelWithBonus} a ${strongLevelWithPenalty}.`
-      );
+      // alert(
+      //   `VOCÊ PODE MATAR MONSTRO DE LEVEL ${noobLevelWithBonus} A ${strongLevelWithPenalty}.`
+      // );
     }
 
     //CONFERE SE A DIFERENÇA DE LEVEIS É MAIOR QUE 18
@@ -53,65 +56,65 @@ function App() {
   //RENDERIZA EM TELA
   return (
     <>
-    <Header/>
-    <Container>
-    <div>
-      <form onSubmit={handleSubmit}>
-        <label>
-          Level do mais noob:
-          <input
-            maxLength={3}
-            className='levelnoob'
-            type="text"
-            value={noobLevel}
-            onChange={(event) => setNoobLevel(event.target.value)}
-          />
-        </label>
-        <br />
-        <label>
-          Level do mais forte:
-          <input
-            maxLength={3}
-            className='levelforte'
-            type="text"
-            value={strongLevel}
-            onChange={(event) => setStrongLevel(event.target.value)}
-          />
-        </label>
-        <br />
-        <button className="buscarMonstros" type="submit">Buscar monstros</button>
-      </form>
+      <Header />
+      <Container>
+        <div>
+          <form onSubmit={handleSubmit}>
+            <label>
+              Level do mais noob:
+              <input
+                maxLength={3}
+                className='levelnoob'
+                type="text"
+                value={noobLevel}
+                onChange={(event) => setNoobLevel(event.target.value)}
+              />
+            </label>
+            <br />
+            <label>
+              Level do mais forte:
+              <input
+                maxLength={3}
+                className='levelforte'
+                type="text"
+                value={strongLevel}
+                onChange={(event) => setStrongLevel(event.target.value)}
+              />
+            </label>
+            <br />
+            <button className="buscarMonstros" type="submit">Buscar monstros</button>
+          </form>
 
-      {monstersInRange.length > 0 && (
-  <div className="fontRes">
-    <h2 className="monstroNaRange">Monstros na range:</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>Monster</th>
-          <th>Level</th>
-          <th>Área</th>
-          <th>HP</th>
-          <th>XP</th>
-        </tr>
-      </thead>
-      <tbody>
-        {monstersInRange.map((JsonData) => (
-          <tr key={JsonData.Monster}>
-            <td>{JsonData.Monster}</td>
-            <td>{JsonData.Level}</td>
-            <td>{JsonData.Área}</td>
-            <td>{"~"+JsonData.HP}</td>
-            <td>{"~"+JsonData.EXP}</td>
-          </tr>
-        ))}
-      </tbody>
-    </table>
-  </div>
-)}
+          {monstersInRange.length > 0 && (
+            <div className="fontRes">
+              <h2 className="monstroNaRange">VOCÊ PODE MATAR OS MONSTROS ABAIXO:</h2>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Monster</th>
+                    <th>Level</th>
+                    <th>Área</th>
+                    <th>HP</th>
+                    <th>XP</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {monstersInRange.map((JsonData) => (
+                    <tr key={JsonData.Monster}>
+                      <td>{JsonData.Monster}</td>
+                      <td>{JsonData.Level}</td>
+                      <td>{JsonData.Área}</td>
+                      <td>{"~" + JsonData.HP}</td>
+                      <td>{"~" + JsonData.EXP}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
 
-    </div>
-    </Container>
+        </div>
+      </Container>
     </>
   );
 }
