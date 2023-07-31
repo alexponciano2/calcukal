@@ -44,7 +44,7 @@ input {
 }
 
 table, tr, th, td{
-    padding: 10px;
+    padding: 5px;
     border: 1px solid #aaaaaa;
     border-collapse: collapse;
     margin-right: 8px;
