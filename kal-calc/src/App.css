@@ -88,3 +88,10 @@ label {
   height: 30px;
   margin-top: 10px;
 }
+
+/* Adicione este código ao seu arquivo CSS */
+thead th {
+  position: sticky;
+  top: 0;
+  /* background-color: white; */
+}
