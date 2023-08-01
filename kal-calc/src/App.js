@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Header from './components/Header';
 import Container from "./components/Container";
 import JsonData from '../src/json/data.json';
+import styles from './App.css';
 
 function App() {
   const [noobLevel, setNoobLevel] = useState("");
@@ -88,7 +89,7 @@ function App() {
           {monstersInRange.length > 0 && (
             <div className="fontRes">
               <h2 className="monstroNaRange">VOCÊ PODE MATAR OS MONSTROS ABAIXO:</h2>
-              <table>
+              <table className='totaltable'>
                 <thead>
                   <tr>
                     <th>Monster</th>
