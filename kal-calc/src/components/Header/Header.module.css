@@ -13,7 +13,7 @@
     background-image: url("kaldungeonlogo.png");
     background-repeat: no-repeat;
     background-position: 50%;
-    background-size: 30rem;
+    background-size: 25rem;
 }
 
 .h1 {
@@ -22,7 +22,7 @@
     align-items: center;
     text-align: center;
     margin: auto;
-    padding-left: 30px;
+    /* padding-left: 30px; */
     background-color: #006ea5;
     color: rgb(255, 255, 255);
     padding-block: 20px;
@@ -44,7 +44,7 @@ h2 {
 
     text-align: center;
     padding-bottom: 10px;
-    padding-left: 30px;
+    /* padding-left: 30px; */
 
 }
 
