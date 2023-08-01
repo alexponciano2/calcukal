@@ -93,7 +93,7 @@ function App() {
                 <thead>
                   <tr>
                     <th>Monster</th>
-                    <th>Level</th>
+                    <th>Lvl</th>
                     <th>Área</th>
                     <th>HP</th>
                     <th>XP</th>
