@@ -60,7 +60,7 @@ function App() {
       <Header />
       <Container>
         <div>
-          <form onSubmit={handleSubmit}>
+          <form className="formulario" onSubmit={handleSubmit}>
             <label>
               Level do mais noob:
               <input
