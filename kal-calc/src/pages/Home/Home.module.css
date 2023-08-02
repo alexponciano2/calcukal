@@ -1,0 +1,141 @@
+@media(max-width: 449px) {
+
+  span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .dungeon,
+  .world {
+    width: 195px;
+    border-radius: 50%;
+    margin: 0 15px;
+  }
+
+  .dungeon:hover {
+    transform: scale(1.05);
+    border: 5px solid rgb(174, 255, 174);
+    transition-duration: 1s;
+  }
+  
+  .world:hover {
+    transform: scale(1.05);
+    border: 5px solid rgb(189, 255, 189);
+    transition-duration: 1s;
+  }
+}
+
+@media(min-width: 450px) and (max-width: 767px) {
+
+  span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .dungeon,
+  .world {
+    width: 195px;
+    border-radius: 50%;
+    margin: 0 15px;
+  }
+
+  .dungeon:hover {
+    transform: scale(1.05);
+    border: 5px solid rgb(174, 255, 174);
+    transition-duration: 1s;
+  }
+  
+  .world:hover {
+    transform: scale(1.05);
+    border: 5px solid rgb(189, 255, 189);
+    transition-duration: 1s;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+
+  .dungeon,
+  .world {
+    width: 295px;
+    border-radius: 50%;
+    margin: 0 25px;
+  }
+
+  .dungeon:hover {
+    transform: scale(1.05);
+    border: 5px solid rgb(174, 255, 174);
+    transition-duration: 1s;
+  }
+  
+  .world:hover {
+    transform: scale(1.05);
+    border: 5px solid rgb(189, 255, 189);
+    transition-duration: 1s;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+  }
+
+  .dungeon,
+  .world {
+    width: 395px;
+    border-radius: 50%;
+    margin: 0 35px;
+  }
+
+  .dungeon:hover {
+    transform: scale(1.05);
+    border: 5px solid rgb(174, 255, 174);
+    transition-duration: 1s;
+  }
+  
+  .world:hover {
+    transform: scale(1.05);
+    border: 5px solid rgb(189, 255, 189);
+    transition-duration: 1s;
+  }
+}
+
+@media (min-width: 1200px) {
+  span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+  }
+
+  .dungeon,
+  .world {
+    width: 395px;
+    border-radius: 50%;
+    margin: 0 45px;
+  }
+
+  .dungeon:hover {
+    transform: scale(1.05);
+    border: 5px solid rgb(174, 255, 174);
+    transition-duration: 1s;
+  }
+  
+  .world:hover {
+    transform: scale(1.05);
+    border: 5px solid rgb(189, 255, 189);
+    transition-duration: 1s;
+  }
+}

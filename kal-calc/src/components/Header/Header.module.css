@@ -51,3 +51,58 @@ h2 {
 .h2 {
     background-color: #006ea5;
 }
+
+@media (min-width: 1200px) {
+    .div {
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        background-color: white;
+        padding-top: 100px;
+        box-shadow: -1px -1px 7px 2px lightgray;
+        margin-top: 20px;
+        max-width: 1200px;
+        font-family: 'Courier New', Courier, monospace;
+        background-image: url("kaldungeonlogo.png");
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-size: 30rem;
+    }
+    
+    .h1 {
+        max-width: 1200px;
+        /* display: flex; */
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        /* padding-left: 30px; */
+        background-color: #006ea5;
+        color: rgb(255, 255, 255);
+        padding-block: 20px;
+        font-size: 1.7rem;
+        font-family: 'Open Sans', sans-serif;
+        text-shadow: 1px 1px 5px black;
+        box-shadow: 1px 1px 6px lightgray;
+    }
+    
+    h2 {
+        max-width: 1200px;
+        /* display: flex; */
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        font-size: 1rem;
+        color: white;
+        background-color: rgb(74, 74, 74);
+    
+        text-align: center;
+        padding-bottom: 10px;
+        /* padding-left: 30px; */
+    
+    }
+    
+    .h2 {
+        background-color: #006ea5;
+    }
+}
+

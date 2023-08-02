@@ -25,6 +25,7 @@ label {
     padding: 10px;
     position: relative;
     max-width: 1200px;
+    min-height: 70vh;
     margin: auto;
     font-size: 1.3rem;
 }
