@@ -4,76 +4,386 @@
     margin: 0;
 }
 
-body {
-    background-image: url("../Container/bg.jpg");
+@media(max-width: 449px) {
+
+    body {
+        background-image: url("../Container/bg.jpg");
+    }
+
+    th {
+        background-color: #aaaaaa;
+    }
+
+    label {
+        margin-left: 10px;
+        font-size: 1.4rem;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .container {
+        background-color: rgb(255, 255, 255);
+        border: 1px solid #e5e5e5;
+        box-shadow: 0px 0px 1px lightgray;
+        padding: 10px;
+        position: relative;
+        max-width: 1200px;
+        min-height: 70vh;
+        margin: auto;
+        font-size: 1.3rem;
+    }
+
+    input {
+        width: 70px;
+        height: 35px;
+        border: 1px solid black;
+        font-size: 1.3rem;
+        text-align: center;
+        /* display: flexbox; */
+        align-items: center;
+        justify-content: center;
+        padding-right: 10px;
+    }
+
+    table {
+        display: table;
+        border-collapse: collapse;
+        table-layout: auto;
+        width: 100%;
+        max-width: 100%;
+        margin-left: -10px;
+        overflow: auto;
+    }
+
+    table,
+    tr,
+    th,
+    td {
+        /* width: 1150px; */
+        padding: 3px;
+        padding-right: 3px;
+        padding-left: 3px;
+        border: 1px solid #cdcdcd;
+        /* border-collapse: collapse; */
+        /* margin-right: 8px; */
+        /* text-align: center; */
+        overflow: auto;
+        color: #4f4f4f;
+        text-align: center;
+        font-size: 0.8rem;
+    }
+
+    /* Adicione este código ao seu arquivo CSS */
+    tr:nth-child(odd) {
+        background-color: #e5e5e5;
+    }
+
+    tr:nth-child(even) {
+        background-color: rgb(255, 255, 255);
+    }
 }
 
-th {
-    background-color: #aaaaaa;
+@media(min-width: 450px) and (max-width: 767px) {
+
+    body {
+        background-image: url("../Container/bg.jpg");
+    }
+
+    th {
+        background-color: #aaaaaa;
+    }
+
+    label {
+        margin-left: 10px;
+        font-size: 1.4rem;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .container {
+        background-color: rgb(255, 255, 255);
+        border: 1px solid #e5e5e5;
+        box-shadow: 0px 0px 1px lightgray;
+        padding: 10px;
+        position: relative;
+        max-width: 1200px;
+        min-height: 70vh;
+        margin: auto;
+        font-size: 1.3rem;
+    }
+
+    input {
+        width: 70px;
+        height: 35px;
+        border: 1px solid black;
+        font-size: 1.3rem;
+        text-align: center;
+        /* display: flexbox; */
+        align-items: center;
+        justify-content: center;
+        padding-right: 10px;
+    }
+
+    table {
+        display: table;
+        border-collapse: collapse;
+        table-layout: auto;
+        width: 100%;
+        max-width: 100%;
+        margin-left: -10px;
+        overflow: auto;
+    }
+
+    table,
+    tr,
+    th,
+    td {
+        /* width: 1150px; */
+        padding: 3px;
+        padding-right: 3px;
+        padding-left: 3px;
+        border: 1px solid #cdcdcd;
+        /* border-collapse: collapse; */
+        /* margin-right: 8px; */
+        /* text-align: center; */
+        overflow: auto;
+        color: #4f4f4f;
+        text-align: center;
+    }
+
+    /* Adicione este código ao seu arquivo CSS */
+    tr:nth-child(odd) {
+        background-color: #e5e5e5;
+    }
+
+    tr:nth-child(even) {
+        background-color: rgb(255, 255, 255);
+    }
 }
 
-label {
-    margin-left: 10px;
-    font-size: 1.4rem;
-    font-family: 'Open Sans', sans-serif;
+@media (min-width: 768px) and (max-width: 991px) {
+
+    body {
+        background-image: url("../Container/bg.jpg");
+    }
+
+    th {
+        background-color: #aaaaaa;
+    }
+
+    label {
+        margin-left: 10px;
+        font-size: 1.4rem;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .container {
+        background-color: rgb(255, 255, 255);
+        border: 1px solid #e5e5e5;
+        box-shadow: 0px 0px 1px lightgray;
+        padding: 10px;
+        position: relative;
+        max-width: 1200px;
+        min-height: 70vh;
+        margin: auto;
+        font-size: 1.3rem;
+    }
+
+    input {
+        width: 70px;
+        height: 35px;
+        border: 1px solid black;
+        font-size: 1.3rem;
+        text-align: center;
+        /* display: flexbox; */
+        align-items: center;
+        justify-content: center;
+        padding-right: 10px;
+    }
+
+    table {
+        display: table;
+        border-collapse: collapse;
+        table-layout: auto;
+        width: 100%;
+        max-width: 100%;
+        margin-left: -10px;
+        overflow: auto;
+    }
+
+    table,
+    tr,
+    th,
+    td {
+        /* width: 1150px; */
+        padding: 3px;
+        padding-right: 3px;
+        padding-left: 3px;
+        border: 1px solid #cdcdcd;
+        /* border-collapse: collapse; */
+        /* margin-right: 8px; */
+        /* text-align: center; */
+        overflow: auto;
+        color: #4f4f4f;
+        text-align: center;
+    }
+
+    /* Adicione este código ao seu arquivo CSS */
+    tr:nth-child(odd) {
+        background-color: #e5e5e5;
+    }
+
+    tr:nth-child(even) {
+        background-color: rgb(255, 255, 255);
+    }
 }
 
-.container {
-    background-color: rgb(255, 255, 255);
-    border: 1px solid #e5e5e5;
-    box-shadow: 0px 0px 1px lightgray;
-    padding: 10px;
-    position: relative;
-    max-width: 1200px;
-    min-height: 70vh;
-    margin: auto;
-    font-size: 1.3rem;
+@media (min-width: 992px) and (max-width: 1199px){
+    body {
+        background-image: url("../Container/bg.jpg");
+    }
+
+    th {
+        background-color: #aaaaaa;
+    }
+
+    label {
+        margin-left: 10px;
+        font-size: 1.4rem;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .container {
+        background-color: rgb(255, 255, 255);
+        border: 1px solid #e5e5e5;
+        box-shadow: 0px 0px 1px lightgray;
+        padding: 10px;
+        position: relative;
+        max-width: 1200px;
+        min-height: 70vh;
+        margin: auto;
+        font-size: 1.3rem;
+    }
+
+    input {
+        width: 70px;
+        height: 35px;
+        border: 1px solid black;
+        font-size: 1.3rem;
+        text-align: center;
+        /* display: flexbox; */
+        align-items: center;
+        justify-content: center;
+        padding-right: 10px;
+    }
+
+    table {
+        display: table;
+        border-collapse: collapse;
+        table-layout: auto;
+        width: 100%;
+        max-width: 100%;
+        margin-left: -10px;
+        overflow: auto;
+    }
+
+    table,
+    tr,
+    th,
+    td {
+        /* width: 1150px; */
+        padding: 3px;
+        padding-right: 3px;
+        padding-left: 3px;
+        border: 1px solid #cdcdcd;
+        /* border-collapse: collapse; */
+        /* margin-right: 8px; */
+        /* text-align: center; */
+        overflow: auto;
+        color: #4f4f4f;
+        text-align: center;
+    }
+
+    /* Adicione este código ao seu arquivo CSS */
+    tr:nth-child(odd) {
+        background-color: #e5e5e5;
+    }
+
+    tr:nth-child(even) {
+        background-color: rgb(255, 255, 255);
+    }
 }
 
-input {
-    width: 70px;
-    height: 35px;
-    border: 1px solid black;
-    font-size: 1.3rem;
-    text-align: center;
-    /* display: flexbox; */
-    align-items: center;
-    justify-content: center;
-    padding-right: 10px;
-}
+@media (min-width: 1200px){
+    body {
+        background-image: url("../Container/bg.jpg");
+    }
 
-table {
-    display: table;
-    border-collapse: collapse;
-    table-layout: auto;
-    width: 100%;
-    max-width: 100%;
-    margin-left: -10px;
-    overflow: auto;
-}
+    th {
+        background-color: #aaaaaa;
+    }
 
-table,
-tr,
-th,
-td {
-    /* width: 1150px; */
-    padding: 3px;
-    padding-right: 3px;
-    padding-left: 3px;
-    border: 1px solid #cdcdcd;
-    /* border-collapse: collapse; */
-    /* margin-right: 8px; */
-    /* text-align: center; */
-    overflow: auto;
-    color: #4f4f4f;
-    text-align: center;
-}
+    label {
+        margin-left: 10px;
+        font-size: 1.4rem;
+        font-family: 'Open Sans', sans-serif;
+    }
 
-/* Adicione este código ao seu arquivo CSS */
-tr:nth-child(odd) {
-    background-color: #e5e5e5;
-}
+    .container {
+        background-color: rgb(255, 255, 255);
+        border: 1px solid #e5e5e5;
+        box-shadow: 0px 0px 1px lightgray;
+        padding: 10px;
+        position: relative;
+        max-width: 1200px;
+        min-height: 70vh;
+        margin: auto;
+        font-size: 1.3rem;
+    }
 
-tr:nth-child(even) {
-    background-color: rgb(255, 255, 255);
+    input {
+        width: 70px;
+        height: 35px;
+        border: 1px solid black;
+        font-size: 1.3rem;
+        text-align: center;
+        /* display: flexbox; */
+        align-items: center;
+        justify-content: center;
+        padding-right: 10px;
+    }
+
+    table {
+        display: table;
+        border-collapse: collapse;
+        table-layout: auto;
+        width: 100%;
+        max-width: 100%;
+        margin-left: -10px;
+        overflow: auto;
+    }
+
+    table,
+    tr,
+    th,
+    td {
+        /* width: 1150px; */
+        padding: 3px;
+        padding-right: 3px;
+        padding-left: 3px;
+        border: 1px solid #cdcdcd;
+        /* border-collapse: collapse; */
+        /* margin-right: 8px; */
+        /* text-align: center; */
+        overflow: auto;
+        color: #4f4f4f;
+        text-align: center;
+    }
+
+    /* Adicione este código ao seu arquivo CSS */
+    tr:nth-child(odd) {
+        background-color: #e5e5e5;
+    }
+
+    tr:nth-child(even) {
+        background-color: rgb(255, 255, 255);
+    }
 }
