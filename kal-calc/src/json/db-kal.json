@@ -720,68 +720,12 @@
   "EXP": "3.500"
  },
  {
-  "ID": 97,
-  "Monster": "Devil Troop of Desire",
-  "Área": "D1R1",
-  "Level": 46,
-  "HP": "9.100",
-  "EXP": "3.500"
- },
- {
-  "ID": 98,
-  "Monster": "Doggebi of Monster Face",
-  "Área": "D1R1",
-  "Level": 46,
-  "HP": "9.100",
-  "EXP": "3.500"
- },
- {
   "ID": 99,
   "Monster": "Summoned Trained Traitor Warrior",
   "Área": "HL",
   "Level": 46,
   "HP": "15.000",
   "EXP": "3.500"
- },
- {
-  "ID": 100,
-  "Monster": "Doggebi with a Gong",
-  "Área": "D1R5",
-  "Level": 46,
-  "HP": "9.100",
-  "EXP": "3.500"
- },
- {
-  "ID": 101,
-  "Monster": "Drunken Doggebi",
-  "Área": "D1R1",
-  "Level": 46,
-  "HP": "9.100",
-  "EXP": "3.500"
- },
- {
-  "ID": 102,
-  "Monster": "Devil Troop of Pain",
-  "Área": "D1R5",
-  "Level": 47,
-  "HP": "9.500",
-  "EXP": "4.000"
- },
- {
-  "ID": 103,
-  "Monster": "Drunken Doggebi",
-  "Área": "D1R1",
-  "Level": 47,
-  "HP": "9.500",
-  "EXP": "4.000"
- },
- {
-  "ID": 104,
-  "Monster": "Devil Troop of Jealousy",
-  "Área": "D1R3",
-  "Level": 47,
-  "HP": "9.500",
-  "EXP": "4.000"
  },
  {
   "ID": 105,
@@ -800,52 +744,12 @@
   "EXP": "4.700"
  },
  {
-  "ID": 107,
-  "Monster": "Devil Troop of Hatred",
-  "Área": "D1R9",
-  "Level": 48,
-  "HP": "9.800",
-  "EXP": "4.700"
- },
- {
   "ID": 108,
   "Monster": "Doggebi with a Mask of Black Panther",
   "Área": "Forsaken Fort",
   "Level": 48,
   "HP": "9.800",
   "EXP": "4.700"
- },
- {
-  "ID": 109,
-  "Monster": "Doggebi with a Mask of Black Crow",
-  "Área": "D1R3",
-  "Level": 48,
-  "HP": "9.800",
-  "EXP": "4.700"
- },
- {
-  "ID": 110,
-  "Monster": "Devil Troop of Jealousy",
-  "Área": "D1R3",
-  "Level": 48,
-  "HP": "9.800",
-  "EXP": "4.700"
- },
- {
-  "ID": 111,
-  "Monster": "Mutated Warrior of Shadow Troop",
-  "Área": "D2?",
-  "Level": 48,
-  "HP": "9.800",
-  "EXP": "4.700"
- },
- {
-  "ID": 112,
-  "Monster": "Giant Doggebi",
-  "Área": "D1R9",
-  "Level": 49,
-  "HP": "10.000",
-  "EXP": "5.400"
  },
  {
   "ID": 113,
@@ -864,14 +768,6 @@
   "EXP": "5.400"
  },
  {
-  "ID": 115,
-  "Monster": "Devil Troop of Madness",
-  "Área": "D1R9",
-  "Level": 49,
-  "HP": "10.000",
-  "EXP": "5.400"
- },
- {
   "ID": 117,
   "Monster": "Summoned Doggebi with a Mask of Black Panther",
   "Área": "Forsaken Fort",
@@ -880,33 +776,9 @@
   "EXP": "6.300"
  },
  {
-  "ID": 118,
-  "Monster": "Demon Worker",
-  "Área": "D4F1",
-  "Level": 50,
-  "HP": "11.000",
-  "EXP": "6.300"
- },
- {
   "ID": 119,
   "Monster": "Giant Doggebi",
   "Área": "Forsaken Fort",
-  "Level": 50,
-  "HP": "11.000",
-  "EXP": "6.300"
- },
- {
-  "ID": 120,
-  "Monster": "Guardian of Doggebi",
-  "Área": "D1R9",
-  "Level": 50,
-  "HP": "11.000",
-  "EXP": "6.300"
- },
- {
-  "ID": 122,
-  "Monster": "Devil Troop of Anger",
-  "Área": "D1R9",
   "Level": 50,
   "HP": "11.000",
   "EXP": "6.300"
@@ -976,14 +848,6 @@
   "EXP": "6.300"
  },
  {
-  "ID": 131,
-  "Monster": "High Class Drunken Doggebi",
-  "Área": "D3F1",
-  "Level": 51,
-  "HP": "11.000",
-  "EXP": "7.300"
- },
- {
   "ID": 132,
   "Monster": "Summoned Giant Doggebi",
   "Área": "Forsaken Fort",
@@ -992,33 +856,9 @@
   "EXP": "7.300"
  },
  {
-  "ID": 133,
-  "Monster": "High Class Doggebi with a Gong",
-  "Área": "D3F1",
-  "Level": 51,
-  "HP": "11.000",
-  "EXP": "7.300"
- },
- {
   "ID": 134,
   "Monster": "Angry Doggebi of Monster Face",
   "Área": "Forsaken Fort",
-  "Level": 51,
-  "HP": "11.000",
-  "EXP": "7.300"
- },
- {
-  "ID": 135,
-  "Monster": "High Class Doggebi of Monster Face",
-  "Área": "D3F1",
-  "Level": 51,
-  "HP": "11.000",
-  "EXP": "7.300"
- },
- {
-  "ID": 136,
-  "Monster": "High Class Doggebi with a Mask of Black Crow",
-  "Área": "D3F1",
   "Level": 51,
   "HP": "11.000",
   "EXP": "7.300"
@@ -1040,35 +880,11 @@
   "EXP": "7.300"
  },
  {
-  "ID": 139,
-  "Monster": "High Class Drunken Doggebi",
-  "Área": "D3F1",
-  "Level": 52,
-  "HP": "11.000",
-  "EXP": "8.400"
- },
- {
   "ID": 140,
   "Monster": "Summoned Knight of the Traitor's Hangout",
   "Área": "HL",
   "Level": 52,
   "HP": "18.000",
-  "EXP": "8.400"
- },
- {
-  "ID": 141,
-  "Monster": "High Class Doggebi of Monster Face",
-  "Área": "D3F1",
-  "Level": 52,
-  "HP": "11.000",
-  "EXP": "8.400"
- },
- {
-  "ID": 142,
-  "Monster": "High Class Doggebi with a Mask of Black Crow",
-  "Área": "D3F1",
-  "Level": 52,
-  "HP": "11.000",
   "EXP": "8.400"
  },
  {
@@ -1088,14 +904,6 @@
   "EXP": "8.400"
  },
  {
-  "ID": 145,
-  "Monster": "High Class Doggebi with a Gong",
-  "Área": "D3F1",
-  "Level": 52,
-  "HP": "11.000",
-  "EXP": "8.400"
- },
- {
   "ID": 146,
   "Monster": "Summoned Guardian of Doggebi",
   "Área": "Forsaken Fort",
@@ -1104,49 +912,9 @@
   "EXP": "8.400"
  },
  {
-  "ID": 147,
-  "Monster": "High Class Doggebi of Monster Face",
-  "Área": "D3F1",
-  "Level": 53,
-  "HP": "12.000",
-  "EXP": "9.800"
- },
- {
-  "ID": 148,
-  "Monster": "High Class Doggebi with a Gong",
-  "Área": "D3F1",
-  "Level": 53,
-  "HP": "12.000",
-  "EXP": "9.800"
- },
- {
-  "ID": 149,
-  "Monster": "High Class Drunken Doggebi",
-  "Área": "D3F1",
-  "Level": 53,
-  "HP": "12.000",
-  "EXP": "9.800"
- },
- {
   "ID": 150,
   "Monster": "Runabout Skeleton Warrior (Lance)",
   "Área": "PUB",
-  "Level": 53,
-  "HP": "12.000",
-  "EXP": "9.800"
- },
- {
-  "ID": 151,
-  "Monster": "Demon Worker",
-  "Área": "D4F1",
-  "Level": 53,
-  "HP": "12.000",
-  "EXP": "9.800"
- },
- {
-  "ID": 152,
-  "Monster": "High Class Doggebi with a Mask of Black Crow",
-  "Área": "D3F1",
   "Level": 53,
   "HP": "12.000",
   "EXP": "9.800"
@@ -1176,22 +944,6 @@
   "EXP": "11.000"
  },
  {
-  "ID": 156,
-  "Monster": "Chief of Demon Crack Troop",
-  "Área": "D3F2",
-  "Level": 54,
-  "HP": "12.000",
-  "EXP": "11.000"
- },
- {
-  "ID": 157,
-  "Monster": "Demon Crack Soldier",
-  "Área": "D3F2",
-  "Level": 54,
-  "HP": "12.000",
-  "EXP": "11.000"
- },
- {
   "ID": 158,
   "Monster": "Corrupt Guardian of Doggebi",
   "Área": "Forsaken Fort",
@@ -1206,22 +958,6 @@
   "Level": 54,
   "HP": "20.000",
   "EXP": "11.000"
- },
- {
-  "ID": 160,
-  "Monster": "Monster of Demon Crack Troop",
-  "Área": "D3F2",
-  "Level": 54,
-  "HP": "12.000",
-  "EXP": "11.000"
- },
- {
-  "ID": 162,
-  "Monster": "Chief of Demon Crack Troop",
-  "Área": "D3F2",
-  "Level": 55,
-  "HP": "13.000",
-  "EXP": "13.000"
  },
  {
   "ID": 164,
@@ -1248,41 +984,9 @@
   "EXP": "13.000"
  },
  {
-  "ID": 168,
-  "Monster": "Demon Crack Soldier",
-  "Área": "D3F2",
-  "Level": 55,
-  "HP": "13.000",
-  "EXP": "13.000"
- },
- {
-  "ID": 169,
-  "Monster": "Monster of Demon Crack Troop",
-  "Área": "D3F2",
-  "Level": 55,
-  "HP": "13.000",
-  "EXP": "13.000"
- },
- {
   "ID": 173,
   "Monster": "The Royal Tomb Keeper (Sword)",
   "Área": "PUB",
-  "Level": 56,
-  "HP": "13.000",
-  "EXP": "15.000"
- },
- {
-  "ID": 174,
-  "Monster": "Demon Crack Soldier",
-  "Área": "D3F2",
-  "Level": 56,
-  "HP": "13.000",
-  "EXP": "15.000"
- },
- {
-  "ID": 175,
-  "Monster": "Manager of Demon Worker",
-  "Área": "D4F1",
   "Level": 56,
   "HP": "13.000",
   "EXP": "15.000"
@@ -1299,22 +1003,6 @@
   "ID": 177,
   "Monster": "Sensitive The Royal Tomb Keeper (Sword)",
   "Área": "PUB",
-  "Level": 56,
-  "HP": "13.000",
-  "EXP": "15.000"
- },
- {
-  "ID": 178,
-  "Monster": "Monster of Demon Crack Troop",
-  "Área": "D3F2",
-  "Level": 56,
-  "HP": "13.000",
-  "EXP": "15.000"
- },
- {
-  "ID": 179,
-  "Monster": "Chief of Demon Crack Troop",
-  "Área": "D3F2",
   "Level": 56,
   "HP": "13.000",
   "EXP": "15.000"
@@ -1352,33 +1040,9 @@
   "EXP": "18.000"
  },
  {
-  "ID": 184,
-  "Monster": "Blue Beast of Demon Crack Troop",
-  "Área": "D3F2",
-  "Level": 57,
-  "HP": "14.000",
-  "EXP": "18.000"
- },
- {
   "ID": 185,
   "Monster": "Ruled by a Rotten Skeleton Warrior of theRoyal Tomb",
   "Área": "PUB",
-  "Level": 57,
-  "HP": "14.000",
-  "EXP": "18.000"
- },
- {
-  "ID": 186,
-  "Monster": "White Beast of Demon Crack Troop",
-  "Área": "D3F2",
-  "Level": 57,
-  "HP": "14.000",
-  "EXP": "18.000"
- },
- {
-  "ID": 187,
-  "Monster": "Manager of Demon Worker",
-  "Área": "D4F1",
   "Level": 57,
   "HP": "14.000",
   "EXP": "18.000"
@@ -1400,35 +1064,11 @@
   "EXP": "21.000"
  },
  {
-  "ID": 191,
-  "Monster": "Blue Beast of Demon Crack Troop",
-  "Área": "D3F2",
-  "Level": 58,
-  "HP": "14.000",
-  "EXP": "21.000"
- },
- {
-  "ID": 192,
-  "Monster": "White Beast of Demon Crack Troop",
-  "Área": "D3F3",
-  "Level": 58,
-  "HP": "14.000",
-  "EXP": "21.000"
- },
- {
   "ID": 193,
   "Monster": "Summoned The Royal Tomb Keeper",
   "Área": "PUB",
   "Level": 58,
   "HP": "23.000",
-  "EXP": "21.000"
- },
- {
-  "ID": 194,
-  "Monster": "Punitive Force of Demon Crack Troop",
-  "Área": "D3F3",
-  "Level": 58,
-  "HP": "14.000",
   "EXP": "21.000"
  },
  {
@@ -1448,52 +1088,12 @@
   "EXP": "25.000"
  },
  {
-  "ID": 197,
-  "Monster": "White Beast of Demon Crack Troop",
-  "Área": "D3F3",
-  "Level": 59,
-  "HP": "15.000",
-  "EXP": "25.000"
- },
- {
   "ID": 198,
   "Monster": "Sharp The Royal Tomb Keeper (Spear)",
   "Área": "PUB",
   "Level": 59,
   "HP": "15.000",
   "EXP": "25.000"
- },
- {
-  "ID": 199,
-  "Monster": "Punitive Force of Demon Crack Troop",
-  "Área": "D3F3",
-  "Level": 59,
-  "HP": "15.000",
-  "EXP": "25.000"
- },
- {
-  "ID": 201,
-  "Monster": "Boss of Demon Worker",
-  "Área": "D4F1",
-  "Level": 60,
-  "HP": "15.000",
-  "EXP": "29.000"
- },
- {
-  "ID": 202,
-  "Monster": "Punitive Force of Demon Crack Troop",
-  "Área": "D3F3",
-  "Level": 60,
-  "HP": "15.000",
-  "EXP": "29.000"
- },
- {
-  "ID": 203,
-  "Monster": "Blue Beast of Demon Crack Troop",
-  "Área": "D3F3",
-  "Level": 60,
-  "HP": "15.000",
-  "EXP": "29.000"
  },
  {
   "ID": 204,
@@ -1528,22 +1128,6 @@
   "EXP": "34.000"
  },
  {
-  "ID": 211,
-  "Monster": "Maid of Honor of the Royal Tomb",
-  "Área": "D2H1",
-  "Level": 61,
-  "HP": "16.000",
-  "EXP": "34.000"
- },
- {
-  "ID": 212,
-  "Monster": "Minister of the Royal Tomb",
-  "Área": "D2H1",
-  "Level": 61,
-  "HP": "16.000",
-  "EXP": "34.000"
- },
- {
   "ID": 213,
   "Monster": "Traitor Common Warrior",
   "Área": "HL",
@@ -1560,25 +1144,9 @@
   "EXP": "39.000"
  },
  {
-  "ID": 215,
-  "Monster": "The Royal Tomb Keeper",
-  "Área": "D2H1",
-  "Level": 62,
-  "HP": "17.000",
-  "EXP": "39.000"
- },
- {
   "ID": 217,
   "Monster": "Trained Traitor Warrior",
   "Área": "HL",
-  "Level": 63,
-  "HP": "18.000",
-  "EXP": "46.000"
- },
- {
-  "ID": 218,
-  "Monster": "The Royal Tomb Keeper",
-  "Área": "D2H1",
   "Level": 63,
   "HP": "18.000",
   "EXP": "46.000"
@@ -1608,14 +1176,6 @@
   "EXP": "54.000"
  },
  {
-  "ID": 223,
-  "Monster": "The Royal Tomb Keeper",
-  "Área": "D2H1",
-  "Level": 64,
-  "HP": "18.000",
-  "EXP": "54.000"
- },
- {
   "ID": 224,
   "Monster": "Experienced Traitor Warrior",
   "Área": "HL",
@@ -1632,27 +1192,11 @@
   "EXP": "54.000"
  },
  {
-  "ID": 226,
-  "Monster": "Demon Guard",
-  "Área": "D4F3",
-  "Level": 65,
-  "HP": "19.000",
-  "EXP": "64.000"
- },
- {
   "ID": 227,
   "Monster": "Ghost of Guard in E-Mok Island from Hell",
   "Área": "EMOK",
   "Level": 65,
   "HP": "140.000",
-  "EXP": "64.000"
- },
- {
-  "ID": 228,
-  "Monster": "The Royal Tomb Keeper",
-  "Área": "D2H1",
-  "Level": 65,
-  "HP": "19.000",
   "EXP": "64.000"
  },
  {
@@ -1672,33 +1216,9 @@
   "EXP": "64.000"
  },
  {
-  "ID": 234,
-  "Monster": "Warrior of Shadow Troop",
-  "Área": "D2H2",
-  "Level": 66,
-  "HP": "20.000",
-  "EXP": "75.000"
- },
- {
   "ID": 235,
   "Monster": "Summoned Trained Traitor Archer",
   "Área": "HL",
-  "Level": 67,
-  "HP": "21.000",
-  "EXP": "89.000"
- },
- {
-  "ID": 236,
-  "Monster": "Demon Guard",
-  "Área": "D4F2",
-  "Level": 67,
-  "HP": "21.000",
-  "EXP": "89.000"
- },
- {
-  "ID": 238,
-  "Monster": "Hook of Shadow Troop",
-  "Área": "D2H2",
   "Level": 67,
   "HP": "21.000",
   "EXP": "89.000"
@@ -1736,30 +1256,6 @@
   "EXP": "110.000"
  },
  {
-  "ID": 251,
-  "Monster": "Watcher of Shadow Troop",
-  "Área": "D2H2",
-  "Level": 68,
-  "HP": "22.000",
-  "EXP": "110.000"
- },
- {
-  "ID": 254,
-  "Monster": "Chief Warrior of Shadow Troop",
-  "Área": "D2H3",
-  "Level": 69,
-  "HP": "23.000",
-  "EXP": "130.000"
- },
- {
-  "ID": 256,
-  "Monster": "2nd Commander of The Royal Tomb",
-  "Área": "D2H3",
-  "Level": 70,
-  "HP": "440.000",
-  "EXP": "150.000"
- },
- {
   "ID": 257,
   "Monster": "Summoned Gigantic Species Murderer",
   "Área": "HL",
@@ -1768,113 +1264,9 @@
   "EXP": "150.000"
  },
  {
-  "ID": 258,
-  "Monster": "1st Commander of The Royal Tomb",
-  "Área": "D2H3",
-  "Level": 70,
-  "HP": "440.000",
-  "EXP": "150.000"
- },
- {
-  "ID": 259,
-  "Monster": "Lord of Shadow Troop",
-  "Área": "D2H3",
-  "Level": 70,
-  "HP": "440.000",
-  "EXP": "150.000"
- },
- {
-  "ID": 260,
-  "Monster": "Spear Hand of Shadow Troop",
-  "Área": "D2H3",
-  "Level": 70,
-  "HP": "24.000",
-  "EXP": "150.000"
- },
- {
   "ID": 261,
   "Monster": "Knight of the Traitor's Hangout",
   "Área": "HL",
-  "Level": 70,
-  "HP": "24.000",
-  "EXP": "150.000"
- },
- {
-  "ID": 262,
-  "Monster": "3rd Commander of The Royal Tomb",
-  "Área": "D2H3",
-  "Level": 70,
-  "HP": "440.000",
-  "EXP": "150.000"
- },
- {
-  "ID": 264,
-  "Monster": "Chief Escort of The Royal Tomb",
-  "Área": "D2H3",
-  "Level": 70,
-  "HP": "440.000",
-  "EXP": "150.000"
- },
- {
-  "ID": 265,
-  "Monster": "Imperial Commander of The Royal Tomb",
-  "Área": "D2H3",
-  "Level": 70,
-  "HP": "440.000",
-  "EXP": "150.000"
- },
- {
-  "ID": 266,
-  "Monster": "Black Armored Insect from Hell",
-  "Área": "D4F4",
-  "Level": 70,
-  "HP": "180.000",
-  "EXP": "150.000"
- },
- {
-  "ID": 267,
-  "Monster": "Summoned Monster of Demon Crack Troop",
-  "Área": "D3F3",
-  "Level": 70,
-  "HP": "24.000",
-  "EXP": "150.000"
- },
- {
-  "ID": 268,
-  "Monster": "Larva",
-  "Área": "D4F4",
-  "Level": 70,
-  "HP": "24.000",
-  "EXP": "150.000"
- },
- {
-  "ID": 269,
-  "Monster": "Chief Guard of The Royal Tomb",
-  "Área": "D2H3",
-  "Level": 70,
-  "HP": "440.000",
-  "EXP": "150.000"
- },
- {
-  "ID": 270,
-  "Monster": "Demon Patrol",
-  "Área": "D4F4",
-  "Level": 70,
-  "HP": "24.000",
-  "EXP": "150.000"
- },
- {
-  "ID": 272,
-  "Monster": "Flame Plants",
-  "Área": "D4",
-  "Level": 70,
-  "HP": "24.000",
-  "EXP": "150.000"
- },
- {
-  "ID": 273,
-  "Monster": "Black Armored Insect",
-  "Área": "D4",
   "Level": 70,
   "HP": "24.000",
   "EXP": "150.000"
@@ -1904,44 +1296,12 @@
   "EXP": "180.000"
  },
  {
-  "ID": 277,
-  "Monster": "Hermit of Long Beard",
-  "Área": "D3F4",
-  "Level": 71,
-  "HP": "26.000",
-  "EXP": "180.000"
- },
- {
   "ID": 278,
   "Monster": "Knight of the Traitor's Hangout",
   "Área": "HL",
   "Level": 71,
   "HP": "26.000",
   "EXP": "180.000"
- },
- {
-  "ID": 279,
-  "Monster": "Hermit of White Beard",
-  "Área": "D3F4",
-  "Level": 71,
-  "HP": "26.000",
-  "EXP": "180.000"
- },
- {
-  "ID": 280,
-  "Monster": "Hermit of White Beard",
-  "Área": "D3F4",
-  "Level": 72,
-  "HP": "27.000",
-  "EXP": "210.000"
- },
- {
-  "ID": 281,
-  "Monster": "Hermit of Long Beard",
-  "Área": "D3F4",
-  "Level": 72,
-  "HP": "27.000",
-  "EXP": "210.000"
  },
  {
   "ID": 282,
@@ -2000,22 +1360,6 @@
   "EXP": "250.000"
  },
  {
-  "ID": 291,
-  "Monster": "Hermit of Red Face",
-  "Área": "D3F4",
-  "Level": 73,
-  "HP": "28.000",
-  "EXP": "250.000"
- },
- {
-  "ID": 292,
-  "Monster": "Hermit of Mask",
-  "Área": "D3F4",
-  "Level": 73,
-  "HP": "28.000",
-  "EXP": "250.000"
- },
- {
   "ID": 295,
   "Monster": "Decrepit Minor iron element",
   "Área": "FoE",
@@ -2032,14 +1376,6 @@
   "EXP": "300.000"
  },
  {
-  "ID": 297,
-  "Monster": "Hermit of Long Beard",
-  "Área": "D3F5",
-  "Level": 74,
-  "HP": "30.000",
-  "EXP": "300.000"
- },
- {
   "ID": 298,
   "Monster": "Tainted Minor iron element",
   "Área": "FoE",
@@ -2048,41 +1384,9 @@
   "EXP": "300.000"
  },
  {
-  "ID": 299,
-  "Monster": "Hermit of Long Beard from Hell",
-  "Área": "D3F5",
-  "Level": 74,
-  "HP": "210.000",
-  "EXP": "300.000"
- },
- {
-  "ID": 300,
-  "Monster": "Hermit of White Beard",
-  "Área": "D3F5",
-  "Level": 74,
-  "HP": "30.000",
-  "EXP": "300.000"
- },
- {
-  "ID": 301,
-  "Monster": "Hermit of Red Face",
-  "Área": "D3F5",
-  "Level": 75,
-  "HP": "31.000",
-  "EXP": "360.000"
- },
- {
   "ID": 303,
   "Monster": "Minor wood element",
   "Área": "FoE",
-  "Level": 75,
-  "HP": "31.000",
-  "EXP": "360.000"
- },
- {
-  "ID": 304,
-  "Monster": "Hermit of Mask",
-  "Área": "D3F5",
   "Level": 75,
   "HP": "31.000",
   "EXP": "360.000"
@@ -2112,14 +1416,6 @@
   "EXP": "430.000"
  },
  {
-  "ID": 312,
-  "Monster": "Tough Hermit",
-  "Área": "D3F5",
-  "Level": 76,
-  "HP": "33.000",
-  "EXP": "430.000"
- },
- {
   "ID": 313,
   "Monster": "Bounded earth element",
   "Área": "FoE",
@@ -2134,30 +1430,6 @@
   "Level": 76,
   "HP": "33.000",
   "EXP": "430.000"
- },
- {
-  "ID": 315,
-  "Monster": "Hermit of Anger",
-  "Área": "D3F5",
-  "Level": 76,
-  "HP": "33.000",
-  "EXP": "430.000"
- },
- {
-  "ID": 316,
-  "Monster": "Hermit of Mask",
-  "Área": "D3F6",
-  "Level": 77,
-  "HP": "35.000",
-  "EXP": "510.000"
- },
- {
-  "ID": 317,
-  "Monster": "Hermit of Red Face",
-  "Área": "D3F6",
-  "Level": 77,
-  "HP": "35.000",
-  "EXP": "510.000"
  },
  {
   "ID": 318,
@@ -2182,22 +1454,6 @@
   "Level": 77,
   "HP": "35.000",
   "EXP": "510.000"
- },
- {
-  "ID": 322,
-  "Monster": "Hermit of Anger",
-  "Área": "D3F6",
-  "Level": 78,
-  "HP": "36.000",
-  "EXP": "610.000"
- },
- {
-  "ID": 323,
-  "Monster": "Tough Hermit",
-  "Área": "D3F6",
-  "Level": 78,
-  "HP": "36.000",
-  "EXP": "610.000"
  },
  {
   "ID": 327,
@@ -2254,62 +1510,6 @@
   "Level": 79,
   "HP": "38.000",
   "EXP": "730.000"
- },
- {
-  "ID": 336,
-  "Monster": "Summoned Twisted Demon Soldier",
-  "Área": "D4",
-  "Level": 79,
-  "HP": "61.000",
-  "EXP": "730.000"
- },
- {
-  "ID": 337,
-  "Monster": "Hermit of Anger",
-  "Área": "D3F7",
-  "Level": 79,
-  "HP": "38.000",
-  "EXP": "730.000"
- },
- {
-  "ID": 338,
-  "Monster": "High Class Giant Doggebi",
-  "Área": "D3F7",
-  "Level": 79,
-  "HP": "38.000",
-  "EXP": "730.000"
- },
- {
-  "ID": 339,
-  "Monster": "High Class Doggebi with a Mask of Black Panther",
-  "Área": "D3F8",
-  "Level": 79,
-  "HP": "38.000",
-  "EXP": "730.000"
- },
- {
-  "ID": 340,
-  "Monster": "Tough Hermit",
-  "Área": "D3F8",
-  "Level": 79,
-  "HP": "38.000",
-  "EXP": "730.000"
- },
- {
-  "ID": 342,
-  "Monster": "High Class Guardian of Doggebi",
-  "Área": "D3F8",
-  "Level": 80,
-  "HP": "40.000",
-  "EXP": "880.000"
- },
- {
-  "ID": 343,
-  "Monster": "Personal Guard of Doggebi Lord",
-  "Área": "D3F8",
-  "Level": 80,
-  "HP": "730.000",
-  "EXP": "880.000"
  },
  {
   "ID": 344,
@@ -2392,22 +1592,6 @@
   "EXP": "880.000"
  },
  {
-  "ID": 356,
-  "Monster": "Demon Defender",
-  "Área": "D4F5",
-  "Level": 80,
-  "HP": "40.000",
-  "EXP": "880.000"
- },
- {
-  "ID": 357,
-  "Monster": "Flame Plants",
-  "Área": "D4",
-  "Level": 80,
-  "HP": "40.000",
-  "EXP": "880.000"
- },
- {
   "ID": 360,
   "Monster": "Summoned Minor water element",
   "Área": "FoE",
@@ -2456,33 +1640,9 @@
   "EXP": "1.100.000"
  },
  {
-  "ID": 366,
-  "Monster": "Banshee",
-  "Área": "D5F1",
-  "Level": 81,
-  "HP": "43.000",
-  "EXP": "1.100.000"
- },
- {
-  "ID": 367,
-  "Monster": "Skeleton",
-  "Área": "D5F1",
-  "Level": 81,
-  "HP": "43.000",
-  "EXP": "1.100.000"
- },
- {
   "ID": 368,
   "Monster": "Ghost of Guard in E-Mok Island",
   "Área": "HL",
-  "Level": 81,
-  "HP": "43.000",
-  "EXP": "1.100.000"
- },
- {
-  "ID": 369,
-  "Monster": "Skeleton Archer",
-  "Área": "D5F1",
   "Level": 81,
   "HP": "43.000",
   "EXP": "1.100.000"
@@ -2496,41 +1656,9 @@
   "EXP": "1.300.000"
  },
  {
-  "ID": 371,
-  "Monster": "Banshee",
-  "Área": "D5F2",
-  "Level": 82,
-  "HP": "45.000",
-  "EXP": "1.300.000"
- },
- {
   "ID": 372,
   "Monster": "Sealed Ghost in E-Mok Island",
   "Área": "EMOK",
-  "Level": 82,
-  "HP": "45.000",
-  "EXP": "1.300.000"
- },
- {
-  "ID": 373,
-  "Monster": "Skeleton",
-  "Área": "D5F2",
-  "Level": 82,
-  "HP": "45.000",
-  "EXP": "1.300.000"
- },
- {
-  "ID": 374,
-  "Monster": "Elite Skeleton",
-  "Área": "D5F2",
-  "Level": 82,
-  "HP": "45.000",
-  "EXP": "1.300.000"
- },
- {
-  "ID": 375,
-  "Monster": "Skeleton Archer",
-  "Área": "D5F2",
   "Level": 82,
   "HP": "45.000",
   "EXP": "1.300.000"
@@ -2568,38 +1696,6 @@
   "EXP": "1.500.000"
  },
  {
-  "ID": 380,
-  "Monster": "Banshee",
-  "Área": "D5F3",
-  "Level": 83,
-  "HP": "48.000",
-  "EXP": "1.500.000"
- },
- {
-  "ID": 381,
-  "Monster": "Elite Skeleton",
-  "Área": "D5F3",
-  "Level": 83,
-  "HP": "48.000",
-  "EXP": "1.500.000"
- },
- {
-  "ID": 382,
-  "Monster": "Skeleton",
-  "Área": "D5F3",
-  "Level": 83,
-  "HP": "48.000",
-  "EXP": "1.500.000"
- },
- {
-  "ID": 383,
-  "Monster": "Skeleton Archer",
-  "Área": "D5F3",
-  "Level": 83,
-  "HP": "48.000",
-  "EXP": "1.500.000"
- },
- {
   "ID": 384,
   "Monster": "Gigantic Species Master from Hell",
   "Área": "HL",
@@ -2608,41 +1704,9 @@
   "EXP": "1.700.000"
  },
  {
-  "ID": 385,
-  "Monster": "Elite Skeleton",
-  "Área": "D5F3",
-  "Level": 84,
-  "HP": "51.000",
-  "EXP": "1.700.000"
- },
- {
   "ID": 386,
   "Monster": "Small Brown E-Moogi",
   "Área": "EMOK",
-  "Level": 84,
-  "HP": "51.000",
-  "EXP": "1.700.000"
- },
- {
-  "ID": 387,
-  "Monster": "Skeleton Warrior",
-  "Área": "D5F3",
-  "Level": 84,
-  "HP": "51.000",
-  "EXP": "1.700.000"
- },
- {
-  "ID": 388,
-  "Monster": "Skeleton Archer",
-  "Área": "D5F3",
-  "Level": 84,
-  "HP": "51.000",
-  "EXP": "1.700.000"
- },
- {
-  "ID": 389,
-  "Monster": "Banshee",
-  "Área": "D5F4",
   "Level": 84,
   "HP": "51.000",
   "EXP": "1.700.000"
@@ -2672,49 +1736,9 @@
   "EXP": "1.700.000"
  },
  {
-  "ID": 393,
-  "Monster": "Wraith",
-  "Área": "D5F4",
-  "Level": 85,
-  "HP": "54.000",
-  "EXP": "1.900.000"
- },
- {
   "ID": 394,
   "Monster": "Small Brown E-Moogi",
   "Área": "EMOK",
-  "Level": 85,
-  "HP": "54.000",
-  "EXP": "1.900.000"
- },
- {
-  "ID": 397,
-  "Monster": "Skeleton Archer",
-  "Área": "D5F4",
-  "Level": 85,
-  "HP": "54.000",
-  "EXP": "1.900.000"
- },
- {
-  "ID": 398,
-  "Monster": "Elite Skeleton",
-  "Área": "D5F4",
-  "Level": 85,
-  "HP": "54.000",
-  "EXP": "1.900.000"
- },
- {
-  "ID": 404,
-  "Monster": "Skeleton Warrior",
-  "Área": "D5F4",
-  "Level": 85,
-  "HP": "54.000",
-  "EXP": "1.900.000"
- },
- {
-  "ID": 405,
-  "Monster": "Banshee",
-  "Área": "D5F5",
   "Level": 85,
   "HP": "54.000",
   "EXP": "1.900.000"
@@ -2752,14 +1776,6 @@
   "EXP": "1.900.000"
  },
  {
-  "ID": 411,
-  "Monster": "Demon Monster",
-  "Área": "D4",
-  "Level": 85,
-  "HP": "54.000",
-  "EXP": "1.900.000"
- },
- {
   "ID": 412,
   "Monster": "Gigantic Species Killer",
   "Área": "HL",
@@ -2776,33 +1792,9 @@
   "EXP": "2.200.000"
  },
  {
-  "ID": 414,
-  "Monster": "Wraith",
-  "Área": "D5F5",
-  "Level": 86,
-  "HP": "57.000",
-  "EXP": "2.200.000"
- },
- {
-  "ID": 415,
-  "Monster": "Skeleton Warrior",
-  "Área": "D5F5",
-  "Level": 86,
-  "HP": "57.000",
-  "EXP": "2.200.000"
- },
- {
   "ID": 416,
   "Monster": "Twisted Brown E-Moogi",
   "Área": "EMOK",
-  "Level": 86,
-  "HP": "57.000",
-  "EXP": "2.200.000"
- },
- {
-  "ID": 417,
-  "Monster": "Elite Skeleton",
-  "Área": "D5F6",
   "Level": 86,
   "HP": "57.000",
   "EXP": "2.200.000"
@@ -2824,25 +1816,9 @@
   "EXP": "2.500.000"
  },
  {
-  "ID": 420,
-  "Monster": "Wraith",
-  "Área": "D5F7",
-  "Level": 87,
-  "HP": "61.000",
-  "EXP": "2.500.000"
- },
- {
   "ID": 421,
   "Monster": "Twisted Green E-Moogi",
   "Área": "EMOK",
-  "Level": 87,
-  "HP": "61.000",
-  "EXP": "2.500.000"
- },
- {
-  "ID": 422,
-  "Monster": "Skeleton Warrior",
-  "Área": "D5F6",
   "Level": 87,
   "HP": "61.000",
   "EXP": "2.500.000"
@@ -2885,14 +1861,6 @@
   "Área": "FoE",
   "Level": 88,
   "HP": "100.000",
-  "EXP": "2.800.000"
- },
- {
-  "ID": 428,
-  "Monster": "Skeleton Warrior",
-  "Área": "D5F6",
-  "Level": 88,
-  "HP": "64.000",
   "EXP": "2.800.000"
  },
  {
@@ -3096,33 +2064,9 @@
   "EXP": "4.800.000"
  },
  {
-  "ID": 469,
-  "Monster": "High Class Earth element",
-  "Área": "D5F7",
-  "Level": 92,
-  "HP": "82.000",
-  "EXP": "4.800.000"
- },
- {
   "ID": 470,
   "Monster": "Twisted Demon Patrol",
   "Área": "EMOK",
-  "Level": 92,
-  "HP": "82.000",
-  "EXP": "4.800.000"
- },
- {
-  "ID": 471,
-  "Monster": "High Class Fire element",
-  "Área": "D5F7",
-  "Level": 92,
-  "HP": "82.000",
-  "EXP": "4.800.000"
- },
- {
-  "ID": 472,
-  "Monster": "High Class Wood element",
-  "Área": "D5F7",
   "Level": 92,
   "HP": "82.000",
   "EXP": "4.800.000"
@@ -3152,22 +2096,6 @@
   "EXP": "4.800.000"
  },
  {
-  "ID": 476,
-  "Monster": "High Class Iron element",
-  "Área": "D5F7",
-  "Level": 92,
-  "HP": "82.000",
-  "EXP": "4.800.000"
- },
- {
-  "ID": 478,
-  "Monster": "High Class Water element",
-  "Área": "D5F7",
-  "Level": 92,
-  "HP": "82.000",
-  "EXP": "4.800.000"
- },
- {
   "ID": 479,
   "Monster": "Vicious Wild Boar",
   "Área": "VOD",
@@ -3192,49 +2120,9 @@
   "EXP": "5.400.000"
  },
  {
-  "ID": 482,
-  "Monster": "High Class Wood element",
-  "Área": "D5F8",
-  "Level": 93,
-  "HP": "87.000",
-  "EXP": "5.400.000"
- },
- {
-  "ID": 483,
-  "Monster": "High Class Iron element",
-  "Área": "D5F8",
-  "Level": 93,
-  "HP": "87.000",
-  "EXP": "5.400.000"
- },
- {
   "ID": 484,
   "Monster": "Twisted Demon Defender",
   "Área": "EMOK",
-  "Level": 93,
-  "HP": "87.000",
-  "EXP": "5.400.000"
- },
- {
-  "ID": 485,
-  "Monster": "Security guard of the priest",
-  "Área": "D5F8",
-  "Level": 93,
-  "HP": "87.000",
-  "EXP": "5.400.000"
- },
- {
-  "ID": 486,
-  "Monster": "High Class Fire element",
-  "Área": "D5F8",
-  "Level": 93,
-  "HP": "87.000",
-  "EXP": "5.400.000"
- },
- {
-  "ID": 487,
-  "Monster": "High Class Earth element",
-  "Área": "D5F8",
   "Level": 93,
   "HP": "87.000",
   "EXP": "5.400.000"
@@ -3246,30 +2134,6 @@
   "Level": 93,
   "HP": "87.000",
   "EXP": "5.400.000"
- },
- {
-  "ID": 489,
-  "Monster": "High Class Water element",
-  "Área": "D5F8",
-  "Level": 93,
-  "HP": "87.000",
-  "EXP": "5.400.000"
- },
- {
-  "ID": 490,
-  "Monster": "High Class Iron element",
-  "Área": "D5F9",
-  "Level": 94,
-  "HP": "92.000",
-  "EXP": "6.200.000"
- },
- {
-  "ID": 491,
-  "Monster": "High Class Wood element",
-  "Área": "D5F9",
-  "Level": 94,
-  "HP": "92.000",
-  "EXP": "6.200.000"
  },
  {
   "ID": 492,
@@ -3288,41 +2152,9 @@
   "EXP": "6.200.000"
  },
  {
-  "ID": 494,
-  "Monster": "High Class Security guard of the priest",
-  "Área": "D5F9",
-  "Level": 94,
-  "HP": "92.000",
-  "EXP": "6.200.000"
- },
- {
-  "ID": 495,
-  "Monster": "High Class Water element",
-  "Área": "D5F9",
-  "Level": 94,
-  "HP": "92.000",
-  "EXP": "6.200.000"
- },
- {
-  "ID": 497,
-  "Monster": "High Class Earth element",
-  "Área": "D5F9",
-  "Level": 94,
-  "HP": "92.000",
-  "EXP": "6.200.000"
- },
- {
   "ID": 500,
   "Monster": "Elite Gigantic Species Murderer",
   "Área": "HL",
-  "Level": 94,
-  "HP": "92.000",
-  "EXP": "6.200.000"
- },
- {
-  "ID": 501,
-  "Monster": "High Class Fire element",
-  "Área": "D5F9",
   "Level": 94,
   "HP": "92.000",
   "EXP": "6.200.000"
@@ -3341,22 +2173,6 @@
   "Área": "HL",
   "Level": 95,
   "HP": "98.000",
-  "EXP": "7.100.000"
- },
- {
-  "ID": 506,
-  "Monster": "Illusion of Cheios",
-  "Área": "D4F9",
-  "Level": 95,
-  "HP": "19.000.000",
-  "EXP": "7.100.000"
- },
- {
-  "ID": 507,
-  "Monster": "Illusion of Dunamic",
-  "Área": "D5F9",
-  "Level": 95,
-  "HP": "19.000.000",
   "EXP": "7.100.000"
  },
  {
@@ -3389,62 +2205,6 @@
   "Área": "HL",
   "Level": 95,
   "HP": "98.000",
-  "EXP": "7.100.000"
- },
- {
-  "ID": 512,
-  "Monster": "Fire element master",
-  "Área": "D5 BOSS",
-  "Level": 95,
-  "HP": "1.800.000",
-  "EXP": "7.100.000"
- },
- {
-  "ID": 513,
-  "Monster": "Earth element master",
-  "Área": "D5 BOSS",
-  "Level": 95,
-  "HP": "1.800.000",
-  "EXP": "7.100.000"
- },
- {
-  "ID": 516,
-  "Monster": "Water element master",
-  "Área": "D5 BOSS",
-  "Level": 95,
-  "HP": "1.800.000",
-  "EXP": "7.100.000"
- },
- {
-  "ID": 517,
-  "Monster": "High Class Security guard of the priest",
-  "Área": "D5F9",
-  "Level": 95,
-  "HP": "98.000",
-  "EXP": "7.100.000"
- },
- {
-  "ID": 518,
-  "Monster": "Iron element master",
-  "Área": "D5 BOSS",
-  "Level": 95,
-  "HP": "1.800.000",
-  "EXP": "7.100.000"
- },
- {
-  "ID": 519,
-  "Monster": "Wood element master",
-  "Área": "D5 BOSS",
-  "Level": 95,
-  "HP": "1.800.000",
-  "EXP": "7.100.000"
- },
- {
-  "ID": 520,
-  "Monster": "Guardian of I'Lyer",
-  "Área": "D5F9",
-  "Level": 95,
-  "HP": "19.000.000",
   "EXP": "7.100.000"
  },
  {
@@ -3488,14 +2248,6 @@
   "EXP": "16.000.000"
  },
  {
-  "ID": 528,
-  "Monster": "Guardian of I'Lyer",
-  "Área": "D5F9",
-  "Level": 96,
-  "HP": "24.000.000",
-  "EXP": "16.000.000"
- },
- {
   "ID": 529,
   "Monster": "Summoned Scorpion",
   "Área": "VOD",
@@ -3509,14 +2261,6 @@
   "Área": "VOD",
   "Level": 97,
   "HP": "210.000",
-  "EXP": "18.000.000"
- },
- {
-  "ID": 531,
-  "Monster": "Demon Queen",
-  "Área": "D4 BOSS",
-  "Level": 97,
-  "HP": "64.000.000",
   "EXP": "18.000.000"
  },
  {
@@ -3592,22 +2336,6 @@
   "EXP": "23.000.000"
  },
  {
-  "ID": 544,
-  "Monster": "I'Lyer",
-  "Área": "D5F10",
-  "Level": 99,
-  "HP": "2.700.000",
-  "EXP": "23.000.000"
- },
- {
-  "ID": 551,
-  "Monster": "Dunamic",
-  "Área": "D5 BOSS",
-  "Level": 100,
-  "HP": "120.000.000",
-  "EXP": "26.000.000"
- },
- {
   "ID": 552,
   "Monster": "Knoll's hideaway 4",
   "Área": "VOD",
@@ -3656,14 +2384,6 @@
   "EXP": "26.000.000"
  },
  {
-  "ID": 561,
-  "Monster": "Doggebi Lord",
-  "Área": "D3F9",
-  "Level": 100,
-  "HP": "120.000.000",
-  "EXP": "26.000.000"
- },
- {
   "ID": 563,
   "Monster": "Swamp Zombie (Water)",
   "Área": "aaaaaaaaa",
@@ -3677,14 +2397,6 @@
   "Área": "HL",
   "Level": 100,
   "HP": "750.000",
-  "EXP": "26.000.000"
- },
- {
-  "ID": 567,
-  "Monster": "Cheios",
-  "Área": "D5F10",
-  "Level": 100,
-  "HP": "120.000.000",
   "EXP": "26.000.000"
  },
  {
@@ -4208,36 +2920,12 @@
   "EXP": "350.000.000"
  },
  {
-  "ID": 643,
-  "Monster": "Dungeon Warrior",
-  "Área": "D6F1",
-  "Level": 117,
-  "HP": "440.000",
-  "EXP": "350.000.000"
- },
- {
   "ID": 644,
   "Monster": "Lawless zone Gale Skeleton Warrior (Wind)",
   "Área": "LAWLESS",
   "Level": 117,
   "HP": "440.000",
   "EXP": "350.000.000"
- },
- {
-  "ID": 645,
-  "Monster": "Dungeon Shield Soldier",
-  "Área": "D6F1",
-  "Level": 118,
-  "HP": "460.000",
-  "EXP": "390.000.000"
- },
- {
-  "ID": 646,
-  "Monster": "Dungeon Scout Soldier",
-  "Área": "D6F1",
-  "Level": 119,
-  "HP": "490.000",
-  "EXP": "440.000.000"
  },
  {
   "ID": 648,
@@ -4253,22 +2941,6 @@
   "Área": "VOD",
   "Level": 120,
   "HP": "250.000.000",
-  "EXP": "490.000.000"
- },
- {
-  "ID": 650,
-  "Monster": "Dungeon Shield Soldier",
-  "Área": "D6F2",
-  "Level": 120,
-  "HP": "520.000",
-  "EXP": "490.000.000"
- },
- {
-  "ID": 651,
-  "Monster": "Dungeon combat trooper",
-  "Área": "D6F2",
-  "Level": 120,
-  "HP": "520.000",
   "EXP": "490.000.000"
  },
  {
@@ -4288,14 +2960,6 @@
   "EXP": "490.000.000"
  },
  {
-  "ID": 654,
-  "Monster": "Dungeon Warrior",
-  "Área": "D6F2",
-  "Level": 120,
-  "HP": "520.000",
-  "EXP": "490.000.000"
- },
- {
   "ID": 655,
   "Monster": "Lawless zone Fanatic Magician of Land God (Earth)",
   "Área": "LAWLESS",
@@ -4304,121 +2968,9 @@
   "EXP": "490.000.000"
  },
  {
-  "ID": 656,
-  "Monster": "Dungeon Scout Soldier",
-  "Área": "D6F2",
-  "Level": 120,
-  "HP": "520.000",
-  "EXP": "490.000.000"
- },
- {
-  "ID": 659,
-  "Monster": "Dungeon Ax Soldier",
-  "Área": "D6F2",
-  "Level": 121,
-  "HP": "550.000",
-  "EXP": "550.000.000"
- },
- {
-  "ID": 660,
-  "Monster": "Dungeon Guard",
-  "Área": "D6F2",
-  "Level": 121,
-  "HP": "550.000",
-  "EXP": "550.000.000"
- },
- {
-  "ID": 661,
-  "Monster": "Dungeon Shock Trooper",
-  "Área": "D6F2",
-  "Level": 121,
-  "HP": "550.000",
-  "EXP": "550.000.000"
- },
- {
-  "ID": 663,
-  "Monster": "Elite Dungeon combat trooper",
-  "Área": "D6F2",
-  "Level": 122,
-  "HP": "580.000",
-  "EXP": "620.000.000"
- },
- {
-  "ID": 664,
-  "Monster": "Elite Dungeon Warrior",
-  "Área": "D6F2",
-  "Level": 122,
-  "HP": "580.000",
-  "EXP": "620.000.000"
- },
- {
-  "ID": 665,
-  "Monster": "Elite Dungeon Shock Trooper",
-  "Área": "D6F2",
-  "Level": 122,
-  "HP": "580.000",
-  "EXP": "620.000.000"
- },
- {
-  "ID": 666,
-  "Monster": "Elite Dungeon Ax Soldier",
-  "Área": "D6F2",
-  "Level": 122,
-  "HP": "580.000",
-  "EXP": "620.000.000"
- },
- {
-  "ID": 667,
-  "Monster": "Elite Dungeon Shield Soldier",
-  "Área": "D6F2",
-  "Level": 122,
-  "HP": "580.000",
-  "EXP": "620.000.000"
- },
- {
-  "ID": 668,
-  "Monster": "Elite Dungeon Scout Soldier",
-  "Área": "D6F2",
-  "Level": 122,
-  "HP": "580.000",
-  "EXP": "620.000.000"
- },
- {
-  "ID": 669,
-  "Monster": "Elite Dungeon Guard",
-  "Área": "D6F2",
-  "Level": 122,
-  "HP": "580.000",
-  "EXP": "620.000.000"
- },
- {
-  "ID": 670,
-  "Monster": "Death Harvester (Earth)",
-  "Área": "D6F2.5",
-  "Level": 123,
-  "HP": "620.000",
-  "EXP": "690.000.000"
- },
- {
-  "ID": 671,
-  "Monster": "Ruins Destroyer (Water)",
-  "Área": "D6F2.5",
-  "Level": 123,
-  "HP": "620.000",
-  "EXP": "690.000.000"
- },
- {
   "ID": 672,
   "Monster": "Lawless zone Frozen Skeleton Warrior (Water)",
   "Área": "LAWLESS",
-  "Level": 123,
-  "HP": "620.000",
-  "EXP": "690.000.000"
- },
- {
-  "ID": 673,
-  "Monster": "Shadow Murder (Wind)",
-  "Área": "D6F2.5",
   "Level": 123,
   "HP": "620.000",
   "EXP": "690.000.000"
@@ -4438,46 +2990,6 @@
   "Level": 123,
   "HP": "620.000",
   "EXP": "690.000.000"
- },
- {
-  "ID": 676,
-  "Monster": "Death Lich (Earth)",
-  "Área": "D6F2.5",
-  "Level": 124,
-  "HP": "650.000",
-  "EXP": "780.000.000"
- },
- {
-  "ID": 677,
-  "Monster": "Lord Bisaim (Water)",
-  "Área": "D6F2.5",
-  "Level": 124,
-  "HP": "650.000",
-  "EXP": "780.000.000"
- },
- {
-  "ID": 678,
-  "Monster": "Dungeon Magician",
-  "Área": "D6F2.5",
-  "Level": 124,
-  "HP": "650.000",
-  "EXP": "780.000.000"
- },
- {
-  "ID": 679,
-  "Monster": "Ohgeuma (Wind)",
-  "Área": "D6F2.5",
-  "Level": 124,
-  "HP": "650.000",
-  "EXP": "780.000.000"
- },
- {
-  "ID": 680,
-  "Monster": "Death Knight (Earth)",
-  "Área": "D6F2.5",
-  "Level": 125,
-  "HP": "690.000",
-  "EXP": "870.000.000"
  },
  {
   "ID": 681,
@@ -4510,165 +3022,5 @@
   "Level": 125,
   "HP": "530.000.000",
   "EXP": "870.000.000"
- },
- {
-  "ID": 685,
-  "Monster": "[Elite] Dungeon Knight",
-  "Área": "D6F2.5",
-  "Level": 126,
-  "HP": "730.000",
-  "EXP": "970.000.000"
- },
- {
-  "ID": 686,
-  "Monster": "Dungeon Knight",
-  "Área": "D6F2.5",
-  "Level": 126,
-  "HP": "730.000",
-  "EXP": "970.000.000"
- },
- {
-  "ID": 687,
-  "Monster": "Elite Ruins Destroyer (Water)",
-  "Área": "D6F3",
-  "Level": 127,
-  "HP": "780.000",
-  "EXP": "1.100.000.000"
- },
- {
-  "ID": 688,
-  "Monster": "Elite Shadow Murder (Wind)",
-  "Área": "D6F3",
-  "Level": 127,
-  "HP": "780.000",
-  "EXP": "1.100.000.000"
- },
- {
-  "ID": 689,
-  "Monster": "Elite Death Harvester (Earth)",
-  "Área": "D6F3",
-  "Level": 127,
-  "HP": "780.000",
-  "EXP": "1.100.000.000"
- },
- {
-  "ID": 690,
-  "Monster": "Elite Lord Bisaim (Water)",
-  "Área": "D6F3",
-  "Level": 128,
-  "HP": "820.000",
-  "EXP": "1.200.000.000"
- },
- {
-  "ID": 691,
-  "Monster": "Elite Death Lich (Earth)",
-  "Área": "D6F3",
-  "Level": 128,
-  "HP": "820.000",
-  "EXP": "1.200.000.000"
- },
- {
-  "ID": 692,
-  "Monster": "Elite Ohgeuma (Wind)",
-  "Área": "D6F3",
-  "Level": 128,
-  "HP": "820.000",
-  "EXP": "1.200.000.000"
- },
- {
-  "ID": 693,
-  "Monster": "Elite Death Knight (Earth)",
-  "Área": "D6F3",
-  "Level": 129,
-  "HP": "870.000",
-  "EXP": "1.400.000.000"
- },
- {
-  "ID": 694,
-  "Monster": "[Elite] Dungeon Knight",
-  "Área": "D6F3",
-  "Level": 130,
-  "HP": "920.000",
-  "EXP": "1.500.000.000"
- },
- {
-  "ID": 695,
-  "Monster": "Dungeon Knight",
-  "Área": "D6F3",
-  "Level": 130,
-  "HP": "920.000",
-  "EXP": "1.500.000.000"
- },
- {
-  "ID": 697,
-  "Monster": "Fierce Wolf Doggebi (Earth)",
-  "Área": "D6F2.5",
-  "Level": 124,
-  "HP": "650.000",
-  "EXP": "1.600.000.000"
- },
- {
-  "ID": 698,
-  "Monster": "Fierce Skeleton Soldier (Wind)",
-  "Área": "D6F2.5",
-  "Level": 124,
-  "HP": "650.000",
-  "EXP": "1.600.000.000"
- },
- {
-  "ID": 699,
-  "Monster": "Fierce Doggebi Soldier (Water)",
-  "Área": "D6F2.5",
-  "Level": 124,
-  "HP": "650.000",
-  "EXP": "1.600.000.000"
- },
- {
-  "ID": 700,
-  "Monster": "Fierce Giant Doggebi Soldier (Earth)",
-  "Área": "D6F2.5",
-  "Level": 125,
-  "HP": "690.000",
-  "EXP": "1.700.000.000"
- },
- {
-  "ID": 701,
-  "Monster": "Fierce Skeleton Warrior (Wind)",
-  "Área": "D6F2.5",
-  "Level": 125,
-  "HP": "690.000",
-  "EXP": "1.700.000.000"
- },
- {
-  "ID": 702,
-  "Monster": "Fierce Doggebi Warrior (Water)",
-  "Área": "D6F2.5",
-  "Level": 125,
-  "HP": "690.000",
-  "EXP": "1.700.000.000"
- },
- {
-  "ID": 704,
-  "Monster": "Fierce Doggebi Shaman (Water)",
-  "Área": "D6F2.5",
-  "Level": 126,
-  "HP": "730.000",
-  "EXP": "1.900.000.000"
- },
- {
-  "ID": 705,
-  "Monster": "Fierce Skeleton Dragon (Wind)",
-  "Área": "D6F2.5",
-  "Level": 126,
-  "HP": "730.000",
-  "EXP": "1.900.000.000"
- },
- {
-  "ID": 706,
-  "Monster": "Fierce Giant Doggebi Warrior (Earth)",
-  "Área": "D6F2.5",
-  "Level": 126,
-  "HP": "730.000",
-  "EXP": "1.900.000.000"
  }
 ]
