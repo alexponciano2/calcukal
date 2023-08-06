@@ -3,475 +3,515 @@
 
 @media(max-width: 449px) {
 
-    .link{
-        display: block;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin: 0 auto;
-        margin-top: 20px;
-        padding: 5px 5px 10px 5px;
-        text-decoration: none!important ;
-        border: 1px solid rgb(91, 131, 217);
-        width: 100px;
-        border-radius: 30px;
-        background-color: rgb(228, 236, 255);
-    }
-    
-    .link:hover{
-        background-color:#97d7ff;
-        transform: scale(1.1);
-        color: white;
-    }
-
-    .levelnoob {
-      height: 30px;
-      margin: 0 auto;
-      margin-left: 6px;
-      border-radius: 5px;
-    }
-  
-    .levelforte {
-      height: 30px;
-      margin: 0 auto;
-      margin-left: 10px;
-      margin-top: 5px;
-      border-radius: 5px;
-    }
-  
-    .fontRes {
-      margin-top: 30px;
-      font-size: 1rem;
-      margin-left: 10px;
-    }
-  
-    .monstroNaRange {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 0 auto;
-      overflow: auto;
-      border-collapse: collapse;
-      background-color: rgb(255, 255, 255);
-      color: black;
-    }
-  
-    .buscarMonstros {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-left: 10px;
-      width: 300px;
-      height: 30px;
-      margin-top: 10px;
-  
-    }
-  
-    thead th {
-      position: sticky;
-      top: 0;
-    }
-  
-    .totaltable {
-      overflow: auto;
-      border-collapse: collapse;
-    }
-  
-    .formulario {
-      /* display: flex; */
-      /* justify-content: space-around; */
-      /* align-items: center; */
-      margin: auto;
-      text-align: center;
-    }
-  
-    .buscarMonstros {
-      margin: auto;
-      margin-top: 20px;
-      width: 300px;
-      height: 50px;
-      border-radius: 30px;
-      font-size: 1.1rem;
-    }
+  .link {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 5px 5px 10px 5px;
+    text-decoration: none !important;
+    border: 1px solid rgb(91, 131, 217);
+    width: 100px;
+    border-radius: 30px;
+    background-color: rgb(228, 236, 255);
   }
-  
-  @media(min-width: 450px) and (max-width: 767px) {
 
-    .link{
-        display: block;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin: 0 auto;
-        margin-top: 20px;
-        padding: 5px 5px 10px 5px;
-        text-decoration: none!important ;
-        border: 1px solid rgb(91, 131, 217);
-        width: 100px;
-        border-radius: 30px;
-        background-color: rgb(228, 236, 255);
-    }
-    
-    .link:hover{
-        background-color:#97d7ff;
-        transform: scale(1.1);
-        color: white;
-    }
-    
-    .levelnoob {
-      height: 30px;
-      margin: 0 auto;
-      margin-left: 6px;
-      border-radius: 5px;
-    }
-  
-    .levelforte {
-      height: 30px;
-      margin: 0 auto;
-      margin-left: 10px;
-      margin-top: 5px;
-      border-radius: 5px;
-    }
-  
-    .fontRes {
-      margin-top: 30px;
-      font-size: 1rem;
-      margin-left: 10px;
-    }
-  
-    .monstroNaRange {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 0 auto;
-      padding-top: 10px;
-      overflow: auto;
-      border-collapse: collapse;
-      background-color: rgb(255, 255, 255);
-      color: black;
-    }
-  
-    .buscarMonstros {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-left: 10px;
-      width: 300px;
-      height: 30px;
-      margin-top: 10px;
-  
-    }
-  
-    thead th {
-      position: sticky;
-      top: 0;
-    }
-  
-    .totaltable {
-      overflow: auto;
-      border-collapse: collapse;
-    }
-  
-    .formulario {
-      /* display: flex; */
-      /* justify-content: space-around; */
-      /* align-items: center; */
-      margin: auto;
-      text-align: center;
-    }
-  
-    .buscarMonstros {
-      margin: auto;
-      margin-top: 20px;
-      width: 300px;
-      height: 50px;
-      border-radius: 30px;
-      font-size: 1.1rem;
-    }
+  .link:hover {
+    background-color: #97d7ff;
+    transform: scale(1.1);
+    color: white;
   }
-  
-  @media (min-width: 768px) and (max-width: 991px) {
 
-    .link{
-        display: block;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin: 0 auto;
-        margin-top: 7px;
-        margin-left: 20px;
-        padding: 5px 5px 10px 5px;
-        text-decoration: none!important ;
-        border: 1px solid rgb(91, 131, 217);
-        width: 100px;
-        border-radius: 30px;
-        background-color: rgb(228, 236, 255);
-    }
-    
-    .link:hover{
-        background-color:#97d7ff;
-        transform: scale(1.1);
-        color: white;
-    }
-    
-    .levelnoob {
-      height: 30px;
-      margin: 0 auto;
-      margin-left: 6px;
-      border-radius: 5px;
-    }
-  
-    .levelforte {
-      height: 30px;
-      margin: 0 auto;
-      margin-left: 10px;
-      margin-top: 5px;
-      border-radius: 5px;
-    }
-  
-    .fontRes {
-      margin-top: 30px;
-      font-size: 1rem;
-      margin-left: 10px;
-    }
-  
-    .monstroNaRange {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 0 auto;
-      padding-top: 10px;
-      overflow: auto;
-      border-collapse: collapse;
-      background-color: rgb(255, 255, 255);
-      color: black;
-    }
-  
-    .buscarMonstros {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-left: 10px;
-      width: 200px;
-      height: 30px;
-      margin-top: 10px;
-  
-    }
-  
-    thead th {
-      position: sticky;
-      top: 0;
-    }
-  
-    .totaltable {
-      overflow: auto;
-      border-collapse: collapse;
-    }
-  
-    .formulario {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      margin: auto;
-      text-align: center;
-    }
-  
-    .buscarMonstros {
-      margin: auto;
-      margin-top: 10px;
-      width: 300px;
-      height: 50px;
-      border-radius: 30px;
-      font-size: 1.1rem;
-    }
+  .levelnoob {
+    height: 30px;
+    margin: 0 auto;
+    margin-left: 6px;
+    border-radius: 5px;
   }
-  
-  @media (min-width: 992px) and (max-width: 1199px) {
 
-    .link{
-        display: block;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin: 0 auto;
-        margin-top: 7px;
-        margin-left: 20px;
-        padding: 5px 5px 10px 5px;
-        text-decoration: none!important ;
-        border: 1px solid rgb(91, 131, 217);
-        width: 100px;
-        border-radius: 30px;
-        background-color: rgb(228, 236, 255);
-    }
-    
-    .link:hover{
-        background-color:#97d7ff;
-        transform: scale(1.1);
-        color: white;
-    }
-    
-    .levelnoob {
-      height: 30px;
-      margin: 0 auto;
-      margin-left: 6px;
-      border-radius: 5px;
-    }
-  
-    .levelforte {
-      height: 30px;
-      margin: 0 auto;
-      margin-left: 10px;
-      margin-top: 5px;
-      border-radius: 5px;
-    }
-  
-    .fontRes {
-      margin-top: 30px;
-      font-size: 1rem;
-      margin-left: 10px;
-    }
-  
-    .monstroNaRange {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 0 auto;
-      padding-top: 10px;
-      overflow: auto;
-      border-collapse: collapse;
-      background-color: rgb(255, 255, 255);
-      color: black;
-    }
-  
-    .buscarMonstros {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-left: 10px;
-      width: 200px;
-      height: 30px;
-      margin-top: 15px;  
-    }
-  
-    thead th {
-      position: sticky;
-      top: 0;
-    }
-  
-    .totaltable {
-      overflow: auto;
-      border-collapse: collapse;
-    }
-  
-    .formulario {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      margin: auto;
-      text-align: center;
-    }
-  
-    .buscarMonstros {
-      margin: auto;
-      margin-top: 10px;
-      width: 200px;
-      height: 50px;
-      border-radius: 30px;
-      font-size: 1.1rem;
-    }
+  .levelforte {
+    height: 30px;
+    margin: 0 auto;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
   }
-  
-  @media (min-width: 1200px) {
 
-    .link{
-        display: block;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin: 0 auto;
-        margin-top: 7px;
-        margin-left: 20px;
-        padding: 5px 5px 10px 5px;
-        text-decoration: none!important ;
-        border: 1px solid rgb(91, 131, 217);
-        width: 100px;
-        border-radius: 30px;
-        background-color: rgb(228, 236, 255);
-    }
-    
-    .link:hover{
-        background-color:#97d7ff;
-        transform: scale(1.1);
-        color: white;
-    }
-     
-    .levelnoob {
-      height: 30px;
-      margin: 0 auto;
-      margin-left: 6px;
-      border-radius: 5px;
-    }
-  
-    .levelforte {
-      height: 30px;
-      margin: 0 auto;
-      margin-left: 10px;
-      margin-top: 5px;
-      border-radius: 5px;
-    }
-  
-    .fontRes {
-      margin-top: 30px;
-      font-size: 1rem;
-      margin-left: 10px;
-    }
-  
-    .monstroNaRange {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 0 auto;
-      padding-top: 10px;
-      overflow: auto;
-      border-collapse: collapse;
-      background-color: rgb(255, 255, 255);
-      color: black;
-    }
-  
-    .buscarMonstros {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: 10px;
-        width: 200px;
-        height: 30px;
-        margin-top: 15px;        
-    }
-  
-    thead th {
-      position: sticky;
-      top: 0;
-    }
-  
-    .totaltable {
-      overflow: auto;
-      border-collapse: collapse;
-    }
-  
-    .formulario {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      margin: auto;
-      text-align: center;
-    }
-  
-    .buscarMonstros {
-      margin: auto;
-      margin-top: 10px;
-      width: 200px;
-      height: 50px;
-      border-radius: 30px;
-      font-size: 1.1rem;
-    }
+  .fontRes {
+    margin-top: 30px;
+    font-size: 1rem;
+    margin-left: 10px;
   }
+
+  .monstroNaRange {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    overflow: auto;
+    border-collapse: collapse;
+    background-color: rgb(255, 255, 255);
+    color: black;
+  }
+
+  .buscarMonstros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;
+
+  }
+
+  thead th {
+    position: sticky;
+    top: 0;
+  }
+
+  .totaltable {
+    overflow: auto;
+    border-collapse: collapse;
+  }
+
+  .formulario {
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    margin: auto;
+    text-align: center;
+  }
+
+  .buscarMonstros {
+    margin: auto;
+    margin-top: 20px;
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 1.1rem;
+  }
+
+  .buscarMonstros:hover {
+    cursor: pointer;
+    background-color: #e3e3e3;
+    transform: scale(1.05);
+    color: rgb(0, 0, 0);
+    transition: 0.8s;
+  }
+}
+
+@media(min-width: 450px) and (max-width: 767px) {
+
+  .link {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 5px 5px 10px 5px;
+    text-decoration: none !important;
+    border: 1px solid rgb(91, 131, 217);
+    width: 100px;
+    border-radius: 30px;
+    background-color: rgb(228, 236, 255);
+  }
+
+  .link:hover {
+    background-color: #97d7ff;
+    transform: scale(1.1);
+    color: white;
+  }
+
+  .levelnoob {
+    height: 30px;
+    margin: 0 auto;
+    margin-left: 6px;
+    border-radius: 5px;
+  }
+
+  .levelforte {
+    height: 30px;
+    margin: 0 auto;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+
+  .fontRes {
+    margin-top: 30px;
+    font-size: 1rem;
+    margin-left: 10px;
+  }
+
+  .monstroNaRange {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 10px;
+    overflow: auto;
+    border-collapse: collapse;
+    background-color: rgb(255, 255, 255);
+    color: black;
+  }
+
+  .buscarMonstros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;
+
+  }
+
+  thead th {
+    position: sticky;
+    top: 0;
+  }
+
+  .totaltable {
+    overflow: auto;
+    border-collapse: collapse;
+  }
+
+  .formulario {
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    margin: auto;
+    text-align: center;
+  }
+
+  .buscarMonstros {
+    margin: auto;
+    margin-top: 20px;
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 1.1rem;
+  }
+
+  .buscarMonstros:hover {
+    cursor: pointer;
+    background-color: #e3e3e3;
+    transform: scale(1.05);
+    color: rgb(0, 0, 0);
+    transition: 0.8s;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .link {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 7px;
+    margin-left: 20px;
+    padding: 5px 5px 10px 5px;
+    text-decoration: none !important;
+    border: 1px solid rgb(91, 131, 217);
+    width: 100px;
+    border-radius: 30px;
+    background-color: rgb(228, 236, 255);
+  }
+
+  .link:hover {
+    background-color: #97d7ff;
+    transform: scale(1.1);
+    color: white;
+  }
+
+  .levelnoob {
+    height: 30px;
+    margin: 0 auto;
+    margin-left: 6px;
+    border-radius: 5px;
+  }
+
+  .levelforte {
+    height: 30px;
+    margin: 0 auto;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+
+  .fontRes {
+    margin-top: 30px;
+    font-size: 1rem;
+    margin-left: 10px;
+  }
+
+  .monstroNaRange {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 10px;
+    overflow: auto;
+    border-collapse: collapse;
+    background-color: rgb(255, 255, 255);
+    color: black;
+  }
+
+  .buscarMonstros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    width: 200px;
+    height: 30px;
+    margin-top: 10px;
+
+  }
+
+  thead th {
+    position: sticky;
+    top: 0;
+  }
+
+  .totaltable {
+    overflow: auto;
+    border-collapse: collapse;
+  }
+
+  .formulario {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+  }
+
+  .buscarMonstros {
+    margin: auto;
+    margin-top: 10px;
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 1.1rem;
+  }
+
+  .buscarMonstros:hover {
+    cursor: pointer;
+    background-color: #e3e3e3;
+    transform: scale(1.05);
+    color: rgb(0, 0, 0);
+    transition: 0.8s;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  .link {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 7px;
+    margin-left: 20px;
+    padding: 5px 5px 10px 5px;
+    text-decoration: none !important;
+    border: 1px solid rgb(91, 131, 217);
+    width: 100px;
+    border-radius: 30px;
+    background-color: rgb(228, 236, 255);
+  }
+
+  .link:hover {
+    background-color: #97d7ff;
+    transform: scale(1.1);
+    color: white;
+  }
+
+  .levelnoob {
+    height: 30px;
+    margin: 0 auto;
+    margin-left: 6px;
+    border-radius: 5px;
+  }
+
+  .levelforte {
+    height: 30px;
+    margin: 0 auto;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+
+  .fontRes {
+    margin-top: 30px;
+    font-size: 1rem;
+    margin-left: 10px;
+  }
+
+  .monstroNaRange {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 10px;
+    overflow: auto;
+    border-collapse: collapse;
+    background-color: rgb(255, 255, 255);
+    color: black;
+  }
+
+  .buscarMonstros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    width: 200px;
+    height: 30px;
+    margin-top: 15px;
+  }
+
+  thead th {
+    position: sticky;
+    top: 0;
+  }
+
+  .totaltable {
+    overflow: auto;
+    border-collapse: collapse;
+  }
+
+  .formulario {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+  }
+
+  .buscarMonstros {
+    margin: auto;
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 1.1rem;
+  }
+
+  .buscarMonstros:hover {
+    cursor: pointer;
+    background-color: #e3e3e3;
+    transform: scale(1.05);
+    color: rgb(0, 0, 0);
+    transition: 0.8s;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .link {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 7px;
+    margin-left: 20px;
+    padding: 5px 5px 10px 5px;
+    text-decoration: none !important;
+    border: 1px solid rgb(91, 131, 217);
+    width: 100px;
+    border-radius: 30px;
+    background-color: rgb(228, 236, 255);
+  }
+
+  .link:hover {
+    background-color: #97d7ff;
+    transform: scale(1.1);
+    color: white;
+  }
+
+  .levelnoob {
+    height: 30px;
+    margin: 0 auto;
+    margin-left: 6px;
+    border-radius: 5px;
+  }
+
+  .levelforte {
+    height: 30px;
+    margin: 0 auto;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+
+  .fontRes {
+    margin-top: 30px;
+    font-size: 1rem;
+    margin-left: 10px;
+  }
+
+  .monstroNaRange {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 10px;
+    overflow: auto;
+    border-collapse: collapse;
+    background-color: rgb(255, 255, 255);
+    color: black;
+  }
+
+  .buscarMonstros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    width: 200px;
+    height: 30px;
+    margin-top: 15px;
+  }
+
+  thead th {
+    position: sticky;
+    top: 0;
+  }
+
+  .totaltable {
+    overflow: auto;
+    border-collapse: collapse;
+  }
+
+  .formulario {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+  }
+
+  .buscarMonstros {
+    margin: auto;
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 1.1rem;
+  }
+
+  .buscarMonstros:hover {
+    cursor: pointer;
+    background-color: #e3e3e3;
+    transform: scale(1.05);
+    color: rgb(0, 0, 0);
+    transition: 0.8s;
+  }
+}

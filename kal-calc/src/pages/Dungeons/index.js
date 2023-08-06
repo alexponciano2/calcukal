@@ -13,10 +13,11 @@ function Dungeons() {
   const [monstersInRange, setMonstersInRange] = useState([]);
 
   const handleSubmit = (event) => {
-    event.preventDefault();
-
     // Limpa o estado monstersInRange
     setMonstersInRange([""]);
+    
+    event.preventDefault();
+
 
     // CONFERE SE O LVL DO NOOB É MENOR QUE O LVL DO FORTE
     if (parseInt(noobLevel) > parseInt(strongLevel)) {
