@@ -2218,7 +2218,7 @@
  {
   "ID": 524,
   "Monster": "Vicious Wolf",
-  "Área": "VOD",
+  "Área": "EMOK",
   "Level": 96,
   "HP": "130.000",
   "EXP": "16.000.000"
@@ -2306,7 +2306,7 @@
  {
   "ID": 540,
   "Monster": "Vicious Knoll",
-  "Área": "VOD",
+  "Área": "EMOK",
   "Level": 99,
   "HP": "150.000",
   "EXP": "23.000.000"
@@ -2322,7 +2322,7 @@
  {
   "ID": 542,
   "Monster": "A Thousand year old E-Moogi",
-  "Área": "EMOK BOSS",
+  "Área": "EMOK",
   "Level": 99,
   "HP": "110.000.000",
   "EXP": "23.000.000"
@@ -2336,17 +2336,9 @@
   "EXP": "23.000.000"
  },
  {
-  "ID": 552,
-  "Monster": "Knoll's hideaway 4",
-  "Área": "VOD",
-  "Level": 100,
-  "HP": "2.800.000",
-  "EXP": "26.000.000"
- },
- {
   "ID": 554,
   "Monster": "Twisted Imperial Demon Commander",
-  "Área": "EMOK BOSS",
+  "Área": "EMOK",
   "Level": 100,
   "HP": "160.000",
   "EXP": "26.000.000"
@@ -2354,33 +2346,9 @@
  {
   "ID": 555,
   "Monster": "Twisted Demon soldier",
-  "Área": "EMOK BOSS",
+  "Área": "EMOK",
   "Level": 100,
   "HP": "160.000",
-  "EXP": "26.000.000"
- },
- {
-  "ID": 556,
-  "Monster": "Knoll's hideaway 2",
-  "Área": "VOD",
-  "Level": 100,
-  "HP": "2.800.000",
-  "EXP": "26.000.000"
- },
- {
-  "ID": 557,
-  "Monster": "Knoll's hideaway 3",
-  "Área": "VOD",
-  "Level": 100,
-  "HP": "2.800.000",
-  "EXP": "26.000.000"
- },
- {
-  "ID": 560,
-  "Monster": "Knoll's hideaway 1",
-  "Área": "VOD",
-  "Level": 100,
-  "HP": "2.800.000",
   "EXP": "26.000.000"
  },
  {
