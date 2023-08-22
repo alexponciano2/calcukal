@@ -56,9 +56,6 @@
     margin-left: 5px;
   }
 
-  .image:hover{
-    transition-duration: 1s;
-  }
 
   .guia {
     font-size: 1.5rem;
@@ -114,9 +111,6 @@
     margin-left: 5px;
   }
 
-  .image:hover{
-    transition-duration: 1s;
-  }
 
   .guia {
     font-size: 1.5rem;
@@ -171,10 +165,6 @@
     margin-left: 5px;
   }
 
-  .image:hover{
-    transform: scale(2.5);
-    transition-duration: 1s;
-  }
 
   .guia {
     font-size: 1.5rem;
@@ -230,7 +220,7 @@
   }
 
   .image:hover{
-    transform: scale(2.5);
+    transform: scale(1.5);
     transition-duration: 1s;
   }
 
