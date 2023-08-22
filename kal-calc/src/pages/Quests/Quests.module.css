@@ -153,8 +153,8 @@
     border: 1px solid rgb(186, 186, 186);
     border-radius: 5px;
     padding: 3px;
-    margin-bottom: 10px;
-    box-shadow: 1px 1px 2px black;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 2px rgb(118, 118, 118);
   }
 
   .dungeon,
