@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import Dungeons from "./pages/Dungeons"
 import WorldMap from "./pages/WorldMap"
 import PageNotFound from "./pages/PageNotFound";
+import Quests from "./pages/Quests";
 
 function AppRoutes() {
     return (
@@ -11,6 +12,7 @@ function AppRoutes() {
             <Route path="/" element={ <Home /> } ></Route>
             <Route path="/dungeons" element={ <Dungeons /> } ></Route>
             <Route path="/worldmap" element={ <WorldMap /> } ></Route>
+            <Route path="/quests" element={ <Quests /> } ></Route>
             <Route path="*" element={ <PageNotFound /> } ></Route>
         </Routes>
     </BrowserRouter>

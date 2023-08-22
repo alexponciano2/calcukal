@@ -5,24 +5,26 @@
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;    
   }
-/* 
+
+  .card {
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: 5px;
+  }
+
   .dungeon {
     padding-bottom: 10px;
   }
 
   .world {
     padding-top: 10px;
-  } */
+  }
 
   .dungeon,
-  .world, .quests {
-    background-color: rgb(211, 211, 211);
+  .world {
     width: 200px;
     border-radius: 50%;
-    border: 1px solid rgb(152, 152, 152);
     margin: 0 15px;
   }
 
@@ -48,10 +50,13 @@
     margin-top: 50px;
   }
 
+  .card {
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: 5px;
+  }
+
   .dungeon,
-  .world, .quests {
-    background-color: rgb(211, 211, 211);
-    border: 1px solid rgb(152, 152, 152);
+  .world {
     width: 195px;
     border-radius: 50%;
     margin: 0 15px;
@@ -68,12 +73,6 @@
     border: 5px solid rgb(189, 255, 189);
     transition-duration: 1s;
   }
-
-  .quests:hover {
-    transform: scale(1.05);
-    border: 5px solid rgb(189, 255, 189);
-    transition-duration: 1s;
-  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -84,10 +83,13 @@
     margin-top: 100px;
   }
 
+  .card {
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: 5px;
+  }
+
   .dungeon,
-  .world, .quests {
-    background-color: rgb(211, 211, 211);
-    border: 1px solid rgb(152, 152, 152);
+  .world {
     width: 295px;
     border-radius: 50%;
     margin: 0 25px;
@@ -104,12 +106,6 @@
     border: 5px solid rgb(189, 255, 189);
     transition-duration: 1s;
   }
-
-  .quests:hover {
-    transform: scale(1.05);
-    border: 5px solid rgb(189, 255, 189);
-    transition-duration: 1s;
-  }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -120,10 +116,13 @@
     margin-top: 60px;
   }
 
+  .card {
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: 5px;
+  }
+
   .dungeon,
-  .world, .quests {
-    background-color: rgb(211, 211, 211);
-    border: 1px solid rgb(152, 152, 152);
+  .world {
     width: 395px;
     border-radius: 50%;
     margin: 0 35px;
@@ -140,12 +139,6 @@
     border: 5px solid rgb(189, 255, 189);
     transition-duration: 1s;
   }
-
-  .quests:hover {
-    transform: scale(1.05);
-    border: 5px solid rgb(189, 255, 189);
-    transition-duration: 1s;
-  }
 }
 
 @media (min-width: 1200px) {
@@ -156,14 +149,19 @@
     margin-top: 60px;
   }
 
+  .card {
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: 5px;
+    padding: 3px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 2px black;
+  }
+
   .dungeon,
-  .world, .quests {
-    background-color: rgb(211, 211, 211);
-    border: 1px solid rgb(152, 152, 152);
-    width: 295px;
+  .world {
+    width: 395px;
     border-radius: 50%;
     margin: 0 45px;
-    margin-top: 20px;
   }
 
   .dungeon:hover {
@@ -178,9 +176,19 @@
     transition-duration: 1s;
   }
 
-  .quests:hover {
-    transform: scale(1.05);
-    border: 5px solid rgb(189, 255, 189);
+  .image {
+    width: 150px;
+    padding: 5px;
+    margin-left: 5px;
+  }
+
+  p{
+    padding: 5px;
+    margin-left: 5px;
+  }
+
+  .image:hover{
+    transform: scale(2.5);
     transition-duration: 1s;
   }
 }
