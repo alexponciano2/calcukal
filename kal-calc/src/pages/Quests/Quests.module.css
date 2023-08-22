@@ -11,6 +11,9 @@
   .card {
     border: 1px solid rgb(186, 186, 186);
     border-radius: 5px;
+    padding: 3px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 2px rgb(118, 118, 118);
   }
 
   .dungeon {
@@ -39,6 +42,30 @@
     border: 5px solid rgb(189, 255, 189);
     transition-duration: 1s;
   }
+
+  .image {
+    width: 300px;
+    padding: 5px;
+    margin-left: 5px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  p{
+    padding: 5px;
+    margin-left: 5px;
+  }
+
+  .image:hover{
+    transform: scale(2.5);
+    transition-duration: 1s;
+  }
+
+  .guia {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 10px;
+  }
 }
 
 @media(min-width: 450px) and (max-width: 767px) {
@@ -53,6 +80,9 @@
   .card {
     border: 1px solid rgb(186, 186, 186);
     border-radius: 5px;
+    padding: 3px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 2px rgb(118, 118, 118);
   }
 
   .dungeon,
@@ -73,6 +103,28 @@
     border: 5px solid rgb(189, 255, 189);
     transition-duration: 1s;
   }
+
+  .image {
+    width: 350px;
+    padding: 5px;
+    margin-left: 5px;
+  }
+
+  p{
+    padding: 5px;
+    margin-left: 5px;
+  }
+
+  .image:hover{
+    transform: scale(2.5);
+    transition-duration: 1s;
+  }
+
+  .guia {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 10px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -86,6 +138,9 @@
   .card {
     border: 1px solid rgb(186, 186, 186);
     border-radius: 5px;
+    padding: 3px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 2px rgb(118, 118, 118);
   }
 
   .dungeon,
@@ -106,6 +161,28 @@
     border: 5px solid rgb(189, 255, 189);
     transition-duration: 1s;
   }
+
+  .image {
+    width: 350px;
+    padding: 5px;
+    margin-left: 5px;
+  }
+
+  p{
+    padding: 5px;
+    margin-left: 5px;
+  }
+
+  .image:hover{
+    transform: scale(2.5);
+    transition-duration: 1s;
+  }
+
+  .guia {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 10px;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -119,6 +196,9 @@
   .card {
     border: 1px solid rgb(186, 186, 186);
     border-radius: 5px;
+    padding: 3px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 2px rgb(118, 118, 118);
   }
 
   .dungeon,
@@ -138,6 +218,28 @@
     transform: scale(1.05);
     border: 5px solid rgb(189, 255, 189);
     transition-duration: 1s;
+  }
+
+  .image {
+    width: 350px;
+    padding: 5px;
+    margin-left: 5px;
+  }
+
+  p{
+    padding: 5px;
+    margin-left: 5px;
+  }
+
+  .image:hover{
+    transform: scale(2.5);
+    transition-duration: 1s;
+  }
+
+  .guia {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 10px;
   }
 }
 
@@ -177,7 +279,7 @@
   }
 
   .image {
-    width: 150px;
+    width: 350px;
     padding: 5px;
     margin-left: 5px;
   }
@@ -188,7 +290,13 @@
   }
 
   .image:hover{
-    transform: scale(2.5);
+    transform: scale(1.5);
     transition-duration: 1s;
+  }
+
+  .guia {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 10px;
   }
 }

@@ -93,6 +93,7 @@ function Quests() {
     <>
       <Header />
       <Container>
+        <div className={styles.guia}>GUIA PARA UPAR DO 1 AO 51</div>
         <div className={styles.card}>
           <p>1- Mendigue 1000 geons e vá para o centro de treinamento(1), fique lá os 30 minutos para pegar level 19</p>
           <p>2- Converse com o npc Chun-Sooin (2) pra iniciar a job</p>
@@ -193,17 +194,16 @@ function Quests() {
 
         <div className={styles.card}>
           <p>35- Estando level 31, vá conversar com o npc Lee-Hwa (35), abra todas as quests level 31</p>
-          <p>36- Mate 50 "Assault Demon Throwing Soldier" (36), 50 "Assault Demon Band" (36) e 50 "Assault Demon Armored Knight (36)</p>
+          <p>36- Mate 50 "Assault Demon Infantry" (36) e 50 "Assault Demon Throwing Soldier" (36)</p>
           <p>37- Entregue as quest de volta no npc Lee-Hwa (35).</p>
           <p>38- Se não tiver upado para o level 33, mate uns monstros em volta até chegar no level 33.</p>
           <img className={styles.image} src={leehwa}></img>
+          <img className={styles.image} src={assaultdemoninfantry}></img>
           <img className={styles.image} src={assaultdemonthrowingsoldier}></img>
-          <img className={styles.image} src={assaultdemonband}></img>
-          <img className={styles.image} src={assaultdemonarmoredknight}></img>
         </div>
 
         <div className={styles.card}>
-          <p>39- Estando ainda level 31, vá conversar com o npc Pae-Woon (39), abra todas as quests level 31</p>
+          <p>39- Estando ainda level 31 ou 32, vá conversar com o npc Pae-Woon (39), abra todas as quests level 31</p>
           <p>40- Mate 50 " Assault Demon Band" (40) e 50 "Assault Demon Armored Knight" (40)</p>
           <p>41- Entregue as quest de volta no npc Pae-Woon (39).</p>
           <p>42- Se não tiver upado para o level 33, mate uns monstros em volta até chegar no level 33.</p>
