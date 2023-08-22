@@ -88,37 +88,37 @@ import chiefguardatmine from '../../pages/Quests/chief_guard_at_mine.png'
 
 
 
-function Quests() {
+function Quests
   return (
     <>
       <Header />
       <Container>
         <div className={styles.guia}>GUIA PARA UPAR DO 1 AO 51</div>
         <div className={styles.card}>
-          <p>1- Mendigue 1000 geons e vá para o centro de treinamento(1), fique lá os 30 minutos para pegar level 19</p>
-          <p>2- Converse com o npc Chun-Sooin (2) pra iniciar a job</p>
+          <p>1- Mendigue 1000 geons e vá para o centro de treinamento fique lá os 30 minutos para pegar level 19</p>
+          <p>2- Converse com o npc Chun-Sooin pra iniciar a job</p>
           <img className={styles.image} src={training}></img>
           <img className={styles.image} src={chunsooin}></img>
         </div>
 
         <div className={styles.card}>
-          <p>3- Vá dropar um stirrup fora de narootuh com o mob "Demon Plunderer" (3)</p>
-          <p>4- Entregue o stirrup para o Chun-Sooin (2) para ganhar um CAVALO</p>
+          <p>3- Vá dropar um stirrup fora de narootuh com o mob "Demon Plunderer" </p>
+          <p>4- Entregue o stirrup para o Chun-Sooin para ganhar um CAVALO</p>
           <img className={styles.image} src={demonplunderer}></img>
           <img className={styles.image} src={chunsooin}></img>
         </div>
 
         <div className={styles.card}>
-          <p>5- Vá conversar com o Guard (5) e mate 3 "Demon Scout" (5) do lado de fora de narootuh</p>
-          <p>6- Vá novamente ate Guard (5) e entregue a quest para ganhar 5 Speed Up Medicines</p>
+          <p>5- Vá conversar com o Guard e mate 3 "Demon Scout" do lado de fora de narootuh</p>
+          <p>6- Vá novamente ate Guard e entregue a quest para ganhar 5 Speed Up Medicines</p>
           <img className={styles.image} src={guardnarooth}></img>
           <img className={styles.image} src={demonscout}></img>
         </div>
 
         <div className={styles.card}>
-          <p>7- Estando level 18, vá conversar com o npc Shin-Woo (7) e abra as quest level 18"</p>
-          <p>8- Mate 20 "Demon Soldier" (8), 20 "Demon Infantry" (8) e 20 "Demon Throwing Soldier" (8)</p>
-          <p>9- Entregue as quests de volta no npc Shin-Woo (7).</p>
+          <p>7- Estando level 18, vá conversar com o npc Shin-Woo e abra as quest level 18"</p>
+          <p>8- Mate 20 "Demon Soldier"  20 "Demon Infantry" e 20 "Demon Throwing Soldier" </p>
+          <p>9- Entregue as quests de volta no npc Shin-Woo </p>
           <p>10- Se não tiver upado para o level 20, mate uns monstros em volta até chegar no level 20.</p>
           <img className={styles.image} src={shinwoo}></img>
           <img className={styles.image} src={demonsoldier}></img>
@@ -127,9 +127,9 @@ function Quests() {
         </div>
 
         <div className={styles.card}>
-          <p>11- Estando level 20, vá conversar com o npc Yeon-Woo (11), abra todas as quests level 20</p>
-          <p>12- Mate 25 "Demon Shock Trooper" (12), 25 "Demon Flag Bearer" (12), 25 "Ferocious Demon Shock Trooper" (12) e 25 "Ferocious Demon Flag Bearer" (12)</p>
-          <p>13- Entregue as quest de volta no npc Yeon-Woo (11).</p>
+          <p>11- Estando level 20, vá conversar com o npc Yeon-Woo , abra todas as quests level 20</p>
+          <p>12- Mate 25 "Demon Shock Trooper" , 25 "Demon Flag Bearer" , 25 "Ferocious Demon Shock Trooper"  e 25 "Ferocious Demon Flag Bearer" </p>
+          <p>13- Entregue as quest de volta no npc Yeon-Woo .</p>
           <p>14- Se não tiver upado para o level 22, mate uns monstros em volta até chegar no level 22.</p>
           <img className={styles.image} src={yeonwoo}></img>
           <img className={styles.image} src={demonshocktrooper}></img>
@@ -139,9 +139,9 @@ function Quests() {
         </div>
 
         <div className={styles.card}>
-          <p>15- Estando level 22, vá conversar com o npc Jim-Phil (15), abra todas as quests level 22</p>
-          <p>16- Mate 30 "Demon Band" (16), 30 "Demon Armored Knight" (16), 30 "Demon Mad Knight" (16) e 30 "Demon Commander (16)"</p>
-          <p>17- Entregue as quest de volta no npc Jim-Phil (15).</p>
+          <p>15- Estando level 22, vá conversar com o npc Jim-Phil , abra todas as quests level 22</p>
+          <p>16- Mate 30 "Demon Band" , 30 "Demon Armored Knight" , 30 "Demon Mad Knight" e 30 "Demon Commander "</p>
+          <p>17- Entregue as quest de volta no npc Jim-Phil .</p>
           <p>18- Se não tiver upado para o level 24, mate uns monstros em volta até chegar no level 24.</p>
           <img className={styles.image} src={jinphill}></img>
           <img className={styles.image} src={demonband}></img>
@@ -151,9 +151,9 @@ function Quests() {
         </div>
 
         <div className={styles.card}>
-          <p>19- Estando level 24, vá conversar com o npc Jae-Hyeok (19), abra todas as quests level 24</p>
-          <p>20- Mate 40 "Elite Demon Mad Knight" (20), 40 "Elite Demon Commander" (20) e 40 "Demon Commander" (16),</p>
-          <p>21- Entregue as quest de volta no npc Jae-Hyeok (19).</p>
+          <p>19- Estando level 24, vá conversar com o npc Jae-Hyeok , abra todas as quests level 24</p>
+          <p>20- Mate 40 "Elite Demon Mad Knight" , 40 "Elite Demon Commander" e 40 "Demon Commander" ,</p>
+          <p>21- Entregue as quest de volta no npc Jae-Hyeok .</p>
           <p>22- Se não tiver upado para o level 25, mate uns monstros em volta até chegar no level 25.</p>
           <img className={styles.image} src={jaehyeok}></img>
           <img className={styles.image} src={elitedemonmadknight}></img>
@@ -162,9 +162,9 @@ function Quests() {
         </div>
 
         <div className={styles.card}>
-          <p>23- Estando level 25, vá conversar com o npc Yeon-Cheol (23), abra todas as quests level 25</p>
-          <p>24- Mate 40 "Big Handed Inhabitant" (24), 40 "Big Handed Slave" (24), 40 "Despair Big Handed Blue Warrior" (24) e 40 "Despair Big Handed Red Warrior" (24)</p>
-          <p>25- Entregue as quest de volta no npc Yeon-Cheol (23).</p>
+          <p>23- Estando level 25, vá conversar com o npc Yeon-Cheol , abra todas as quests level 25</p>
+          <p>24- Mate 40 "Big Handed Inhabitant" , 40 "Big Handed Slave" , 40 "Despair Big Handed Blue Warrior"  e 40 "Despair Big Handed Red Warrior" </p>
+          <p>25- Entregue as quest de volta no npc Yeon-Cheol .</p>
           <p>26- Se não tiver upado para o level 27, mate uns monstros em volta até chegar no level 27.</p>
           <img className={styles.image} src={yeoncheol}></img>
           <img className={styles.image} src={bighandedinhabitant}></img>
@@ -174,17 +174,17 @@ function Quests() {
         </div>
 
         <div className={styles.card}>
-          <p>27- Estando level 27, vá conversar com o npc Chief Guard (27), abra todas as quests level 27</p>
-          <p>28- Mate 50 "Demon Water Dragon" (28), 50 "Hungry Demon Water Dragon" (28), 50 "Demon Water Dragon Predator" (28) e 50 "Demon Water Dragon Commander" (28)</p>
-          <p>29- Entregue as quest de volta no npc Chief Guard (27).</p>
+          <p>27- Estando level 27, vá conversar com o npc Chief Guard , abra todas as quests level 27</p>
+          <p>28- Mate 50 "Demon Water Dragon", 50 "Hungry Demon Water Dragon", 50 "Demon Water Dragon Predator" e 50 "Demon Water Dragon Commander" </p>
+          <p>29- Entregue as quest de volta no npc Chief Guard .</p>
           <p>30- Se não tiver upado para o level 29, mate uns monstros em volta até chegar no level 29.</p>
           <img className={styles.image} src={chiefguardatmine}></img>
         </div>
 
         <div className={styles.card}>
-          <p>31- Estando level 29, vá conversar com o npc Hyeok-Phil (31), abra todas as quests level 29</p>
-          <p>32- Mate 50 "Demon Water Dragon Chained" (32), 50 "Hungry Demon Water Dragon Chained" (32), 50 "Demon Water Dragon Predator Chained" (32) e 50 "Demon Water Dragon Commander Chained" (32)</p>
-          <p>33- Entregue as quest de volta no npc Hyeok-Phil (31).</p>
+          <p>31- Estando level 29, vá conversar com o npc Hyeok-Phil , abra todas as quests level 29</p>
+          <p>32- Mate 50 "Demon Water Dragon Chained", 50 "Hungry Demon Water Dragon Chained", 50 "Demon Water Dragon Predator Chained" e 50 "Demon Water Dragon Commander Chained" </p>
+          <p>33- Entregue as quest de volta no npc Hyeok-Phil .</p>
           <p>34- Se não tiver upado para o level 31, mate uns monstros em volta até chegar no level 31.</p>
           <img className={styles.image} src={demonwaterdragonthechained}></img>
           <img className={styles.image} src={hungrydemonwaterdragonchained}></img>
@@ -193,9 +193,9 @@ function Quests() {
         </div>
 
         <div className={styles.card}>
-          <p>35- Estando level 31, vá conversar com o npc Lee-Hwa (35), abra todas as quests level 31</p>
-          <p>36- Mate 50 "Assault Demon Infantry" (36) e 50 "Assault Demon Throwing Soldier" (36)</p>
-          <p>37- Entregue as quest de volta no npc Lee-Hwa (35).</p>
+          <p>35- Estando level 31, vá conversar com o npc Lee-Hwa, abra todas as quests level 31</p>
+          <p>36- Mate 50 "Assault Demon Infantry" e 50 "Assault Demon Throwing Soldier" </p>
+          <p>37- Entregue as quest de volta no npc Lee-Hwa .</p>
           <p>38- Se não tiver upado para o level 33, mate uns monstros em volta até chegar no level 33.</p>
           <img className={styles.image} src={leehwa}></img>
           <img className={styles.image} src={assaultdemoninfantry}></img>
@@ -203,18 +203,18 @@ function Quests() {
         </div>
 
         <div className={styles.card}>
-          <p>39- Estando ainda level 31 ou 32, vá conversar com o npc Pae-Woon (39), abra todas as quests level 31</p>
-          <p>40- Mate 50 " Assault Demon Band" (40) e 50 "Assault Demon Armored Knight" (40)</p>
-          <p>41- Entregue as quest de volta no npc Pae-Woon (39).</p>
+          <p>39- Estando ainda level 31 ou 32, vá conversar com o npc Pae-Woon , abra todas as quests level 31</p>
+          <p>40- Mate 50 " Assault Demon Band" e 50 "Assault Demon Armored Knight" </p>
+          <p>41- Entregue as quest de volta no npc Pae-Woon .</p>
           <p>42- Se não tiver upado para o level 33, mate uns monstros em volta até chegar no level 33.</p>
           <img className={styles.image} src={assaultdemonband}></img>
           <img className={styles.image} src={assaultdemonarmoredknight}></img>
         </div>
 
         <div className={styles.card}>
-          <p>43- Estando level 33, vá conversar com o npc Ma-Cheol (43), abra todas as quests level 33</p>
-          <p>44- Mate 70 "Castoff Baby Ghost" (44) e 70 "Ghost of Young Man" (44)</p>
-          <p>45- Entregue as quest de volta no npc Ma-Cheol (39).</p>
+          <p>43- Estando level 33, vá conversar com o npc Ma-Cheol, abra todas as quests level 33</p>
+          <p>44- Mate 70 "Castoff Baby Ghost" e 70 "Ghost of Young Man" </p>
+          <p>45- Entregue as quest de volta no npc Ma-Cheol .</p>
           <p>46- Se não tiver upado para o level 34, mate uns monstros em volta até chegar no level 34.</p>
           <img className={styles.image} src={macheol}></img>
           <img className={styles.image} src={castoffbabyghost}></img>
@@ -222,9 +222,9 @@ function Quests() {
         </div>
 
         <div className={styles.card}>
-          <p>47- Estando level 34, vá conversar com o npc Hae-Jin (47), abra todas as quests level 34</p>
-          <p>48- Mate 70 "Ghost of Young Woman " (48), 70 "Ghost of Blacksmith" (48) e 70 "Ghost of Guard" (48)</p>
-          <p>49- Entregue as quest de volta no npc Hae-Jin (47).</p>
+          <p>47- Estando level 34, vá conversar com o npc Hae-Jin, abra todas as quests level 34</p>
+          <p>48- Mate 70 "Ghost of Young Woman ", 70 "Ghost of Blacksmith" e 70 "Ghost of Guard" </p>
+          <p>49- Entregue as quest de volta no npc Hae-Jin .</p>
           <p>50- Se não tiver upado para o level 35, mate uns monstros em volta até chegar no level 35.</p>
           <img className={styles.image} src={haejin}></img>
           <img className={styles.image} src={ghostofyoungwoman}></img>
@@ -233,9 +233,9 @@ function Quests() {
         </div>
 
         <div className={styles.card}>
-          <p>51- Estando level 35, vá conversar com o npc Yeon-Seok (51), abra todas as quests level 35</p>
-          <p>52- Mate 70 "Fellow Traveler to the Other World" (52) e 70 "Sealed Ghost Troop" (52)</p>
-          <p>53- Entregue as quest de volta no npc Yeon-Seok (51).</p>
+          <p>51- Estando level 35, vá conversar com o npc Yeon-Seok, abra todas as quests level 35</p>
+          <p>52- Mate 70 "Fellow Traveler to the Other World" e 70 "Sealed Ghost Troop" </p>
+          <p>53- Entregue as quest de volta no npc Yeon-Seok .</p>
           <p>54- Se não tiver upado para o level 36, mate uns monstros em volta até chegar no level 36.</p>
           <img className={styles.image} src={yeonseok}></img>
           <img className={styles.image} src={fellowtravelertotheotherworld}></img>
@@ -243,9 +243,9 @@ function Quests() {
         </div>
 
         <div className={styles.card}>
-          <p>55- Estando level 36, vá conversar com o npc Kang-Chan (55), abra todas as quests level 37</p>
-          <p>56- Mate 80 "Seaside Hungry Demon Water Dragon" (56), 80 "Seaside Demon Water Dragon Predator" (56) e 80 "Seaside Demon Water Dragon Commander" (56)</p>
-          <p>57- Entregue as quest de volta no npc Kang-Chan (55).</p>
+          <p>55- Estando level 36, vá conversar com o npc Kang-Chan, abra todas as quests level 37</p>
+          <p>56- Mate 80 "Seaside Hungry Demon Water Dragon", 80 "Seaside Demon Water Dragon Predator" e 80 "Seaside Demon Water Dragon Commander" </p>
+          <p>57- Entregue as quest de volta no npc Kang-Chan .</p>
           <p>58- Se não tiver upado para o level 37, mate uns monstros em volta até chegar no level 37.</p>
           <img className={styles.image} src={kangchan}></img>
           <img className={styles.image} src={seasidehungrydemonwaterdragon}></img>
@@ -254,11 +254,11 @@ function Quests() {
         </div>
 
         <div className={styles.card}>
-          <p>59- Estando level 37, vá conversar com o npc Won-Goon (59), abra todas as quests level 37</p>
+          <p>59- Estando level 37, vá conversar com o npc Won-Goon, abra todas as quests level 37</p>
           <p>
-            <p>60- Mate 80 "Ghost of Guard the Chained" (60), 80 "Fellow Traveler to the Other World the Chained" (60), 80 "Sealed Ghost Troop the Chained" (60) e 80 "Sealed Ghost Troop the Chained" (60)</p>
+            <p>60- Mate 80 "Ghost of Guard the Chained", 80 "Fellow Traveler to the Other World the Chained", 80 "Sealed Ghost Troop the Chained" e 80 "Sealed Ghost Troop the Chained" </p>
           </p>
-          <p>61- Entregue as quest de volta no npc Won-Goon (59).</p>
+          <p>61- Entregue as quest de volta no npc Won-Goon .</p>
           <p>62- Se não tiver upado para o level 38, mate uns monstros em volta até chegar no level 38.</p>
           <img className={styles.image} src={wongoon}></img>
           <img className={styles.image} src={ghostofguardthechained}></img>
@@ -267,9 +267,9 @@ function Quests() {
         </div>
 
         <div className={styles.card}>
-          <p>63- Estando level 38, vá conversar com o npc Lee-Yul (63), abra todas as quests level 38</p>
-          <p>64- Mate 90 "Devil Soldier" (64), 90 "Devil Soldier with Twin Blades" (64), 90 "Devil Soldier with Bow" (64) e 90 "Devil Soldier with Sword" (64)</p>
-          <p>65- Entregue as quest de volta no npc Lee-Yul (63).</p>
+          <p>63- Estando level 38, vá conversar com o npc Lee-Yul, abra todas as quests level 38</p>
+          <p>64- Mate 90 "Devil Soldier", 90 "Devil Soldier with Twin Blades", 90 "Devil Soldier with Bow" e 90 "Devil Soldier with Sword" </p>
+          <p>65- Entregue as quest de volta no npc Lee-Yul .</p>
           <p>66- Se não tiver upado para o level 40, mate uns monstros em volta até chegar no level 40.</p>
           <img className={styles.image} src={devilsoldier}></img>
           <img className={styles.image} src={devilsoldierwithtwinblades}></img>
@@ -278,9 +278,9 @@ function Quests() {
         </div>
 
         <div className={styles.card}>
-          <p>67- Estando level 40, vá conversar com o npc Chan-Soo (67), abra todas as quests level 40</p>
-          <p>68- Mate 90 "Devil Soldier with Spear" (68), 90 "1st Devil Monster and 2nd Devil Monster" (68) e 90 "Devil Soldier with Spear" (68)</p>
-          <p>69- Entregue as quest de volta no npc Chan-Soo (67).</p>
+          <p>67- Estando level 40, vá conversar com o npc Chan-Soo, abra todas as quests level 40</p>
+          <p>68- Mate 90 "Devil Soldier with Spear", 90 "1st Devil Monster and 2nd Devil Monster" e 90 "Devil Soldier with Spear" </p>
+          <p>69- Entregue as quest de volta no npc Chan-Soo .</p>
           <p>70- Se não tiver upado para o level 41, mate uns monstros em volta até chegar no level 41.</p>
           <img className={styles.image} src={devilsoldierwithspear}></img>
           <img className={styles.image} src={stand2nddevilmonster}></img>
@@ -288,9 +288,9 @@ function Quests() {
         </div>
 
         <div className={styles.card}>
-          <p>71- Estando level 41, vá conversar com o npc Jae-won (68), abra todas as quests level 41</p>
-          <p>72- Mate 100 "Guardian of Doggebi" (69), 100 "Devil Troop of Desire" (69) e 100 "Doggebi of Monster Face" (69)</p>
-          <p>73- Entregue as quest de volta no npc Jae-won (68).</p>
+          <p>71- Estando level 41, vá conversar com o npc Jae-won, abra todas as quests level 41</p>
+          <p>72- Mate 100 "Guardian of Doggebi" , 100 "Devil Troop of Desire" e 100 "Doggebi of Monster Face" </p>
+          <p>73- Entregue as quest de volta no npc Jae-won .</p>
           <p>74- Se não tiver upado para o level 44, mate uns monstros em volta até chegar no level 44.</p>
           <img className={styles.image} src={jaewon}></img>
           <img className={styles.image} src={guardiandoggebi}></img>
@@ -299,9 +299,9 @@ function Quests() {
         </div>
 
         <div className={styles.card}>
-          <p>75- Estando level 44, vá conversar com o npc Myeong-Hwan (72), abra todas as quests level 44</p>
-          <p>76- Mate 100 "Devil Troop of Pain" (73), 100 "Doggebi with a Gong" (73), 100 "Devil Troop of Greed" (73) e 100 "Drunken Doggebi" (73)</p>
-          <p>77- Entregue as quest de volta no npc Myeong-Hwan (72).</p>
+          <p>75- Estando level 44, vá conversar com o npc Myeong-Hwan, abra todas as quests level 44</p>
+          <p>76- Mate 100 "Devil Troop of Pain", 100 "Doggebi with a Gong", 100 "Devil Troop of Greed" e 100 "Drunken Doggebi" </p>
+          <p>77- Entregue as quest de volta no npc Myeong-Hwan .</p>
           <p>78- Se não tiver upado para o level 47, mate uns monstros em volta até chegar no level 47.</p>
           <img className={styles.image} src={myeonghwan}></img>
           <img className={styles.image} src={deviltroopofpain}></img>
@@ -311,9 +311,9 @@ function Quests() {
         </div>
 
         <div className={styles.card}>
-          <p>79- Estando level 47, vá conversar com o npc Hyeon-Deok (76), abra todas as quests level 47</p>
-          <p>80- Mate 100 "Devil Troop of Jealousy" (77), 100 "Doggebi with a Mask of Black Crow" (77), 100 "Devil Troop of Hatred" (77) e 100 "Doggebi with a Mask of Black Panther" (77)</p>
-          <p>81- Entregue as quest de volta no npc Hyeon-Deok (76).</p>
+          <p>79- Estando level 47, vá conversar com o npc Hyeon-Deok, abra todas as quests level 47</p>
+          <p>80- Mate 100 "Devil Troop of Jealousy" , 100 "Doggebi with a Mask of Black Crow", 100 "Devil Troop of Hatred" e 100 "Doggebi with a Mask of Black Panther" </p>
+          <p>81- Entregue as quest de volta no npc Hyeon-Deok .</p>
           <p>82- Se não tiver upado para o level 50, mate uns monstros em volta até chegar no level 50.</p>
           <img className={styles.image} src={hyeondeok}></img>
           <img className={styles.image} src={deviltroopofjealousy}></img>
@@ -323,9 +323,9 @@ function Quests() {
         </div>
 
         <div className={styles.card}>
-          <p>83- Estando level 50, vá conversar com o npc Jang-Woon (80), abra todas as quests level 50</p>
-          <p>84- Mate 150 "Giant Doggebi" (81), 150 "Devil Troop of Anger" (81) e 150 "Devil Troop of Anger" (81)</p>
-          <p>85- Entregue as quest de volta no npc Jang-Woon (80).</p>
+          <p>83- Estando level 50, vá conversar com o npc Jang-Woon, abra todas as quests level 50</p>
+          <p>84- Mate 150 "Giant Doggebi" , 150 "Devil Troop of Anger" e 150 "Devil Troop of Anger" </p>
+          <p>85- Entregue as quest de volta no npc Jang-Woon .</p>
           <p>86- Se não tiver upado para o level 51, mate uns monstros em volta até chegar no level 51.</p>
           <img className={styles.image} src={jangwoon}></img>
           <img className={styles.image} src={giantdoggebi}></img>
