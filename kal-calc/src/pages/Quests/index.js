@@ -88,7 +88,7 @@ import chiefguardatmine from '../../pages/Quests/chief_guard_at_mine.png'
 
 
 
-function Quests
+function Quests()
   return (
     <>
       <Header />
@@ -336,6 +336,5 @@ function Quests
       <Footer />
     </>
   );
-}
 
 export default Quests;
