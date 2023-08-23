@@ -91,7 +91,6 @@ import chiefguardatmine from '../../pages/Quests/chief_guard_at_mine.png'
 function Quests(){
   return (
     <>
-      <Header />
       <Container>        
         <Link to={`/`} className={styles.link}>Home</Link>
         <div className={styles.primeira}><strong>GUIA PARA UPAR DO 1 AO 51</strong></div>
