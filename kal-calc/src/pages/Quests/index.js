@@ -92,8 +92,20 @@ function Quests(){
   return (
     <>
       <Header />
-      <Container>
-        <div className={styles.guia}>GUIA PARA UPAR DO 1 AO 51</div>
+      <Container>        
+        <Link to={`/`} className={styles.link}>Home</Link>
+        <div className={styles.primeira}><strong>GUIA PARA UPAR DO 1 AO 51</strong></div>
+        <div className={styles.lembrete}>Lembrando que ao pegar uma skill em área, talvez upar matando monstros possa ser mais rápido.</div>
+        <div className={styles.primeira}><strong>Primeira skill em área:</strong></div>
+        <div className={styles.lembrete}><strong>Knight:</strong> Vortex no level 45 (delay: 6s)</div>
+        <div className={styles.lembrete}><strong>Archer:</strong> Blow-up Arrow no level 35 (delay: 5s)</div>
+        <div className={styles.lembrete}><strong>Mage:</strong> Fire Blow no level 33 (delay: 8s)</div>
+        <div className={styles.lembrete}><strong>Thief Hitman:</strong> Strong Sword no level 56 (delay: 7s)</div>
+        <div className={styles.lembrete}><strong>Thief I.S:</strong> Spin Attack no level 50 (delay: 9s)</div>
+        <div className={styles.lembrete}><strong>Shaman:</strong> Hurricane no level 35 (delay: 6s)</div>
+        <div className={styles.lembrete}><strong>Swordtrickster:</strong> Multiple Slash no level 60 (delay: 7s)</div>
+
+        
         <div className={styles.card}>
           <p>1- Mendigue 1000 geons e vá para o centro de treinamento fique lá os 30 minutos para pegar level 19</p>
           <p>2- Converse com o npc Chun-Sooin pra iniciar a job</p>
