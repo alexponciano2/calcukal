@@ -91,7 +91,7 @@
     border: 1px solid rgb(152, 152, 152);
     width: 195px;
     border-radius: 50%;
-    margin: 0 25px;
+    /* margin: 0 25px; */
   }
 
   .dungeon:hover {
