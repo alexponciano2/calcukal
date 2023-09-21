@@ -2688,14 +2688,6 @@
   "EXP": "120.000.000"
  },
  {
-  "ID": 615,
-  "Monster": "Dark Wolf Demon",
-  "Área": "VOD",
-  "Level": 105,
-  "HP": "210.000",
-  "EXP": "120.000.000"
- },
- {
   "ID": 617,
   "Monster": "Lawless zone Gale Zombie (Wind)",
   "Área": "LAWLESS",
