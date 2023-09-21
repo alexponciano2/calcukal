@@ -101,6 +101,36 @@
     color: rgb(0, 0, 0);
     transition: 0.8s;
   }
+
+  .monstroVermelho {
+    background-color: red;
+    color: white;
+  }
+  
+  .monstroLaranja {
+    background-color: orange;
+    color: black;
+  }
+  
+  .monstroAmarelo {
+    background-color: yellow;
+    color: black;
+  }
+  
+  .monstroVerde {
+    background-color: green;
+    color: white;
+  }
+  
+  .monstroAzul {
+    background-color: blue;
+    color: white;
+  }
+  
+  .monstroCinza {
+    background-color: gray;
+    color: white;
+  }
 }
 
 @media(min-width: 450px) and (max-width: 767px) {
@@ -203,6 +233,36 @@
     transform: scale(1.05);
     color: rgb(0, 0, 0);
     transition: 0.8s;
+  }
+
+  .monstroVermelho {
+    background-color: red;
+    color: white;
+  }
+  
+  .monstroLaranja {
+    background-color: orange;
+    color: black;
+  }
+  
+  .monstroAmarelo {
+    background-color: yellow;
+    color: black;
+  }
+  
+  .monstroVerde {
+    background-color: green;
+    color: white;
+  }
+  
+  .monstroAzul {
+    background-color: blue;
+    color: white;
+  }
+  
+  .monstroCinza {
+    background-color: gray;
+    color: white;
   }
 }
 
@@ -309,8 +369,33 @@
     transition: 0.8s;
   }
 
+  .monstroVermelho {
+    background-color: red;
+    color: white;
+  }
+  
+  .monstroLaranja {
+    background-color: orange;
+    color: black;
+  }
+  
+  .monstroAmarelo {
+    background-color: yellow;
+    color: black;
+  }
+  
   .monstroVerde {
-    background-color: rgb(255, 0, 0);
+    background-color: green;
+    color: white;
+  }
+  
+  .monstroAzul {
+    background-color: blue;
+    color: white;
+  }
+  
+  .monstroCinza {
+    background-color: gray;
     color: white;
   }
 }
@@ -417,10 +502,34 @@
     transition: 0.8s;
   }
 
-  .monstroVerde {
+  .monstroVermelho {
     background-color: red;
     color: white;
-
+  }
+  
+  .monstroLaranja {
+    background-color: orange;
+    color: black;
+  }
+  
+  .monstroAmarelo {
+    background-color: yellow;
+    color: black;
+  }
+  
+  .monstroVerde {
+    background-color: green;
+    color: white;
+  }
+  
+  .monstroAzul {
+    background-color: blue;
+    color: white;
+  }
+  
+  .monstroCinza {
+    background-color: gray;
+    color: white;
   }
 }
 
