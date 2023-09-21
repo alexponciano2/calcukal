@@ -8,16 +8,16 @@ import { Link } from "react-router-dom";
 
 
 function WorldMap(){
-  
   const [noobLevel, setNoobLevel] = useState("");
   const [strongLevel, setStrongLevel] = useState("");
   const [monstersInRange, setMonstersInRange] = useState([]);
 
   const handleSubmit = (event) => {
-    event.preventDefault();
-
     // Limpa o estado monstersInRange
     setMonstersInRange([""]);
+
+    event.preventDefault();
+
 
     // CONFERE SE O LVL DO NOOB É MENOR QUE O LVL DO FORTE
     if (parseInt(noobLevel) > parseInt(strongLevel)) {
@@ -57,6 +57,25 @@ function WorldMap(){
     setMonstersInRange(monstersInRange);
   };
 
+  // Função para determinar a classe com base na diferença de níveis
+  function getMonsterBackgroundClass(levelDifference) {
+    if (levelDifference >= 8) {
+      return styles.monstroVermelho;
+    } else if (levelDifference >= 4 && levelDifference <= 7) {
+      return styles.monstroLaranja;
+    } else if (levelDifference >= -3 && levelDifference <= 3) {
+      return styles.monstroAmarelo;
+    } else if (levelDifference >= -5 && levelDifference <= -4) {
+      return styles.monstroVerde;
+    } else if (levelDifference >= -9 && levelDifference <= -6) {
+      return styles.monstroAzul;
+    } else if (levelDifference <= -10) {
+      return styles.monstroCinza;
+    } else {
+      return '';
+    }
+  }
+
   //RENDERIZA EM TELA
   return (
     <>
@@ -93,6 +112,11 @@ function WorldMap(){
 
           {monstersInRange.length > 0 && (
             <div className={styles.fontRes}>
+              <h2>AO MATAR UM MOB "RED" 8 LEVEIS MAIOR, VOCÊ PERDE 40% DA EXP TOTAL</h2>
+              <h2>AO MATAR UM MOB "RED" 7 LEVEIS MAIOR, VOCÊ PERDE 20% DA EXP TOTAL</h2>
+              <h2>ALÉM DISSO, MOBS VERMELHOS SÃO DIFÍCEIS DE ACERTAR </h2>
+              <h2>SEMPRE BUSQUE UPAR EM MOBS LARANJA OU AMARELO!!! </h2>
+
               <h2 className={styles.monstroNaRange}>VOCÊ PODE MATAR OS MONSTROS ABAIXO:</h2>
               <table className={styles.totaltable}>
                 <thead>
@@ -105,19 +129,29 @@ function WorldMap(){
                   </tr>
                 </thead>
                 <tbody>
-                  {monstersInRange.map((JsonData) => (
-                    <tr key={JsonData.Monster}>
-                      <td>{JsonData.Monster}</td>
-                      <td>{JsonData.Level}</td>
-                      <td>{JsonData.Área}</td>
-                      <td>{JsonData.HP}</td>
-                      <td>{JsonData.EXP}</td>
-                    </tr>
-                  ))}
+                  {monstersInRange.map((JsonData) => {
+                    const levelDifference = parseInt(JsonData.Level) - parseInt(noobLevel);
+                    const backgroundClass = getMonsterBackgroundClass(levelDifference);
+
+                    return (
+                      <tr
+                        key={JsonData.Monster}
+                        className={backgroundClass}
+                      >
+                        <td className={backgroundClass}>{JsonData.Monster}</td>
+                        <td className={backgroundClass}>{JsonData.Level}</td>
+                        <td className={backgroundClass}>{JsonData.Área}</td>
+                        <td className={backgroundClass}>{JsonData.HP}</td>
+                        <td className={backgroundClass}>{JsonData.EXP}</td>
+                      </tr>
+                    );
+                  })}
                 </tbody>
               </table>
             </div>
           )}
+
+
 
         </div>
       </Container>
