@@ -59,9 +59,9 @@ function WorldMap(){
 
   // Função para determinar a classe com base na diferença de níveis
   function getMonsterBackgroundClass(levelDifference) {
-    if (levelDifference >= 8) {
+    if (levelDifference >= 7) {
       return styles.monstroVermelho;
-    } else if (levelDifference >= 4 && levelDifference <= 7) {
+    } else if (levelDifference >= 4 && levelDifference <= 6) {
       return styles.monstroLaranja;
     } else if (levelDifference >= -3 && levelDifference <= 3) {
       return styles.monstroAmarelo;
