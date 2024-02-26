@@ -1192,14 +1192,6 @@
   "EXP": "54.000"
  },
  {
-  "ID": 227,
-  "Monster": "Ghost of Guard in E-Mok Island from Hell",
-  "Área": "EMOK",
-  "Level": 65,
-  "HP": "140.000",
-  "EXP": "64.000"
- },
- {
   "ID": 230,
   "Monster": "Experienced Traitor Archer",
   "Área": "HL",
@@ -1232,28 +1224,12 @@
   "EXP": "89.000"
  },
  {
-  "ID": 241,
-  "Monster": "Small Green E-Moogi from Hell",
-  "Área": "EMOK",
-  "Level": 67,
-  "HP": "150.000",
-  "EXP": "89.000"
- },
- {
   "ID": 242,
   "Monster": "Gigantic Species Ignoramus from Hell",
   "Área": "HL",
   "Level": 67,
   "HP": "150.000",
   "EXP": "89.000"
- },
- {
-  "ID": 248,
-  "Monster": "Sealed Ghost in E-Mok Island from Hell",
-  "Área": "EMOK",
-  "Level": 68,
-  "HP": "160.000",
-  "EXP": "110.000"
  },
  {
   "ID": 257,
@@ -1632,14 +1608,6 @@
   "EXP": "1.100.000"
  },
  {
-  "ID": 365,
-  "Monster": "Ghost of Smith in E-Mok Island",
-  "Área": "EMOK",
-  "Level": 81,
-  "HP": "43.000",
-  "EXP": "1.100.000"
- },
- {
   "ID": 368,
   "Monster": "Ghost of Guard in E-Mok Island",
   "Área": "HL",
@@ -1656,28 +1624,12 @@
   "EXP": "1.300.000"
  },
  {
-  "ID": 372,
-  "Monster": "Sealed Ghost in E-Mok Island",
-  "Área": "EMOK",
-  "Level": 82,
-  "HP": "45.000",
-  "EXP": "1.300.000"
- },
- {
   "ID": 376,
   "Monster": "Gigantic Species Archer",
   "Área": "HL",
   "Level": 82,
   "HP": "45.000",
   "EXP": "1.300.000"
- },
- {
-  "ID": 377,
-  "Monster": "Sealed Ghost in E-Mok Island",
-  "Área": "EMOK",
-  "Level": 83,
-  "HP": "48.000",
-  "EXP": "1.500.000"
  },
  {
   "ID": 378,
@@ -1704,25 +1656,9 @@
   "EXP": "1.700.000"
  },
  {
-  "ID": 386,
-  "Monster": "Small Brown E-Moogi",
-  "Área": "EMOK",
-  "Level": 84,
-  "HP": "51.000",
-  "EXP": "1.700.000"
- },
- {
   "ID": 390,
   "Monster": "Gigantic Species Ignoramus",
   "Área": "HL",
-  "Level": 84,
-  "HP": "51.000",
-  "EXP": "1.700.000"
- },
- {
-  "ID": 391,
-  "Monster": "Small Green E-Moogi",
-  "Área": "EMOK",
   "Level": 84,
   "HP": "51.000",
   "EXP": "1.700.000"
@@ -1734,14 +1670,6 @@
   "Level": 84,
   "HP": "51.000",
   "EXP": "1.700.000"
- },
- {
-  "ID": 394,
-  "Monster": "Small Brown E-Moogi",
-  "Área": "EMOK",
-  "Level": 85,
-  "HP": "54.000",
-  "EXP": "1.900.000"
  },
  {
   "ID": 406,
@@ -1768,33 +1696,9 @@
   "EXP": "1.900.000"
  },
  {
-  "ID": 410,
-  "Monster": "Small Green E-Moogi",
-  "Área": "EMOK",
-  "Level": 85,
-  "HP": "54.000",
-  "EXP": "1.900.000"
- },
- {
   "ID": 412,
   "Monster": "Gigantic Species Killer",
   "Área": "HL",
-  "Level": 86,
-  "HP": "57.000",
-  "EXP": "2.200.000"
- },
- {
-  "ID": 413,
-  "Monster": "Twisted Green E-Moogi",
-  "Área": "EMOK",
-  "Level": 86,
-  "HP": "57.000",
-  "EXP": "2.200.000"
- },
- {
-  "ID": 416,
-  "Monster": "Twisted Brown E-Moogi",
-  "Área": "EMOK",
   "Level": 86,
   "HP": "57.000",
   "EXP": "2.200.000"
@@ -1806,22 +1710,6 @@
   "Level": 86,
   "HP": "57.000",
   "EXP": "2.200.000"
- },
- {
-  "ID": 419,
-  "Monster": "Twisted Brown E-Moogi",
-  "Área": "EMOK",
-  "Level": 87,
-  "HP": "61.000",
-  "EXP": "2.500.000"
- },
- {
-  "ID": 421,
-  "Monster": "Twisted Green E-Moogi",
-  "Área": "EMOK",
-  "Level": 87,
-  "HP": "61.000",
-  "EXP": "2.500.000"
  },
  {
   "ID": 423,
@@ -1880,22 +1768,6 @@
   "EXP": "2.800.000"
  },
  {
-  "ID": 431,
-  "Monster": "Twisted Brown E-Moogi",
-  "Área": "EMOK",
-  "Level": 88,
-  "HP": "64.000",
-  "EXP": "2.800.000"
- },
- {
-  "ID": 432,
-  "Monster": "Twisted Green E-Moogi",
-  "Área": "EMOK",
-  "Level": 88,
-  "HP": "64.000",
-  "EXP": "2.800.000"
- },
- {
   "ID": 433,
   "Monster": "Summoned Iron element",
   "Área": "FoE",
@@ -1931,14 +1803,6 @@
   "ID": 437,
   "Monster": "Ferocious Gigantic Species Shock Trooper",
   "Área": "HL",
-  "Level": 89,
-  "HP": "68.000",
-  "EXP": "3.200.000"
- },
- {
-  "ID": 438,
-  "Monster": "Twisted Demon Guard",
-  "Área": "EMOK",
   "Level": 89,
   "HP": "68.000",
   "EXP": "3.200.000"
@@ -1984,14 +1848,6 @@
   "EXP": "3.700.000"
  },
  {
-  "ID": 449,
-  "Monster": "Twisted Demon Patrol",
-  "Área": "EMOK",
-  "Level": 90,
-  "HP": "73.000",
-  "EXP": "3.700.000"
- },
- {
   "ID": 450,
   "Monster": "Furious Gigantic Species Shock Trooper",
   "Área": "HL",
@@ -2003,14 +1859,6 @@
   "ID": 452,
   "Monster": "Savage Gigantic Species Shock Trooper",
   "Área": "HL",
-  "Level": 90,
-  "HP": "73.000",
-  "EXP": "3.700.000"
- },
- {
-  "ID": 454,
-  "Monster": "Twisted Demon Guard",
-  "Área": "EMOK",
   "Level": 90,
   "HP": "73.000",
   "EXP": "3.700.000"
@@ -2032,41 +1880,9 @@
   "EXP": "4.200.000"
  },
  {
-  "ID": 464,
-  "Monster": "Twisted Demon Warrior",
-  "Área": "EMOK",
-  "Level": 91,
-  "HP": "77.000",
-  "EXP": "4.200.000"
- },
- {
-  "ID": 465,
-  "Monster": "Twisted Demon Guard",
-  "Área": "EMOK",
-  "Level": 91,
-  "HP": "77.000",
-  "EXP": "4.200.000"
- },
- {
-  "ID": 466,
-  "Monster": "Twisted Demon Patrol",
-  "Área": "EMOK",
-  "Level": 91,
-  "HP": "77.000",
-  "EXP": "4.200.000"
- },
- {
   "ID": 468,
   "Monster": "Twisted Demon Warrior",
   "Área": "HL",
-  "Level": 92,
-  "HP": "82.000",
-  "EXP": "4.800.000"
- },
- {
-  "ID": 470,
-  "Monster": "Twisted Demon Patrol",
-  "Área": "EMOK",
   "Level": 92,
   "HP": "82.000",
   "EXP": "4.800.000"
@@ -2083,14 +1899,6 @@
   "ID": 474,
   "Monster": "Corrupted Gigantic Species Ignoramus",
   "Área": "HL",
-  "Level": 92,
-  "HP": "82.000",
-  "EXP": "4.800.000"
- },
- {
-  "ID": 475,
-  "Monster": "Twisted Demon Soldier",
-  "Área": "EMOK",
   "Level": 92,
   "HP": "82.000",
   "EXP": "4.800.000"
@@ -2120,38 +1928,6 @@
   "EXP": "5.400.000"
  },
  {
-  "ID": 484,
-  "Monster": "Twisted Demon Defender",
-  "Área": "EMOK",
-  "Level": 93,
-  "HP": "87.000",
-  "EXP": "5.400.000"
- },
- {
-  "ID": 488,
-  "Monster": "Twisted Demon Soldier",
-  "Área": "EMOK",
-  "Level": 93,
-  "HP": "87.000",
-  "EXP": "5.400.000"
- },
- {
-  "ID": 492,
-  "Monster": "Twisted Demon Defender",
-  "Área": "EMOK",
-  "Level": 94,
-  "HP": "92.000",
-  "EXP": "6.200.000"
- },
- {
-  "ID": 493,
-  "Monster": "Twisted Demon Soldier",
-  "Área": "EMOK",
-  "Level": 94,
-  "HP": "92.000",
-  "EXP": "6.200.000"
- },
- {
   "ID": 500,
   "Monster": "Elite Gigantic Species Murderer",
   "Área": "HL",
@@ -2171,22 +1947,6 @@
   "ID": 505,
   "Monster": "Gigantic Species Master",
   "Área": "HL",
-  "Level": 95,
-  "HP": "98.000",
-  "EXP": "7.100.000"
- },
- {
-  "ID": 508,
-  "Monster": "Big Green E-Moogi",
-  "Área": "EMOK",
-  "Level": 95,
-  "HP": "98.000",
-  "EXP": "7.100.000"
- },
- {
-  "ID": 509,
-  "Monster": "Big Brown E-Moogi",
-  "Área": "EMOK",
   "Level": 95,
   "HP": "98.000",
   "EXP": "7.100.000"
@@ -2216,35 +1976,11 @@
   "EXP": "16.000.000"
  },
  {
-  "ID": 524,
-  "Monster": "Vicious Wolf",
-  "Área": "EMOK",
-  "Level": 96,
-  "HP": "130.000",
-  "EXP": "16.000.000"
- },
- {
   "ID": 525,
   "Monster": "Crazy Demon Worker",
   "Área": "VOD",
   "Level": 96,
   "HP": "130.000",
-  "EXP": "16.000.000"
- },
- {
-  "ID": 526,
-  "Monster": "Summoned Twisted Green E-Moogi",
-  "Área": "EMOK",
-  "Level": 96,
-  "HP": "200.000",
-  "EXP": "16.000.000"
- },
- {
-  "ID": 527,
-  "Monster": "Summoned Twisted Brown E-Moogi",
-  "Área": "EMOK",
-  "Level": 96,
-  "HP": "200.000",
   "EXP": "16.000.000"
  },
  {
@@ -2264,25 +2000,9 @@
   "EXP": "18.000.000"
  },
  {
-  "ID": 532,
-  "Monster": "Vicious Bear",
-  "Área": "EMOK",
-  "Level": 97,
-  "HP": "130.000",
-  "EXP": "18.000.000"
- },
- {
   "ID": 535,
   "Monster": "Vicious Master Scorpion",
   "Área": "VOD",
-  "Level": 98,
-  "HP": "140.000",
-  "EXP": "20.000.000"
- },
- {
-  "ID": 536,
-  "Monster": "Twisted Demon Officer of Attack",
-  "Área": "EMOK",
   "Level": 98,
   "HP": "140.000",
   "EXP": "20.000.000"
@@ -2302,54 +2022,6 @@
   "Level": 98,
   "HP": "140.000",
   "EXP": "20.000.000"
- },
- {
-  "ID": 540,
-  "Monster": "Vicious Knoll",
-  "Área": "EMOK",
-  "Level": 99,
-  "HP": "150.000",
-  "EXP": "23.000.000"
- },
- {
-  "ID": 541,
-  "Monster": "Wanderer of sand",
-  "Área": "EMOK",
-  "Level": 99,
-  "HP": "71.000.000",
-  "EXP": "23.000.000"
- },
- {
-  "ID": 542,
-  "Monster": "A Thousand year old E-Moogi",
-  "Área": "EMOK",
-  "Level": 99,
-  "HP": "110.000.000",
-  "EXP": "23.000.000"
- },
- {
-  "ID": 543,
-  "Monster": "Ghost of Dragon",
-  "Área": "EMOK BOSS",
-  "Level": 99,
-  "HP": "110.000.000",
-  "EXP": "23.000.000"
- },
- {
-  "ID": 554,
-  "Monster": "Twisted Imperial Demon Commander",
-  "Área": "EMOK",
-  "Level": 100,
-  "HP": "160.000",
-  "EXP": "26.000.000"
- },
- {
-  "ID": 555,
-  "Monster": "Twisted Demon soldier",
-  "Área": "EMOK",
-  "Level": 100,
-  "HP": "160.000",
-  "EXP": "26.000.000"
  },
  {
   "ID": 563,
@@ -2718,15 +2390,7 @@
   "Level": 110,
   "HP": "290.000",
   "EXP": "130.000.000"
- },
- {
-  "ID": 622,
-  "Monster": "Deadly sand[Mautareta]",
-  "Área": "EMOK BOSS",
-  "Level": 110,
-  "HP": "220.000.000",
-  "EXP": "130.000.000"
- },
+},
  {
   "ID": 624,
   "Monster": "Xill",
@@ -2845,14 +2509,6 @@
   "Área": "VOD",
   "Level": 116,
   "HP": "410.000",
-  "EXP": "290.000.000"
- },
- {
-  "ID": 639,
-  "Monster": "Destructive sand[Mautareta]",
-  "Área": "EMOK BOSS",
-  "Level": 116,
-  "HP": "320.000.000",
   "EXP": "290.000.000"
  },
  {
