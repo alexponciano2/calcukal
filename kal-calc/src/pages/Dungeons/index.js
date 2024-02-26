@@ -112,8 +112,8 @@ function Dungeons() {
 
           {monstersInRange.length > 0 && (
             <div className={styles.fontRes}>
-              <h2>AO MATAR UM MOB "RED" 8 LEVEIS MAIOR, VOCÊ PERDE 40% DA EXP TOTAL</h2>
-              <h2>AO MATAR UM MOB "RED" 7 LEVEIS MAIOR, VOCÊ PERDE 20% DA EXP TOTAL</h2>
+              <h2>AO MATAR UM MOB "VERMELHO" 8 LEVEIS MAIOR, VOCÊ PERDE 40% DA EXP TOTAL</h2>
+              <h2>AO MATAR UM MOB "VERMELHO" 7 LEVEIS MAIOR, VOCÊ PERDE 20% DA EXP TOTAL</h2>
               <h2>ALÉM DISSO, MOBS VERMELHOS SÃO DIFÍCEIS DE ACERTAR </h2>
               <h2>SEMPRE BUSQUE UPAR EM MOBS LARANJA OU AMARELO!!! </h2>
 
