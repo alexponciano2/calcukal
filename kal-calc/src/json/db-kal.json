@@ -703,30 +703,8 @@
   "HP": "8.800",
   "EXP": "3.000"
  },
- {
-  "ID": 95,
-  "Monster": "Summoned Doggebi of Monster Face",
-  "Área": "Forsaken Fort",
-  "Level": 45,
-  "HP": "14.000",
-  "EXP": "3.000"
- },
- {
-  "ID": 96,
-  "Monster": "Summoned Trained Traitor Archer",
-  "Área": "HL",
-  "Level": 46,
-  "HP": "15.000",
-  "EXP": "3.500"
- },
- {
-  "ID": 99,
-  "Monster": "Summoned Trained Traitor Warrior",
-  "Área": "HL",
-  "Level": 46,
-  "HP": "15.000",
-  "EXP": "3.500"
- },
+
+
  {
   "ID": 105,
   "Monster": "Devil Troop of Greed",
@@ -734,14 +712,6 @@
   "Level": 47,
   "HP": "9.500",
   "EXP": "4.000"
- },
- {
-  "ID": 106,
-  "Monster": "Summoned Drunken Doggebi",
-  "Área": "Forsaken Fort",
-  "Level": 48,
-  "HP": "9.800",
-  "EXP": "4.700"
  },
  {
   "ID": 108,
@@ -752,28 +722,12 @@
   "EXP": "4.700"
  },
  {
-  "ID": 113,
-  "Monster": "Summoned Doggebi with a Mask of Black Crow",
-  "Área": "Forsaken Fort",
-  "Level": 49,
-  "HP": "16.000",
-  "EXP": "5.400"
- },
- {
   "ID": 114,
   "Monster": "Doggebi with a Mask of Black Panther",
   "Área": "Forsaken Fort",
   "Level": 49,
   "HP": "10.000",
   "EXP": "5.400"
- },
- {
-  "ID": 117,
-  "Monster": "Summoned Doggebi with a Mask of Black Panther",
-  "Área": "Forsaken Fort",
-  "Level": 50,
-  "HP": "17.000",
-  "EXP": "6.300"
  },
  {
   "ID": 119,
@@ -848,14 +802,6 @@
   "EXP": "6.300"
  },
  {
-  "ID": 132,
-  "Monster": "Summoned Giant Doggebi",
-  "Área": "Forsaken Fort",
-  "Level": 51,
-  "HP": "11.000",
-  "EXP": "7.300"
- },
- {
   "ID": 134,
   "Monster": "Angry Doggebi of Monster Face",
   "Área": "Forsaken Fort",
@@ -880,14 +826,6 @@
   "EXP": "7.300"
  },
  {
-  "ID": 140,
-  "Monster": "Summoned Knight of the Traitor's Hangout",
-  "Área": "HL",
-  "Level": 52,
-  "HP": "18.000",
-  "EXP": "8.400"
- },
- {
   "ID": 143,
   "Monster": "Rotten Skeleton Warrior of the Royal Tomb (Lance)",
   "Área": "PUB",
@@ -899,14 +837,6 @@
   "ID": 144,
   "Monster": "Runabout Skeleton Warrior (Sword)",
   "Área": "PUB",
-  "Level": 52,
-  "HP": "11.000",
-  "EXP": "8.400"
- },
- {
-  "ID": 146,
-  "Monster": "Summoned Guardian of Doggebi",
-  "Área": "Forsaken Fort",
   "Level": 52,
   "HP": "11.000",
   "EXP": "8.400"
@@ -952,14 +882,6 @@
   "EXP": "11.000"
  },
  {
-  "ID": 159,
-  "Monster": "Summoned Chief of Angry Doggebi Troop",
-  "Área": "Forsaken Fort",
-  "Level": 54,
-  "HP": "20.000",
-  "EXP": "11.000"
- },
- {
   "ID": 164,
   "Monster": "Maid of Honor of the Royal Tomb",
   "Área": "PUB",
@@ -989,14 +911,6 @@
   "Área": "PUB",
   "Level": 56,
   "HP": "13.000",
-  "EXP": "15.000"
- },
- {
-  "ID": 176,
-  "Monster": "Summoned Chief of the Traitor's Hangout, Yoong-Gi",
-  "Área": "HL",
-  "Level": 56,
-  "HP": "21.000",
   "EXP": "15.000"
  },
  {
@@ -1061,14 +975,6 @@
   "Área": "PUB",
   "Level": 58,
   "HP": "14.000",
-  "EXP": "21.000"
- },
- {
-  "ID": 193,
-  "Monster": "Summoned The Royal Tomb Keeper",
-  "Área": "PUB",
-  "Level": 58,
-  "HP": "23.000",
   "EXP": "21.000"
  },
  {
@@ -1159,22 +1065,7 @@
   "HP": "18.000",
   "EXP": "46.000"
  },
- {
-  "ID": 221,
-  "Monster": "Summoned Trained Traitor Warrior",
-  "Área": "HL",
-  "Level": 64,
-  "HP": "18.000",
-  "EXP": "54.000"
- },
- {
-  "ID": 222,
-  "Monster": "Summoned Archer of the Traitor's Hangout",
-  "Área": "HL",
-  "Level": 64,
-  "HP": "18.000",
-  "EXP": "54.000"
- },
+
  {
   "ID": 224,
   "Monster": "Experienced Traitor Warrior",
@@ -1207,22 +1098,7 @@
   "HP": "19.000",
   "EXP": "64.000"
  },
- {
-  "ID": 235,
-  "Monster": "Summoned Trained Traitor Archer",
-  "Área": "HL",
-  "Level": 67,
-  "HP": "21.000",
-  "EXP": "89.000"
- },
- {
-  "ID": 240,
-  "Monster": "Summoned Guard of the Traitors Hangout",
-  "Área": "HL",
-  "Level": 67,
-  "HP": "21.000",
-  "EXP": "89.000"
- },
+
  {
   "ID": 242,
   "Monster": "Gigantic Species Ignoramus from Hell",
@@ -1230,14 +1106,6 @@
   "Level": 67,
   "HP": "150.000",
   "EXP": "89.000"
- },
- {
-  "ID": 257,
-  "Monster": "Summoned Gigantic Species Murderer",
-  "Área": "HL",
-  "Level": 70,
-  "HP": "39.000",
-  "EXP": "150.000"
  },
  {
   "ID": 261,
@@ -1488,14 +1356,6 @@
   "EXP": "730.000"
  },
  {
-  "ID": 344,
-  "Monster": "Summoned Minor earth element",
-  "Área": "FoE",
-  "Level": 80,
-  "HP": "65.000",
-  "EXP": "880.000"
- },
- {
   "ID": 346,
   "Monster": "Corrupted wood element",
   "Área": "FoE",
@@ -1551,30 +1411,8 @@
   "HP": "40.000",
   "EXP": "880.000"
  },
- {
-  "ID": 354,
-  "Monster": "Summoned Minor wood element",
-  "Área": "FoE",
-  "Level": 80,
-  "HP": "65.000",
-  "EXP": "880.000"
- },
- {
-  "ID": 355,
-  "Monster": "Summoned Minor iron element",
-  "Área": "FoE",
-  "Level": 80,
-  "HP": "65.000",
-  "EXP": "880.000"
- },
- {
-  "ID": 360,
-  "Monster": "Summoned Minor water element",
-  "Área": "FoE",
-  "Level": 80,
-  "HP": "65.000",
-  "EXP": "880.000"
- },
+
+
  {
   "ID": 361,
   "Monster": "Minor wood element",
@@ -1735,22 +1573,7 @@
   "HP": "61.000",
   "EXP": "2.500.000"
  },
- {
-  "ID": 426,
-  "Monster": "Summoned Fire element",
-  "Área": "FoE",
-  "Level": 88,
-  "HP": "100.000",
-  "EXP": "2.800.000"
- },
- {
-  "ID": 427,
-  "Monster": "Summoned Earth element",
-  "Área": "FoE",
-  "Level": 88,
-  "HP": "100.000",
-  "EXP": "2.800.000"
- },
+
  {
   "ID": 429,
   "Monster": "Savage Gigantic Species Warrior",
@@ -1767,30 +1590,8 @@
   "HP": "64.000",
   "EXP": "2.800.000"
  },
- {
-  "ID": 433,
-  "Monster": "Summoned Iron element",
-  "Área": "FoE",
-  "Level": 88,
-  "HP": "100.000",
-  "EXP": "2.800.000"
- },
- {
-  "ID": 434,
-  "Monster": "Summoned Wood element",
-  "Área": "FoE",
-  "Level": 88,
-  "HP": "100.000",
-  "EXP": "2.800.000"
- },
- {
-  "ID": 435,
-  "Monster": "Summoned Water element",
-  "Área": "FoE",
-  "Level": 88,
-  "HP": "100.000",
-  "EXP": "2.800.000"
- },
+
+
  {
   "ID": 436,
   "Monster": "Ferocious Gigantic Species Archer",
@@ -1984,28 +1785,12 @@
   "EXP": "16.000.000"
  },
  {
-  "ID": 529,
-  "Monster": "Summoned Scorpion",
+  "ID": 525,
+  "Monster": "Crazy Demon Soldier",
   "Área": "VOD",
   "Level": 97,
-  "HP": "210.000",
+  "HP": "130.000",
   "EXP": "18.000.000"
- },
- {
-  "ID": 530,
-  "Monster": "Summoned Wolf",
-  "Área": "VOD",
-  "Level": 97,
-  "HP": "210.000",
-  "EXP": "18.000.000"
- },
- {
-  "ID": 535,
-  "Monster": "Vicious Master Scorpion",
-  "Área": "VOD",
-  "Level": 98,
-  "HP": "140.000",
-  "EXP": "20.000.000"
  },
  {
   "ID": 538,
@@ -2032,22 +1817,6 @@
   "EXP": "26.000.000"
  },
  {
-  "ID": 564,
-  "Monster": "Ifrit",
-  "Área": "HL",
-  "Level": 100,
-  "HP": "750.000",
-  "EXP": "26.000.000"
- },
- {
-  "ID": 571,
-  "Monster": "Ifrit",
-  "Área": "HL",
-  "Level": 101,
-  "HP": "800.000",
-  "EXP": "30.000.000"
- },
- {
   "ID": 572,
   "Monster": "Wolf",
   "Área": "VOD",
@@ -2063,44 +1832,13 @@
   "HP": "170.000",
   "EXP": "30.000.000"
  },
- {
-  "ID": 574,
-  "Monster": "Summoned Master Skeleton Warrior",
-  "Área": "VOD",
-  "Level": 101,
-  "HP": "270.000",
-  "EXP": "30.000.000"
- },
- {
-  "ID": 575,
-  "Monster": "Summoned Master Wraith",
-  "Área": "VOD",
-  "Level": 101,
-  "HP": "270.000",
-  "EXP": "30.000.000"
- },
+
  {
   "ID": 577,
   "Monster": "Elite Skeleton Archer",
   "Área": "VOD",
   "Level": 102,
   "HP": "180.000",
-  "EXP": "34.000.000"
- },
- {
-  "ID": 578,
-  "Monster": "Summoned Master Skeleton Archer",
-  "Área": "VOD",
-  "Level": 102,
-  "HP": "280.000",
-  "EXP": "34.000.000"
- },
- {
-  "ID": 579,
-  "Monster": "Ifrit",
-  "Área": "HL",
-  "Level": 102,
-  "HP": "850.000",
   "EXP": "34.000.000"
  },
  {
@@ -2127,22 +1865,7 @@
   "HP": "180.000",
   "EXP": "34.000.000"
  },
- {
-  "ID": 584,
-  "Monster": "Summoned Gigantic Species Archer",
-  "Área": "HL",
-  "Level": 103,
-  "HP": "300.000",
-  "EXP": "44.000.000"
- },
- {
-  "ID": 585,
-  "Monster": "Summoned Gigantic Species Shock Trooper",
-  "Área": "HL",
-  "Level": 103,
-  "HP": "300.000",
-  "EXP": "44.000.000"
- },
+
  {
   "ID": 586,
   "Monster": "Gale Skeleton Warrior (Wind)",
@@ -2160,76 +1883,12 @@
   "EXP": "44.000.000"
  },
  {
-  "ID": 588,
-  "Monster": "Giant",
-  "Área": "HL",
-  "Level": 103,
-  "HP": "900.000",
-  "EXP": "44.000.000"
- },
- {
   "ID": 589,
   "Monster": "Knoll",
   "Área": "VOD",
   "Level": 103,
   "HP": "190.000",
   "EXP": "44.000.000"
- },
- {
-  "ID": 590,
-  "Monster": "Scorpion",
-  "Área": "VOD",
-  "Level": 104,
-  "HP": "200.000",
-  "EXP": "51.000.000"
- },
- {
-  "ID": 591,
-  "Monster": "Giant",
-  "Área": "HL",
-  "Level": 104,
-  "HP": "960.000",
-  "EXP": "51.000.000"
- },
- {
-  "ID": 592,
-  "Monster": "Summoned Gigantic Species Ignoramus",
-  "Área": "HL",
-  "Level": 104,
-  "HP": "320.000",
-  "EXP": "51.000.000"
- },
- {
-  "ID": 593,
-  "Monster": "Summoned Gigantic Species Berserk",
-  "Área": "HL",
-  "Level": 104,
-  "HP": "320.000",
-  "EXP": "51.000.000"
- },
- {
-  "ID": 594,
-  "Monster": "Summoned Gigantic Species Master",
-  "Área": "HL",
-  "Level": 105,
-  "HP": "340.000",
-  "EXP": "58.000.000"
- },
- {
-  "ID": 595,
-  "Monster": "Giant",
-  "Área": "HL",
-  "Level": 105,
-  "HP": "1.000.000",
-  "EXP": "58.000.000"
- },
- {
-  "ID": 596,
-  "Monster": "Summoned Giant",
-  "Área": "HL",
-  "Level": 105,
-  "HP": "340.000",
-  "EXP": "58.000.000"
  },
  {
   "ID": 597,
@@ -2259,14 +1918,6 @@
   "ID": 602,
   "Monster": "Fanatic warrior of Land God (Earth)",
   "Área": "DEAD PERSON",
-  "Level": 106,
-  "HP": "230.000",
-  "EXP": "66.000.000"
- },
- {
-  "ID": 603,
-  "Monster": "Goblin Conjurator",
-  "Área": "VOD",
   "Level": 106,
   "HP": "230.000",
   "EXP": "66.000.000"
