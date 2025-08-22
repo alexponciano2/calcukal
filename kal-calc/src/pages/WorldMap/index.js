@@ -6,77 +6,73 @@ import JsonData from '../../json/db-kal.json';
 import styles from './WorldMap.module.css';
 import { Link } from "react-router-dom";
 
+// Centraliza constantes para facilitar a manutenção
+const LEVEL_DIFFERENCE_LIMIT = 18;
+const LEVEL_BONUS = 9;
 
-function WorldMap(){
+// Função para determinar a classe com base na diferença de níveis
+// Usando um objeto para mapear as classes, o que é mais limpo e escalável
+const getMonsterBackgroundClass = (levelDifference, style) => {
+  if (levelDifference >= 7) return style.monstroVermelho;
+  if (levelDifference >= 4) return style.monstroLaranja;
+  if (levelDifference >= -3) return style.monstroAmarelo;
+  if (levelDifference >= -5) return style.monstroVerde;
+  if (levelDifference >= -9) return style.monstroAzul;
+  if (levelDifference <= -10) return style.monstroCinza;
+  return '';
+};
+
+// Componente principal
+function WorldMap() {
   const [noobLevel, setNoobLevel] = useState("");
   const [strongLevel, setStrongLevel] = useState("");
   const [monstersInRange, setMonstersInRange] = useState([]);
 
-  const handleSubmit = (event) => {
-    // Limpa o estado monstersInRange
-    setMonstersInRange([""]);
+  // Adiciona estado para exibir mensagens de erro
+  const [error, setError] = useState(null);
 
+  const handleSubmit = (event) => {
     event.preventDefault();
 
+    // Limpa erros e a lista de monstros a cada submissão
+    setError(null);
+    setMonstersInRange([]);
 
-    // CONFERE SE O LVL DO NOOB É MENOR QUE O LVL DO FORTE
-    if (parseInt(noobLevel) > parseInt(strongLevel)) {
-      alert('O level do mais noob não pode ser maior que o do mais forte.');
+    const noob = parseInt(noobLevel, 10);
+    const strong = parseInt(strongLevel, 10);
+
+    // Validação de entrada
+    if (isNaN(noob) || isNaN(strong) || noob <= 0 || strong <= 0) {
+      setError("Por favor, insira níveis válidos (números positivos).");
       return;
     }
 
-    //CALCULA SOMANDO 9 AO LVL DO NOOB E SUBTRAINDO 9 DO FORTE
-    let noobLevelWithBonus = parseInt(noobLevel) + 9;
-    let strongLevelWithPenalty = parseInt(strongLevel) - 9;
-
-    //CALCULA QUAIS MONSTROS PODEM SER MORTOS
-    if (noobLevelWithBonus > strongLevelWithPenalty) {
-      const temp = noobLevelWithBonus;
-      noobLevelWithBonus = strongLevelWithPenalty;
-      strongLevelWithPenalty = temp;
-
-      // alert(
-      //   `VOCÊ PODE MATAR MONSTRO DE LEVEL ${noobLevelWithBonus} A ${strongLevelWithPenalty}.`
-      // );
-    }
-
-    //CONFERE SE A DIFERENÇA DE LEVEIS É MAIOR QUE 18
-    if (Math.abs(strongLevel - noobLevel) > 18) {
-      alert('A diferença entre os níveis não pode ser maior que 18.');
+    if (noob > strong) {
+      setError("O nível do mais noob não pode ser maior que o do mais forte.");
       return;
     }
 
-    //FILTRA OS MONSTROS DE ACORDO COM O RANGE DE LEVEL DOS PLAYERS
-    const monstersInRange = JsonData.filter((JsonData) => {
-      return (
-        JsonData.Level >= noobLevelWithBonus &&
-        JsonData.Level <= strongLevelWithPenalty
-      );
+    if (strong - noob > LEVEL_DIFFERENCE_LIMIT) {
+      setError(`A diferença entre os níveis não pode ser maior que ${LEVEL_DIFFERENCE_LIMIT}.`);
+      return;
+    }
+
+    const minMonsterLevel = noob + LEVEL_BONUS;
+    const maxMonsterLevel = strong - LEVEL_BONUS;
+
+    // Garante que o nível mínimo não seja maior que o máximo
+    const adjustedMinLevel = Math.min(minMonsterLevel, maxMonsterLevel);
+    const adjustedMaxLevel = Math.max(minMonsterLevel, maxMonsterLevel);
+
+    // Filtra os monstros uma única vez
+    const filteredMonsters = JsonData.filter((monster) => {
+      const monsterLevel = monster.Level;
+      return monsterLevel >= adjustedMinLevel && monsterLevel <= adjustedMaxLevel;
     });
 
-    setMonstersInRange(monstersInRange);
+    setMonstersInRange(filteredMonsters);
   };
 
-  // Função para determinar a classe com base na diferença de níveis
-  function getMonsterBackgroundClass(levelDifference) {
-    if (levelDifference >= 7) {
-      return styles.monstroVermelho;
-    } else if (levelDifference >= 4 && levelDifference <= 6) {
-      return styles.monstroLaranja;
-    } else if (levelDifference >= -3 && levelDifference <= 3) {
-      return styles.monstroAmarelo;
-    } else if (levelDifference >= -5 && levelDifference <= -4) {
-      return styles.monstroVerde;
-    } else if (levelDifference >= -9 && levelDifference <= -6) {
-      return styles.monstroAzul;
-    } else if (levelDifference <= -10) {
-      return styles.monstroCinza;
-    } else {
-      return '';
-    }
-  }
-
-  //RENDERIZA EM TELA
   return (
     <>
       <Header />
@@ -88,7 +84,8 @@ function WorldMap(){
               <input
                 maxLength={3}
                 className={styles.levelnoob}
-                type="text"
+                type="number"
+                min="1"
                 value={noobLevel}
                 onChange={(event) => setNoobLevel(event.target.value)}
               />
@@ -99,24 +96,27 @@ function WorldMap(){
               <input
                 maxLength={3}
                 className={styles.levelforte}
-                type="text"
+                type="number"
+                min="1"
                 value={strongLevel}
                 onChange={(event) => setStrongLevel(event.target.value)}
               />
             </label>
             <br />
             <button className={styles.buscarMonstros} type="submit">Buscar monstros</button>
-
-            <Link to={`/`} className={styles.link}>Home</Link>
+            <Link to="/" className={styles.link}>Home</Link>
           </form>
 
+          {/* Exibe mensagem de erro se houver */}
+          {error && <p className={styles.error}>{error}</p>}
+
+          {/* Exibe os resultados apenas se houver monstros na lista */}
           {monstersInRange.length > 0 && (
             <div className={styles.fontRes}>
               <h2>AO MATAR UM MOB "RED" 8 LEVEIS MAIOR, VOCÊ PERDE 40% DA EXP TOTAL</h2>
               <h2>AO MATAR UM MOB "RED" 7 LEVEIS MAIOR, VOCÊ PERDE 20% DA EXP TOTAL</h2>
               <h2>ALÉM DISSO, MOBS VERMELHOS SÃO DIFÍCEIS DE ACERTAR </h2>
               <h2>SEMPRE BUSQUE UPAR EM MOBS LARANJA OU AMARELO!!! </h2>
-
               <h2 className={styles.monstroNaRange}>VOCÊ PODE MATAR OS MONSTROS ABAIXO:</h2>
               <table className={styles.totaltable}>
                 <thead>
@@ -129,20 +129,17 @@ function WorldMap(){
                   </tr>
                 </thead>
                 <tbody>
-                  {monstersInRange.map((JsonData) => {
-                    const levelDifference = parseInt(JsonData.Level) - parseInt(noobLevel);
-                    const backgroundClass = getMonsterBackgroundClass(levelDifference);
+                  {monstersInRange.map((monster) => {
+                    const levelDifference = parseInt(monster.Level) - parseInt(noobLevel);
+                    const backgroundClass = getMonsterBackgroundClass(levelDifference, styles);
 
                     return (
-                      <tr
-                        key={JsonData.Monster}
-                        className={backgroundClass}
-                      >
-                        <td className={backgroundClass}>{JsonData.Monster}</td>
-                        <td className={backgroundClass}>{JsonData.Level}</td>
-                        <td className={backgroundClass}>{JsonData.Área}</td>
-                        <td className={backgroundClass}>{JsonData.HP}</td>
-                        <td className={backgroundClass}>{JsonData.EXP}</td>
+                      <tr key={monster.Monster} className={backgroundClass}>
+                        <td>{monster.Monster}</td>
+                        <td>{monster.Level}</td>
+                        <td>{monster.Área}</td>
+                        <td>{monster.HP}</td>
+                        <td>{monster.EXP}</td>
                       </tr>
                     );
                   })}
@@ -150,9 +147,6 @@ function WorldMap(){
               </table>
             </div>
           )}
-
-
-
         </div>
       </Container>
       <Footer />

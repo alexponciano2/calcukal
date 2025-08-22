@@ -1,12 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 
+/* Estilos globais para a tabela e os inputs, aplicados em todas as resoluções */
+.totaltable {
+  overflow: auto;
+  border-collapse: collapse;
+}
 
+.levelnoob, .levelforte {
+  height: 30px;
+  border-radius: 5px;
+}
+
+.buscarMonstros {
+  border-radius: 30px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.buscarMonstros:hover {
+  background-color: #e3e3e3;
+  transform: scale(1.05);
+  color: rgb(0, 0, 0);
+  transition: 0.8s;
+}
+
+.link:hover {
+  background-color: #97d7ff;
+  transform: scale(1.1);
+  color: white;
+}
+
+/* Regras de cores para os monstros (fora das media queries para maior especificidade) */
+.totaltable tr.monstroVermelho {
+  background-color: red;
+  color: white;
+}
+
+.totaltable tr.monstroLaranja {
+  background-color: orange;
+  color: black;
+}
+
+.totaltable tr.monstroAmarelo {
+  background-color: yellow;
+  color: black;
+}
+
+.totaltable tr.monstroVerde {
+  background-color: green;
+  color: white;
+}
+
+.totaltable tr.monstroAzul {
+  background-color: blue;
+  color: white;
+}
+
+.totaltable tr.monstroCinza {
+  background-color: gray;
+  color: white;
+}
+
+/* Regras CSS para telas pequenas (até 449px) */
 @media(max-width: 449px) {
-
   .link {
     display: block;
-    justify-content: center;
-    align-items: center;
     text-align: center;
     margin: 0 auto;
     margin-top: 20px;
@@ -14,29 +72,15 @@
     text-decoration: none !important;
     border: 1px solid rgb(91, 131, 217);
     width: 100px;
-    border-radius: 30px;
     background-color: rgb(228, 236, 255);
   }
 
-  .link:hover {
-    background-color: #97d7ff;
-    transform: scale(1.1);
-    color: white;
-  }
-
   .levelnoob {
-    height: 30px;
-    margin: 0 auto;
-    margin-left: 6px;
-    border-radius: 5px;
+    margin: 0 auto 0 6px;
   }
 
   .levelforte {
-    height: 30px;
-    margin: 0 auto;
-    margin-left: 10px;
-    margin-top: 5px;
-    border-radius: 5px;
+    margin: 5px auto 0 10px;
   }
 
   .fontRes {
@@ -55,16 +99,12 @@
     background-color: rgb(255, 255, 255);
     color: black;
   }
-
+  
   .buscarMonstros {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 10px;
+    margin: auto;
+    margin-top: 20px;
     width: 300px;
-    height: 30px;
-    margin-top: 10px;
-
+    height: 50px;
   }
 
   thead th {
@@ -72,73 +112,16 @@
     top: 0;
   }
 
-  .totaltable {
-    overflow: auto;
-    border-collapse: collapse;
-  }
-
   .formulario {
-    /* display: flex; */
-    /* justify-content: space-around; */
-    /* align-items: center; */
     margin: auto;
     text-align: center;
   }
-
-  .buscarMonstros {
-    margin: auto;
-    margin-top: 20px;
-    width: 300px;
-    height: 50px;
-    border-radius: 30px;
-    font-size: 1.1rem;
-  }
-
-  .buscarMonstros:hover {
-    cursor: pointer;
-    background-color: #e3e3e3;
-    transform: scale(1.05);
-    color: rgb(0, 0, 0);
-    transition: 0.8s;
-  }
-
-  .monstroVermelho {
-    background-color: red;
-    color: white;
-  }
-  
-  .monstroLaranja {
-    background-color: orange;
-    color: black;
-  }
-  
-  .monstroAmarelo {
-    background-color: yellow;
-    color: black;
-  }
-  
-  .monstroVerde {
-    background-color: green;
-    color: white;
-  }
-  
-  .monstroAzul {
-    background-color: blue;
-    color: white;
-  }
-  
-  .monstroCinza {
-    background-color: gray;
-    color: white;
-  }
 }
 
+/* Regras CSS para telas médias (450px a 767px) */
 @media(min-width: 450px) and (max-width: 767px) {
-
   .link {
     display: block;
-    justify-content: center;
-    align-items: center;
     text-align: center;
     margin: 0 auto;
     margin-top: 20px;
@@ -146,29 +129,15 @@
     text-decoration: none !important;
     border: 1px solid rgb(91, 131, 217);
     width: 100px;
-    border-radius: 30px;
     background-color: rgb(228, 236, 255);
   }
 
-  .link:hover {
-    background-color: #97d7ff;
-    transform: scale(1.1);
-    color: white;
-  }
-
   .levelnoob {
-    height: 30px;
-    margin: 0 auto;
-    margin-left: 6px;
-    border-radius: 5px;
+    margin: 0 auto 0 6px;
   }
 
   .levelforte {
-    height: 30px;
-    margin: 0 auto;
-    margin-left: 10px;
-    margin-top: 5px;
-    border-radius: 5px;
+    margin: 5px auto 0 10px;
   }
 
   .fontRes {
@@ -188,121 +157,44 @@
     background-color: rgb(255, 255, 255);
     color: black;
   }
-
+  
   .buscarMonstros {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 10px;
     width: 300px;
-    height: 30px;
+    height: 50px;
     margin-top: 10px;
-
+    margin-left: 10px;
   }
-
+  
   thead th {
     position: sticky;
     top: 0;
   }
-
-  .totaltable {
-    overflow: auto;
-    border-collapse: collapse;
-  }
-
+  
   .formulario {
-    /* display: flex; */
-    /* justify-content: space-around; */
-    /* align-items: center; */
     margin: auto;
     text-align: center;
   }
-
-  .buscarMonstros {
-    margin: auto;
-    margin-top: 20px;
-    width: 300px;
-    height: 50px;
-    border-radius: 30px;
-    font-size: 1.1rem;
-  }
-
-  .buscarMonstros:hover {
-    cursor: pointer;
-    background-color: #e3e3e3;
-    transform: scale(1.05);
-    color: rgb(0, 0, 0);
-    transition: 0.8s;
-  }
-
-  .monstroVermelho {
-    background-color: red;
-    color: white;
-  }
-  
-  .monstroLaranja {
-    background-color: orange;
-    color: black;
-  }
-  
-  .monstroAmarelo {
-    background-color: yellow;
-    color: black;
-  }
-  
-  .monstroVerde {
-    background-color: green;
-    color: white;
-  }
-  
-  .monstroAzul {
-    background-color: blue;
-    color: white;
-  }
-  
-  .monstroCinza {
-    background-color: gray;
-    color: white;
-  }
 }
 
+/* Regras CSS para telas médias-grandes (768px a 991px) */
 @media (min-width: 768px) and (max-width: 991px) {
-
   .link {
     display: block;
-    justify-content: center;
-    align-items: center;
     text-align: center;
-    margin: 0 auto;
-    margin-top: 7px;
-    margin-left: 20px;
+    margin: 7px auto 0 20px;
     padding: 5px 5px 10px 5px;
     text-decoration: none !important;
     border: 1px solid rgb(91, 131, 217);
     width: 100px;
-    border-radius: 30px;
     background-color: rgb(228, 236, 255);
   }
 
-  .link:hover {
-    background-color: #97d7ff;
-    transform: scale(1.1);
-    color: white;
-  }
-
   .levelnoob {
-    height: 30px;
-    margin: 0 auto;
-    margin-left: 6px;
-    border-radius: 5px;
+    margin: 0 auto 0 6px;
   }
 
   .levelforte {
-    height: 30px;
-    margin: 0 auto;
-    margin-left: 10px;
-    margin-top: 5px;
-    border-radius: 5px;
+    margin: 5px auto 0 10px;
   }
 
   .fontRes {
@@ -324,24 +216,15 @@
   }
 
   .buscarMonstros {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 10px;
     width: 200px;
     height: 30px;
     margin-top: 10px;
-
+    margin-left: 10px;
   }
 
   thead th {
     position: sticky;
     top: 0;
-  }
-
-  .totaltable {
-    overflow: auto;
-    border-collapse: collapse;
   }
 
   .formulario {
@@ -351,92 +234,27 @@
     margin: auto;
     text-align: center;
   }
-
-  .buscarMonstros {
-    margin: auto;
-    margin-top: 10px;
-    width: 300px;
-    height: 50px;
-    border-radius: 30px;
-    font-size: 1.1rem;
-  }
-
-  .buscarMonstros:hover {
-    cursor: pointer;
-    background-color: #e3e3e3;
-    transform: scale(1.05);
-    color: rgb(0, 0, 0);
-    transition: 0.8s;
-  }
-
-  .monstroVermelho {
-    background-color: red;
-    color: white;
-  }
-  
-  .monstroLaranja {
-    background-color: orange;
-    color: black;
-  }
-  
-  .monstroAmarelo {
-    background-color: yellow;
-    color: black;
-  }
-  
-  .monstroVerde {
-    background-color: green;
-    color: white;
-  }
-  
-  .monstroAzul {
-    background-color: blue;
-    color: white;
-  }
-  
-  .monstroCinza {
-    background-color: gray;
-    color: white;
-  }
 }
 
+/* Regras CSS para telas grandes (992px a 1199px) */
 @media (min-width: 992px) and (max-width: 1199px) {
-
   .link {
     display: block;
-    justify-content: center;
-    align-items: center;
     text-align: center;
-    margin: 0 auto;
-    margin-top: 7px;
-    margin-left: 20px;
+    margin: 7px auto 0 20px;
     padding: 5px 5px 10px 5px;
     text-decoration: none !important;
     border: 1px solid rgb(91, 131, 217);
     width: 100px;
-    border-radius: 30px;
     background-color: rgb(228, 236, 255);
   }
 
-  .link:hover {
-    background-color: #97d7ff;
-    transform: scale(1.1);
-    color: white;
-  }
-
   .levelnoob {
-    height: 30px;
-    margin: 0 auto;
-    margin-left: 6px;
-    border-radius: 5px;
+    margin: 0 auto 0 6px;
   }
 
   .levelforte {
-    height: 30px;
-    margin: 0 auto;
-    margin-left: 10px;
-    margin-top: 5px;
-    border-radius: 5px;
+    margin: 5px auto 0 10px;
   }
 
   .fontRes {
@@ -458,23 +276,15 @@
   }
 
   .buscarMonstros {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 10px;
     width: 200px;
     height: 30px;
     margin-top: 15px;
+    margin-left: 10px;
   }
 
   thead th {
     position: sticky;
     top: 0;
-  }
-
-  .totaltable {
-    overflow: auto;
-    border-collapse: collapse;
   }
 
   .formulario {
@@ -484,65 +294,14 @@
     margin: auto;
     text-align: center;
   }
-
-  .buscarMonstros {
-    margin: auto;
-    margin-top: 10px;
-    width: 200px;
-    height: 50px;
-    border-radius: 30px;
-    font-size: 1.1rem;
-  }
-
-  .buscarMonstros:hover {
-    cursor: pointer;
-    background-color: #e3e3e3;
-    transform: scale(1.05);
-    color: rgb(0, 0, 0);
-    transition: 0.8s;
-  }
-
-  .monstroVermelho {
-    background-color: red;
-    color: white;
-  }
-  
-  .monstroLaranja {
-    background-color: orange;
-    color: black;
-  }
-  
-  .monstroAmarelo {
-    background-color: yellow;
-    color: black;
-  }
-  
-  .monstroVerde {
-    background-color: green;
-    color: white;
-  }
-  
-  .monstroAzul {
-    background-color: blue;
-    color: white;
-  }
-  
-  .monstroCinza {
-    background-color: gray;
-    color: white;
-  }
 }
 
+/* Regras CSS para telas extra-grandes (1200px e acima) */
 @media (min-width: 1200px) {
-
   .link {
     display: block;
-    justify-content: center;
-    align-items: center;
     text-align: center;
-    margin: 0 auto;
-    margin-top: 7px;
-    margin-left: 20px;
+    margin: 7px auto 0 20px;
     padding: 5px 5px 10px 5px;
     text-decoration: none !important;
     border: 1px solid rgb(91, 131, 217);
@@ -551,25 +310,12 @@
     background-color: rgb(228, 236, 255);
   }
 
-  .link:hover {
-    background-color: #97d7ff;
-    transform: scale(1.1);
-    color: white;
-  }
-
   .levelnoob {
-    height: 30px;
-    margin: 0 auto;
-    margin-left: 6px;
-    border-radius: 5px;
+    margin: 0 auto 0 6px;
   }
 
   .levelforte {
-    height: 30px;
-    margin: 0 auto;
-    margin-left: 10px;
-    margin-top: 5px;
-    border-radius: 5px;
+    margin: 5px auto 0 10px;
   }
 
   .fontRes {
@@ -591,23 +337,15 @@
   }
 
   .buscarMonstros {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 10px;
     width: 200px;
-    height: 30px;
-    margin-top: 15px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
   }
 
   thead th {
     position: sticky;
     top: 0;
-  }
-
-  .totaltable {
-    overflow: auto;
-    border-collapse: collapse;
   }
 
   .formulario {
@@ -617,53 +355,4 @@
     margin: auto;
     text-align: center;
   }
-
-  .buscarMonstros {
-    margin: auto;
-    margin-top: 10px;
-    width: 200px;
-    height: 50px;
-    border-radius: 30px;
-    font-size: 1.1rem;
-  }
-
-  .buscarMonstros:hover {
-    cursor: pointer;
-    background-color: #e3e3e3;
-    transform: scale(1.05);
-    color: rgb(0, 0, 0);
-    transition: 0.8s;
-  }
-
-  .monstroVermelho {
-    background-color: red;
-    color: white;
-  }
-  
-  .monstroLaranja {
-    background-color: orange;
-    color: black;
-  }
-  
-  .monstroAmarelo {
-    background-color: yellow;
-    color: black;
-  }
-  
-  .monstroVerde {
-    background-color: green;
-    color: white;
-  }
-  
-  .monstroAzul {
-    background-color: blue;
-    color: white;
-  }
-  
-  .monstroCinza {
-    background-color: gray;
-    color: white;
-  }
-  
 }
-
